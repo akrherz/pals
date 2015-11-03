@@ -1,0 +1,51 @@
+<HTML>
+<HEAD>
+	<title>Contacting PALS by email</title>
+</HEAD>
+<body bgcolor="white">
+<img src="../images/pals_logo.gif" align=left><spacer
+type=vertical size="30"><H1>Email to
+PALS
+Personnel</H1>
+<P>Please enter the appropiate information below; 
+<BR CLEAR="all">
+<HR>
+<A HREF="javascript:history.go(-1)">GO BACK</A> --- 
+<a href="/index.html">PALS Homepage</a>
+<HR> 
+<FORM METHOD="POST" ACTION="../../cgi-bin/contact/index.py">
+<table>
+<tr>
+<th align=right>Send email to:
+<td><select name="recipient">
+		<option value="doug@iastate.edu">Douglas Yarger- Program Coordinator 
+		<option value="fils@iastate.edu">Douglas Fils- IITAP Systems Specialist
+		<option value="akrherz@iastate.edu">Daryl Herzmann-'Webmaster'
+		<option value="tsingebr@iastate.edu">Thomas Ingebritsen-'Project Bio'
+		<option value="jschafer@iastate.edu">John Schafer-'Classification'
+		<option value="mtaber@iastate.edu">Michael R. Taber-'Classification'
+		<option value="gstakle@iastate.edu">Gene Takle-'Classification'
+		<option value="dptodey@iastate.edu">Dennis Todey- 'Classification'
+		<option value="kewindom@iastate.edu">Kenneth Windom-'Classification'
+	</select>
+<tr>
+<th align=right>Your Name:
+<td><INPUT NAME="name"> 
+<tr>
+<th align=right>Your Email Address:
+<td><INPUT NAME="email"> 
+<tr>
+<th align=right>Subject:
+<td><INPUT NAME="subject">
+<tr>
+<th align=right>Message:
+<td><TEXTAREA
+NAME="content" ROWS=10 COLS=60></TEXTAREA>
+<tr>
+<th colspan="2" align=center>
+<INPUT TYPE="submit" VALUE="Send Email"> 
+<INPUT TYPE="reset" VALUE="Reset form"> 
+</table>
+</form>
+</body>
+</html>

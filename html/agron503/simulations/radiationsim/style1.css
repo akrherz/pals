@@ -1,0 +1,349 @@
+
+P	 {
+			Text-Align : Left ;
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : black
+		}
+P.detail	 {
+			Text-Align : Left ;
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : #AC8B46
+		}
+P.fyi	 {
+			Text-Align : Left ;
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : #9C3100
+		}
+P.ftp	 {
+			Text-Align : Left ;
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : #FF0080
+		}
+
+P.xsmall	 {
+			Text-Align : Center ;
+			Font-Family : Times, serif ;
+			Font-Size : x-small ;
+			Color : black
+		}
+P.xsmleft	 {
+			Text-Align : Left ;
+			Font-Family : Times, serif ;
+			Font-Size : x-small ;
+			Color : black
+		}
+P.center	 {
+			Text-Align : Center ;
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : black
+		}
+P.right	 {
+			Text-Align : right ;
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : black
+		}
+P.firstletter	 {
+			Font-Size : 200% ;
+			Color : black
+		}
+P.review	 {
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : #DF0000
+		}
+
+
+H1	 {
+			Text-Align : Left ;
+			Font-Family : helvetica, arial, sans-serif ;
+			Font-Size : X-large ;
+			Color : black ;
+			Font-Weight : Bold
+		}
+H2	 {
+			Text-Align : Left ;
+			Font-Family : helvetica, arial, sans-serif ;
+			Font-Size : Large ;
+			Color : black ;
+			Font-Weight : Bold
+		}
+H2.center	 {
+			Text-Align : Center ;
+			Font-Family : helvetica, arial, sans-serif ;
+			Font-Size : Large ;
+			Color : black ;
+			Font-Weight : Bold
+		}
+H3	 {
+			Text-Align : Left ;
+			Font-Family : helvetica, arial, sans-serif ;
+			Font-Size : Medium ;
+			Color : black ;
+			Font-Weight : Bold
+		}
+H3.center	 {
+			Text-Align : Center ;
+			Font-Family : helvetica, arial, sans-serif ;
+			Font-Size : Medium ;
+			Color : black ;
+			Font-Weight : Bold
+		}
+H4	 {
+			Text-Align : Center ;
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : black ;
+			Font-Weight : Bold
+		}
+H4.LEFT	 {
+			Text-Align : Left ;
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : black ;
+			Font-Weight : Bold
+		}
+H5	 {
+			Text-Align : Center ;
+			Font-Family : Times, serif ;
+			Font-Size : Small ;
+			Color : black
+		}
+H6	 {
+			Text-Align : Left ;
+			Font-Family : Times, serif ;
+			Font-Size : Small ;
+			Color : black
+		}
+OL	 {
+			align : left ;
+			Color : black
+		}
+UL	 {
+			align : left  ;
+			Color : black
+		}
+DIV	 {
+			margin-top : 8px ;
+			text-indent : 24pt  ;
+			Text-Align : Left ;
+			Margin-Left : 0% ;
+			Margin-Right : 10% ;
+			Font-Family : Times, serif ;
+			Color : black ;
+			Background-Color : white
+		}
+LI	 {
+			Color : black
+		}
+BODY	 {
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : black
+		}
+:link	 {
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : blue
+		}
+B	 {
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : black ;
+			Font-Weight : Bold
+		}
+B.glossary	 {
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : #008040 ;
+			Font-Weight : Bold
+		}
+B.smglossary	 {
+			Font-Family : Times, serif ;
+			Font-Size : small ;
+			Color : #008040 ;
+			Font-Weight : Bold
+		}
+B.review	 {
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : #DF0000 ;
+			Font-Weight : Bold
+		}
+B.detail	 {
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : #AC8B46 ;
+			Font-Weight : Bold
+		}
+B.detailft	 {
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : #AC8B46
+		}
+B.fyi	 {
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : #9C3100 ;
+			Font-Weight : Bold
+		}
+B.ftp	 {
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : #FF0080 ;
+			Font-Weight : Bold
+		}
+B.small	 {
+			Font-Family : Times, serif ;
+			Font-Size : Small ;
+			Color : black ;
+		}
+I	 {
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : black
+		}
+I.review	 {
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : #DF0000
+		}
+I.small	 {
+			Font-Family : Times, serif ;
+			Font-Size : Small ;
+			Color : black ;
+		}
+I.glossary	 {
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : #008040 ;
+			Font-Weight : Bold
+		}
+I.h6	 {
+			Font-Family : Times, serif ;
+			Font-Size : Small ;
+			Color : black ;
+			Font-Weight : Bold
+		}
+I.h3	 {
+			Font-Family : helvetica, arial, sans-serif ;
+			Font-Size : medium ;
+			Color : black ;
+			Font-Weight : Bold
+		}
+I.h2	 {
+			Font-Family : helvetica, arial, sans-serif ;
+			Font-Size : large ;
+			Color : black ;
+			Font-Weight : Bold
+		}
+
+I.link	 {
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : blue
+		}
+
+SUP	 {
+			Font-Size : Small
+		}
+SUB	 {
+			Font-Size : X-small
+		}
+IMG	 {
+			border : 0
+		}
+IMG.center	 {
+			align : center  ;
+			border : 0
+		}
+TD	 {
+			align : center  ;
+			valign : top ;
+			Text-Align : Center ;
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : black
+		}
+TD.small {
+			align : center  ;
+			valign : top ;
+			Text-Align : center ;
+			Font-Family : Times, serif ;
+			Font-Size : Small ;
+			Color : black
+		}
+TD.hsmall {
+			align : center  ;
+			valign : top ;
+			Text-Align : center ;
+			Font-Family : Times, serif ;
+			Font-Size : Small ;
+			Color : black ;
+			Background-Color : #CCCC99
+		}
+TD.dsmall {
+			align : center  ;
+			valign : top ;
+			Text-Align : center ;
+			Font-Family : Times, serif ;
+			Font-Size : Small ;
+			Color : black ;
+		}
+TD.dlsmall {
+			align : center  ;
+			valign : top ;
+			Text-Align : left ;
+			Font-Family : Times, serif ;
+			Font-Size : Small ;
+			Color : black ;
+		}
+TD.important	 {
+			Background-Color : #CCCC99
+		}
+TD.menu	 {
+			align : left  ;
+			valign : top ;
+			Text-Align : left ;
+		}
+TD.left	 {
+			align : left  ;
+			valign : top ;
+			Text-Align : left ;
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : black
+		}
+TD.right	 {
+			align : right  ;
+			valign : top ;
+			Text-Align : right ;
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : black
+		}
+TD.center	 {
+			align : center  ;
+			valign : center  ;
+			Text-Align : center  ;
+			Font-Family : Times, serif ;
+			Font-Size : Medium ;
+			Color : black
+		}
+TH	 {
+			valign : top ;
+			Text-Align : Center ;
+			Font-Family : helvetica, arial, sans-serif ;
+			Font-Size : Medium ;
+			Color : black ;
+			Background-Color : #CCCC99
+		}
+LH	 {
+			Color : black ;
+			Font-Weight : Bold
+		}

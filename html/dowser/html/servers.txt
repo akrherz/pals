@@ -1,0 +1,2 @@
+pals.agron.iastate.edu
+westgate54.res.iastate.edu

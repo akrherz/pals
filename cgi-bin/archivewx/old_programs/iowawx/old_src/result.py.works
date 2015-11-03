@@ -1,0 +1,127 @@
+#!/usr/local/bin/python
+# Program thats cats the data
+# Daryl Herzmann 8/1/98
+
+import sys
+from cgi import *
+from pg import *
+
+print 'Content-type: text/html\n\n'
+mydb = connect("main")
+
+def error():
+	print '</tr></table>'
+	print '<center><H1>You selected a date out of the range for the data.</H1>'
+	print '<H1>Please <a href="javascript:history.go(-1)">go back and try again</a></H1>'
+	print '</html>'
+	sys.exit(0)
+
+def setbody(station, date):
+	print '<HTML>\n<HEAD>\n<TITLE>The Weather on '+date+'</title>'
+	print '<meta http-equiv="Refresh" content="60; URL=/index.html">\n</head>'
+	print '<body bgcolor="white">'
+	print '<center><table width="100%"><tr><td colspan="2" bgcolor="blue"><font color="white"><BR>'
+	print '<Center><H1>The Weather for '+station+', Iowa on '+date+'</H1></center>'
+	print '</font>'
+
+def wxer(rain, high, low, snow):
+	number = int(high)-int(low)
+	print '<BR>'
+	if snow[:1] == "N": snow = "0.00"
+	if snow[:4] == "0.00":
+		if rain[:4] == "0.00":
+			if int(high)-int(low) >= 15:
+				print '<img src="/images/SUN.GIF">'
+			elif int(high)-int(low) > 10:
+				print '<img src="/images/prtsunny.gif">'
+			else:
+				print '<img src="/images/mostcldy.gif">'
+		else:
+			if int(high)-int(low) >= 15:
+				print '<img src="/images/pswtstrms.gif">'
+			elif int(high)-int(low) > 10:
+				print '<img src="/images/tstorms.gif">'
+			else:
+				print '<img src="/images/showers.gif">'
+	else:
+		print '<img src="/images/flurries.gif">'
+
+
+def Main():
+	form = FormContent()
+	stat = form["stat"][0]
+	station = form["station"][0]
+	month = form["month"][0]
+	day = form["day"][0]
+	year = form["year"][0]
+	date = month+'/'+day+'/'+year
+	setbody(station, date)
+	if year[-2] == "0":
+		year = year[-1]
+
+	results = mydb.query("Select * from "+stat+" WHERE yeer = '"+year[-2:]+"' AND manth = '"+month+"' AND dey = '"+day+"'")
+	results = results.getresult()
+	for i in range(len(results)):
+		high = results[i][4]
+		low = results[i][5]
+		rain = results[i][6]
+		try:
+			snow = results[i][7]
+		except IndexError:
+			snow = "0"
+	try:
+		if year[-2] == "8":
+			if int(high) <= 32:
+				snow = str(float(rain)*(10))
+	except IndexError: 
+		hello = "0asd"
+	try:
+		if float(snow) < 0:
+			snow = "Not Available"
+	except NameError:
+		error()
+	if float(high) < -40:
+		high = "00"
+	if float(low) < -50:
+		low = "00"
+	if float(rain) < 0:
+		rain = "0.000"
+
+	print '</td></tr><tr><td align="right" valign="right">'
+	wxer(rain, high, low, snow)
+	print '</td><td bgcolor="white">'
+	if high == "00":
+		print '<H3><font color="red">High Temperature is unavailable</font></H3>'
+	else:
+		print '<H3><font color="red">The High was '+high+'</font></H3>'
+ 	if low != "00":
+		print '<H3><font color="blue">The Low was '+low+'</font></H3>'
+	else:	
+		print '<H3><font color="blue">Low Temperature is unavialable</font></H3>'
+
+	print '<spacer type="vertical" size="50">'	
+	if rain[:4] == "0.00":
+		print '<H3>No precipitation</H3>'
+	else:
+		print '<H3><U>Precipitation</U></H3>'
+		if snow[:3] == "0.0":
+			print '<H4>'+rain[:-1]+' inches of rain</h4>'
+		elif snow[:1] == "N":
+			print '<H4>'+rain[:-1]+' inches of rain</h4>'
+		else:
+			print '<H4>'+snow+' inches of snow fell</h4>'
+		
+	print '</td></tr>' 
+	print '<tr bgcolor="blue"><td colspan="2" align="center"><BR>'
+	print '<H2><a href="/index.html" style="color:white">New Query</a>'
+	print '<BR>&nbsp;</td></tr></table>'
+	print '<HR>'
+	print '<font size="3">Data provided by the National Oceanic and Atmospheric Administration.<BR>'
+	print 'Some missing temperature data has been estimated by Richard Carlson, Professor at Iowa State.<BR>'
+	print 'Visit the URL; "http://www.agron.iastate.edu/climodat" for more information.'
+#	print results
+	print '</font>'
+	print '</body></html>\n\n'
+	sys.exit(0)
+
+Main()

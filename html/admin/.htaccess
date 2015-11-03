@@ -1,0 +1,12 @@
+AuthUserFile /home/httpd/.security/passwd
+AuthGroupFile /dev/null
+AuthName Administrative
+AuthType Basic
+
+<LIMIT GET>
+order deny,allow
+require user wgallus
+require user akrherz
+require user palsadmin
+</LIMIT>
+

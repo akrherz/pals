@@ -1,0 +1,602 @@
+Mt206 Instructor's Manual
+
+
+Doug Yarger and Vicki Boysen
+Iowa State University
+Spring Semester 1999
+
+
+
+Table of Contents								Page Number
+
+Introduction									2
+Preliminary Activities								3
+"Ice breakers" for Small Group Activities					3
+Graph Interpretation problem sets						3
+Weather Map Symbols problem set							3
+Forecasting Exercise								3
+Purpose										3
+Structure									4
+Temperature Questions								5
+Precipitation Questions								6
+Wind Speed and Direction Questions						7
+Radiation Balance Simulation							7
+Description of Simulation							7
+Instructional Goals								8
+Assigning RadiationSim								8
+Post-Simulation Activity							9
+Suggested Thought Questions for Class or Group Discussion			9
+Lecture Outline									10
+Mountain Simulation								11
+Description of Simulation							11
+Instructional Goals								11
+Assigning MtnSim								12
+Post-Simulation Activity							12
+Suggested Thought Questions for Class or Group Discussion			13
+MtnSim Humidity									13
+MtnSim Advection								13
+MtnSim Adiabatic								14
+Lecture Outline									14
+Other course components								14
+AdvectionSim									14
+Clouds and Storms								14
+Severe weather contest								14
+Student Evaluation								14
+
+
+
+
+
+
+
+
+
+(Note: Underlined words will eventually be Web Links)
+
+Introduction
+
+The origins of this course involved the desire to convert a standard 
+meteorology lecture course into one where constructivism was the main 
+instructional model and students were expected to take a more active role 
+in their own learning-all without reduction of class size!  One of the 
+major tools used to accomplish this undertaking was the use of World Wide 
+Web server software (ClassNet, http://classnet.cc.iastate.edu/) which 
+manages Internet class activities.  This allows every student to be an 
+active participant in learning activities with easy access to course 
+materials, enhanced communication with the instructor and other students, 
+rapid feedback concerning assignment and exam scores, and ready access to 
+their private records of course performance.  Course assignments involve 
+authentic activities (forecasting), simulated learning environments 
+(Java-based simulations) and more standard evaluations of content 
+understanding (short-answer responses). 
+
+The course goals have been expanded to include learning how to learn 
+science as well as learning science content. The focus of the course is on 
+the understanding of weather phenomena, and the primary vehicle for 
+learning is an authentic activity where each student routinely predicts 
+weather events and supports his or her prediction by identifying 
+determining factors.  This weather forecasting activity has been very 
+successful in encouraging student participation and in promoting 
+understanding in this course.  The forecasts provide a continuing thread 
+of meaningful discussion and motivation throughout the semester.
+
+Course materials have been designed for introductory science courses at 
+the secondary and college level.  They are intended to be supplemental to 
+the course, allowing the instructor to decide which materials to use and 
+which to omit.  Experience with these materials has shown that their 
+effect, especially the effect of the simulations, is gradual and 
+sufficient time must be allowed to observe a difference in student 
+behavior and attitude. Students often find the simulations to be 
+uncomfortable at first because they use them before they hear the 
+corresponding lectures, but this approach is deliberate and is intended to 
+create questions in students' minds so they will come to class seeking 
+answers.
+
+Part of class time should be allotted to the use of Small Group 
+Activities.  These allow students the opportunity to break away from the 
+passive mode utilized in most large-scale classes and become more active 
+learners.  These activities have been well received by students.  They 
+often end up sitting in about the same place in the auditorium for every 
+class meeting and usually look forward to interacting with the people who 
+sit near them week after week.  Various collaborative activities are used 
+to draw each student into the construction of  hypotheses for explaining 
+observed scientific phenomena or processes.  Lectures are then used to 
+provide explanations when students have explored, tested and questioned 
+various factors that relate to central course concepts.
+
+Materials development for the new learning environment did not rely on 
+traditional instructional development models.  The new materials could not 
+be designed to simply teach the course content when the goal was to 
+encourage the learner to explore, conjecture and test ideas.  The chosen 
+solution was to develop problem-based simulations that pose scenarios and 
+provide tools with which learners can explore, and that accurately reflect 
+the results of specific learner's actions.  The materials have served to 
+set the stage for further learning by revealing misconceptions, raising 
+questions, activating relevant existing knowledge, and alerting the 
+learner to the structure and utility of the material to be learned.
+
+
+Preliminary Activities
+
+"Ice breakers" for Small Group Activities
+Graph Interpretation  problem sets
+Weather Map Symbols  problem set
+
+
+Forecasting Exercise
+
+Purpose
+Prediction is a key goal of science and one which students eagerly 
+embrace.  They quickly realize that to improve their predictive skills 
+they must develop additional skills of observation, hypothesis-generation 
+and testing, and analysis.  One particular activity that has proven to be 
+highly motivating and very effective in creating authentic situations for 
+scientific inquiry when used in a large introductory meteorology course is 
+a Web-based Weather Forecasting exercise (Figure 1).  This activity has 
+become the common thread for the course and serves as an ever-present 
+opportunity to apply course concepts in real-world contexts.
+
+The forecasting exercise provides students repeated opportunities to test 
+their understanding of various weather processes in a forum that is: 
+1.  Goal-directed  (students are asked to predict various weather 
+parameters and select the appropriate physical reasons). 
+2.  Failure-driven  (situations are created that allow the student to make 
+mistakes, followed up by opportunities to learn how to correct these 
+mistakes).
+3.  Case-based  (lecture discussions of difficult areas now become 
+relevant to the student's goal of correcting mistakes).
+4.  Based on learning-by-doing  (each student must do a minimum of 25 
+forecasts).
+
+ 
+
+Figure 1.  Forecasting Exercise
+
+
+
+Structure
+The forecasting exercise requires that participants use available weather 
+products to predict weather parameters for 12Z and 18Z the next day.  
+These times were selected to correspond to early morning (thus 
+representing nighttime conditions) and mid-day periods for cities across 
+the United States.  There are several versions of this activity which have 
+been tested in the Mt206 course at ISU: 
+1.  The instructor can allow participants to select any available city 
+they desire and forecast for current weather conditions.  The codes for 
+available cities can be found by accessing the "Find station code" option 
+(see Figure 1).
+2.  The instructor can specify a city that is the forecast city.  Figure 2 
+shows a case where Nashville, TN, was the forecast city for all students.
+3.   Because it is now very easy to find weather forecasts for many cities 
+on the Internet (e.g., http://www.weather.com/homepage.html) we have 
+developed an archival version of the forecast exercise.  Figure 2 is an 
+example where the forecast city (Nashville, TN) and the forecast day have 
+been pre-selected. The appearance of the forecast page is the same as 
+before but now the weather data correspond to designated periods preceding 
+the forecast times.
+
+4.   Any of the versions of the forecast exercise can be modified to add 
+or delete  forecast questions.  It has been helpful to use a restricted 
+set of questions at various times in the course to focus attention on 
+specific physical processes.
+
+ 
+
+Figure 2.  Archival Forecast Page
+
+Temperature Questions 
+The acceptable range for the 18Z daytime temperature forecast has been 
+selected to be  +/- 5 °F, although the range can be selected by the 
+instructor. The scoring weights we have used give students 3 points for a 
+correct answer, 1 point for an answer outside the bound and zero points 
+for no submission. These can be changed at the discretion of the 
+instructor as well.  In addition to predicting weather parameters, 
+participants in the forecast exercise are also asked to provide supporting 
+rationales for their predictions.  For the Mt206 course we identified 
+several processes that could significantly influence temperature changes. 
+These are addressed in the Temperature Influences questions and consist of:
+1. Cloudiness
+2. Advection
+3. Fronts
+4. Adiabatic processes
+
+Daytime cloudiness is defined to have a significant influence on the 18Z 
+temperature based on the following algorithm: The reporting site is 
+evaluated for the times 15Z, 16Z, 17Z and 18Z to determine if two or more 
+of these times report at least broken clouds (75% cloud cover). When this 
+condition is met, clouds are said to have held down daytime temperature 
+(since 18Z is near midday in the United States). 
+
+For this exercise, significant advection is defined as at least a 1 degree 
+F. temperature change due to advection occurring in the two hour period 
+preceding 18Z (i.e., the total change for two hours, 17Z and 18Z is 1 
+degree F or more). This corresponds to a 10 mph wind blowing directly 
+across isotherms which have a spacing of about 10 degrees F. over a 
+distance corresponding to the N-S dimension of Iowa (about 200 miles) for 
+a two hour period.
+
+Fronts can influence temperature in a variety of ways. These influences 
+include cloud cover associated with specific frontal types, change of air 
+mass as a result of frontal passage, and processes associated with 
+precipitation. Because a fast cold front can move about 90 miles in a 
+3-hour period, the evaluation procedure checks for the appearance of a 
+front in a 2-degree grid containing the selected site during a 3-hour 
+period centered on 18Z (i.e. 17Z, 18Z, 19Z).  This corresponds to 
+determining whether a front is within 140 miles of the reporting site 
+during the 3-hour period centered on 18Z. Warm, occluded and stationary 
+fronts are all evaluated using this same criterion. 
+
+Adiabatic processes were explored by having students forecast in a 
+mountain region (Reno, NV) to provide them with a practical application of 
+this topic in a meteorological  context.  The Java-based simulation 
+(http://www.pals.iastate.edu/simulations/Mtnsim/index.html) has been 
+designed to engage students in exploring various factors which are 
+associated with air motions on mountain slopes.
+
+Factors that affect nighttime temperature changes are similar to those for 
+daytime except that cloud influences are now different. Clouds restrict 
+cooling at night because they absorb long-wave radiation emitted by the 
+earth's surface and lower atmosphere and re-emit a significant portion 
+back. The criterion selected for defining significant restriction of 
+radiation cooling is whether there will be 3 or more hours of at least 
+broken clouds (i.e., 75% cloud cover) in the 6 hours preceding 12Z (i.e., 
+for 7Z to 12Z).
+
+
+Precipitation Questions
+If even a trace of precipitation is reported during the 24-hour period 12Z 
+to 12Z, precipitation is defined to have occurred.  Three factors that may 
+influence the occurrence of precipitation are:
+1. Moisture supply
+2. Frontal position
+3. Atmospheric instability
+
+The algorithm that is used to evaluate whether the supply of moisture is 
+adequate to favor precipitation is based on experience.  A rule of thumb 
+is that when the relative humidity is at least 70% at 850mb, overcast 
+conditions are usually observed.  At a relative humidity of 90%, there is 
+probably precipitation occurring, so 80% is somewhere in between and is 
+defined to be a "favorable" value.  The criterion is whether the relative 
+humidity is equal to or greater than 80% at 850mb at either 12Z, 00Z or 
+the following 12Z time.  Because the moisture supply is expected to change 
+slowly, evaluation at these times is considered representative for the 24 
+hour period between 12Z and 12Z.  700mb relative humidity analyses can be 
+found in the "Weather Products" link at the top of the forecast page (see 
+Figure 1).  Although 700mb humidities and 850mb humidities are different, 
+80% relative humidities at 700mb are also considered to be good estimates 
+of moisture supply.
+
+A grid area of 2 degrees by 2 degrees (about 140 miles by 140 miles) is 
+associated with each reporting site for the purpose of evaluating the 
+existence of fronts.  If a front of any type is reported within this area 
+during the 24-hour period between 12Z and 12Z, this will be defined to be 
+a factor for favoring precipitation.
+
+ The algorithm that evaluates whether the atmosphere is sufficiently 
+unstable so as to favor precipitation is based on the 850-500mb 
+temperature difference for the forecast city.  A temperature difference 
+between 850mb and 500mb which is at least 25 degrees Celsius is 
+representative of conditional instability and favors upward motion of 
+cloudy air parcels and, thus, precipitation.  850mb and 500mb maps with 
+temperature analyses are provided in the "Weather Products" section at the 
+top of the forecast page (see Figure 1).
+
+Wind Speed and Direction Questions
+As with other aspects of the forecasting exercise, the instructor can also 
+adjust the criteria for wind speed and direction predictions.  For the 
+Mt206 course at ISU, a value within + or - 5 knots of the reported wind 
+speed is considered "correct."  A wind direction forecast is considered 
+"correct" if it is within + or - one octal of the reported value.
+
+ 
+
+
+
+Radiation Balance Simulation
+
+Description of Simulation
+RadiationSim (Figure 3) is a simulation of radiation processes in the 
+earth's atmosphere caused by solar, terrestrial, and atmospheric radiation 
+transfer.  Students analyze temperature data measured by a balloon 
+(radiosonde) that they "launch" both in the morning and evening over four 
+types of terrain (sand, plowed field, grass or fresh snow).  As the 
+balloon is dragged and dropped to various heights in the simulated 
+atmosphere, the temperatures at these altitudes are automatically plotted 
+on a graph.  Several temperature profiles may be plotted concurrently to 
+compare differences before clearing the graph.
+ 
+
+Figure 3.  RadiationSim
+
+The students are asked to explore the various temperature profiles that 
+can occur under different surface conditions and times of day.  Then they 
+answer questions designed to test their understanding of the concepts 
+experienced in the simulation.  Specifically, the questions address the 
+effects of ground cover, time of day and altitude on temperature.  
+Students may use the simulation in any manner they feel necessary in order 
+to answer the questions.
+
+Instructional Goals
+The Radiation Balance Simulation has two instructional goals.  First, it 
+provides an environment in which beginning students can assume the role of 
+scientist.  Second, if students reason beyond the data collected, the 
+simulation raises some interesting "why" questions that lead to a much 
+deeper understanding of long and short wave radiation.
+
+For these goals to be met, the instructor must support the simulation by 
+creating the proper initial environment, emphasizing the process of 
+scientific discovery, and building higher level discussions on the 
+student's RadiationSim experience.  Strategies for providing that support 
+are discussed herein.
+
+Assigning RadiationSim
+This simulation is intended to be the initial simulated activity the 
+students encounter in the meteorology course.  It is also intended to be a 
+pre-lecture experience rather than a post-lecture practice assignment.  
+Experience has shown that this is a new type of learning endeavor for most 
+students and much scaffolding needs to be provided.  The mechanics of the 
+simulation should be demonstrated and some global strategies should be 
+discussed.  It is most important, however, that the teacher's role not 
+usurp the critical learning opportunities from the students.  The 
+teacher's role can be seen more clearly if the learning goals are 
+understood.
+
+During this initial simulation the students should begin to develop a 
+strong Problem Solving Strategy.  Most students are very weak in this area 
+and need considerable encouragement in developing this skill.  An example 
+of a Problem Solving Strategy that is the desired result from the use of 
+RadiationSim is as follows:
+
+1. Explore the simulation, identifying the inputs, outputs and goals.
+2. Estimate and note the expected outcomes.
+3. Develop a plan to test these expectations.
+4. Collect sufficient data and record results.
+5. Analyze and summarize the data.
+6. Compare and contrast the results with the expected results.
+7. Question the reasonableness of the results and seek explanations for 
+them.
+8. Rethink the process, identifying additional data that needs to be 
+collected and important questions that need to be resolved.
+
+With these expectations in mind, it is recommended that the teacher 
+demonstrate the simulation by showing how to activate it, set the 
+parameters, move the balloon, plot the points and read the graph.  
+Students should then be challenged to "become a meteorologist" and make 
+predictions about the relationships among ground cover, time of day, 
+altitude and temperature.  
+
+Students would be encouraged to develop a plan to test their expectations 
+and, after using the simulation, reach a conclusion about the accuracy of 
+their predictions.  At this point in the learning process, it is important 
+for students to develop their own strategy to test their theories; the 
+teacher will present the "ideal" Problem Solving Strategy only after 
+students have generated one of their own.
+
+Post-Simulation Activity
+Following students' use of the simulation, it is recommended that students 
+be assigned a small group activity of sharing strategies used with the 
+simulation exercise and agreeing on a good strategy.  The teacher can 
+solicit strategies from selected groups, outline one or two good 
+approaches and discuss their merits.  During this time the eight steps in 
+the Problem Solving Strategy listed above can be presented and "methods" 
+of meteorology can be described.  Experience has shown that special 
+attention also needs to be given to interpretation of graphs and their use 
+to represent relationships of this type.  The use of symbolic 
+representation is a deficiency in many a student's knowledge base.
+
+After the strategies have been covered, the results from the simulation 
+can be shared.  Questions of reasonableness of the conclusions and 
+scientific basis for these phenomena can be raised.  Suggested questions 
+that may be helpful in initiating discussion are listed below.  These 
+questions should lead directly to a lecture on long and short wave 
+radiation and their interaction with the earth's temperature.
+
+Suggested Thought Questions for Class or Group Discussion
+1. Of the four surfaces in RadiationSim (sand, plowed field, grass and 
+snow), which one gets the hottest during the daytime?  The coldest?  Why?
+2. How does temperature change with altitude?  How do the daytime air 
+temperatures above each surface compare with nighttime?  How are they the 
+same?  How are they different?  What causes the differences?
+3. Focus on the temperature changes between 0 and 600 meters for all four 
+surfaces.  As altitude increases in the daytime, what happens to the 
+temperature?  What about nighttime?  What causes nighttime temperatures to 
+increase below 600 meters?
+4. What makes the earth warm?
+5. What happens to the sun's energy after it strikes the earth?  Where 
+does it go?  Why doesn't the earth become progressively warmer with time?
+6. If heat from the sun passes through the atmosphere on its way to the 
+earth's surface, does this heat make the atmosphere as warm as the earth's 
+surface?  Explain the reasons for your answer.
+7. What change (if any) would there be in the average temperature of the 
+earth's surface if there were no atmosphere?
+
+
+Lecture Outline
+I.    All objects (above absolute zero) emit radiation.
+A. Higher temperature = the maximum emission of radiant energy occurs at 
+shorter wavelengths (sun ~ 0.5um)
+B. Lower temperature = the maximum emission of radiant energy occurs at 
+longer wavelengths (earth ~ 10um)
+II.   Objects not only radiate energy, they absorb it as well.
+A. Warming = (energy absorbed > energy radiated)
+B. Cooling = (energy absorbed < energy radiated)
+III.   Substances often interact with radiation in curious ways
+A. The atmosphere absorbs some wavelengths and is transparent to others.
+1. It is largely transparent to visible radiation from the sun.
+2. It absorbs and re-emits certain wavelengths in the IR region.  This 
+helps warm the earth's surface and lower atmosphere.
+B. Clouds are also good absorbers at some wavelengths and poor absorbers 
+at others.
+1. They are poor absorbers of visible solar radiation because they reflect 
+much of the sunlight back into space.
+2. They are good absorbers and emitters of IR radiation from the earth.
+3. Thus, clouds tend to keep daytime temperatures lower and nighttime 
+temperatures higher.
+IV.   An object that reflects a great deal of sunlight absorbs very little 
+short-wave radiant energy.
+A. Albedo: the reflectivity of a surface.
+B. Objects that absorb radiation will heat up even if they are good 
+emitters.
+V.     Radiation exchange
+A. The sun radiates short-wave energy to the earth.
+B. The earth absorbs this solar energy and re-radiates it to the 
+atmosphere as IR.
+C. The atmosphere absorbs IR energy from the earth and re-radiates it back 
+to earth. 
+
+
+
+Mountain Simulation
+
+Description of Simulation
+MountainSim (Figure 4) models the adiabatic process of a rising and 
+falling air mass.  An animated air mass, whose temperature and vapor 
+pressure are displayed numerically and graphically, passes over a 
+mountain.  The student's goal is either to cause precipitation at a given 
+altitude or to produce a specified temperature increase when the air mass 
+descends.  To reach these goals, the student must set the initial 
+temperature and vapor pressure values for the air mass.  When set in 
+motion, the simulation animates the air movement and any precipitation 
+that occurs.  Two graphs are also displayed.  One graph plots temperature 
+and vapor pressure for the air mass and the other shows temperature and 
+altitude.  A notebook that records all trials is also provided.
+
+
+ 
+
+Figure 4.  MountainSim
+
+A deep understanding of the simulation involves the ability to cause 
+precipitation at a specified altitude, predict and produce temperature 
+changes, and interpret and use the graphical representations.  Students 
+who make use of the notebook are usually the most successful.
+
+Instructional Goals
+The use of MtnSim supports two major goals.  It provides a semi-controlled 
+opportunity for students to exercise skills in scientific reasoning and 
+problem solving, and it serves as a foundation for understanding adiabatic 
+phenomena.  For these goals to be met the instructor must take care in 
+assigning the simulation and must follow the simulation experience with 
+discussion of problem solving strategies.
+
+Assigning MtnSim
+As with the previous simulation, MountainSim is intended for use before 
+rather than after any lecture on related topics.  Experience has shown, 
+however, that the simulation should be previewed in class prior to asking 
+the students to use it.  The operational features of the simulation should 
+be demonstrated and the graphs and dials explained.  The permanent line on 
+the vapor pressure vs. temperature graph should be identified as the vapor 
+saturation curve.  However, students should not be told how to solve the 
+problems.
+
+It is recommended that students be advised to play with the simulation and 
+then to complete the assigned tasks.  They should be strongly encouraged 
+to make and test predictions as well as to try and explain the events they 
+observe.  The following Problem Solving Strategy (or one similar to it) 
+should have resulted from the discussion of the earlier Radiation Balance 
+Simulation experience:
+
+1. Explore the simulation, identifying the inputs, outputs and goals.
+2. Estimate and note the expected outcomes.
+3. Develop a plan to test these expectations.
+4. Collect sufficient data and record results.
+5. Analyze and summarize the data.
+6. Compare and contrast the results with the expected results.
+7. Question the reasonableness of the results and seek explanations for 
+them.
+8. Rethink the process, identifying additional data that needs to be 
+collected and important questions that need to be resolved.
+
+Post-Simulation Activity
+Following students' use of the simulation, the strategies for completing 
+the tasks and the conclusions that were reached can be shared.  As in the 
+Radiation Balance Simulation, a small group activity is a good method to 
+encourage students to share and justify their observations.  Some or all 
+the following conclusions should result from group discussions:
+
+1. The temperature of the air mass decreases as the air rises.
+2. If the temperature decreases to a point on the vapor saturation curve, 
+precipitation occurs.
+3. Only if precipitation occurs is the final temperature of the air mass 
+higher than the initial temperature.
+4. The temperature vs. vapor pressure plot does not cross the vapor 
+saturation curve.
+5. For a given initial temperature, higher vapor pressures produce 
+precipitation at lower altitudes.
+6. The temperature of the air passing over the mountain changes at 
+different rates depending on the occurrence of precipitation.
+
+Group observations can lead to questions of why these phenomena occur and 
+set the stage for the subsequent lecture.  The following thought questions 
+can also be used to promote deeper thinking about the processes occurring 
+in the simulation. 
+
+Suggested Thought Questions for Class or Group Discussion
+
+MtnSim Humidity
+
+1. If the simulation forms a cloud at a vapor pressure of 10 mb and a 
+given initial temperature, what change must be made in the initial 
+temperature to prevent the formation of a cloud at 10 mb of pressure?  Why 
+does this temperature change prevent the cloud from forming?
+2. If the simulation forms a cloud at an air temperature of 20 C. and a 
+given initial vapor pressure, what change must be made to the initial 
+vapor pressure to prevent a cloud from forming at a temperature of 20 C.?  
+Why does this vapor pressure change prevent the formation of a cloud?
+3. What causes condensation?  (Beginning at point A in Figure 5 below, 
+what changes in initial temperature and/or pressure would cause a cloud to 
+form?)  Give at least two answers.
+4. Under what meteorological conditions would the temperature of an air 
+mass decrease?
+5. Under what meteorological conditions would the vapor pressure of an air 
+mass increased?
+
+
+Figure 5.  Saturation Vapor Curve
+
+MtnSim Advection
+
+1. Two air masses pass over identical mountains.  In one air mass 
+precipitation occurs at the base of the mountain and continues to the 
+top.  For the other air mass no precipitation occurs.  If the initial 
+temperatures of the two air masses are the same, will their temperatures 
+still be the same at the mountain peaks?  Explain your answer. 
+2. What about the temperatures of the two air masses when they descend to 
+the bases of the mountains on the leeward side?  Will they be higher, 
+lower or the same as their initial temperatures?
+
+MtnSim Adiabatic
+
+1. Why does air cool when it rises but warm when it descends?
+2. Why are there no clouds on the side of the mountain where the air 
+descends?
+3. What causes the temperature change from one side of the mountain to the 
+other?
+
+Lecture Outline
+I. Cloud formation
+A. Evaporation
+B. Warm air rises, expands and cools
+C. Condensation
+1. Saturation vapor pressure
+2. Dew point
+3. Latent heat
+II. Adiabatic process
+A. Dry adiabatic rate
+B. Moist adiabatic rate
+
+
+Other course components
+AdvectionSim
+Clouds and Storms
+Severe weather contest
+
+Student Evaluation
+
+
+
+
+
+
+
+

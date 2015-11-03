@@ -1,0 +1,106 @@
+<HTML>
+
+<form method="POST" action="/cgi-bin/admin/archivewx/sxpage.py" target="bot">
+<TABLE>
+<TR><TH>Input a year in 4 digit format:
+<Input size="5" type="text" MAXLENGTH="4" name="year"></TH>
+<TH> Select a month:
+<SELECT name="month">
+	<option value="1">January
+	<option value="2">Feburary
+	<option value="3">March
+	<option value="4">April	
+	<option value="5">May
+	<option value="6">June	
+	<option value="7">July
+	<option value="8">August
+	<option value="9">September
+	<option value="10">October
+	<option value="11">November
+	<option value="12">December
+</SELECT>
+</TH>
+<TH> Enter a day:
+<SELECT name="day">
+	<option value="1">1
+	<option value="2">2
+	<option value="3">3
+	<option value="4">4	
+	<option value="5">5
+	<option value="6">6
+	<option value="7">7
+	<option value="8">8
+	<option value="9">9
+	<option value="10">10
+	<option value="11">11
+	<option value="12">12
+	<option value="13">13
+	<option value="14">14
+	<option value="15">15
+	<option value="16">16
+	<option value="17">17
+	<option value="18">18
+	<option value="19">19
+	<option value="20">20
+	<option value="21">21
+	<option value="22">22
+	<option value="23">23
+	<option value="24">24
+	<option value="25">25
+	<option value="26">26
+	<option value="27">27
+	<option value="28">28
+	<option value="29">29
+	<option value="30">30
+	<option value="31">31
+</SELECT>
+</TH>
+<TH> Enter a time:
+<SELECT name="ztime">
+	<option value="0">0 Z
+	<option value="1">1 Z
+	<option value="2">2 Z
+	<option value="3">3 Z
+	<option value="4">4 Z
+	<option value="5">5 Z
+	<option value="6">6 Z
+	<option value="7">7 Z
+	<option value="8">8 Z
+	<option value="9">9 Z
+	<option value="10">10 Z
+	<option value="11">11 Z
+	<option value="12">12 Z
+	<option value="13">13 Z
+	<option value="14">14 Z
+	<option value="15">15 Z
+	<option value="16">16 Z
+	<option value="17">17 Z
+	<option value="18">18 Z
+	<option value="19">19 Z
+	<option value="20">20 Z
+	<option value="21">21 Z
+	<option value="22">22 Z
+	<option value="23">23 Z
+</SELECT>
+</TH>
+
+<TD>
+<input type="radio" name="zswitch" value="s">Summer Case
+<input type="radio" name="zswitch" value="w">Winter Case
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="radio" name="version" value="basic">Basic Version
+<input type="radio" name="version" value="advance">Advanced Version
+</TD>
+<TD>
+<input type="submit" value="Display this time"></form>
+</TD>
+<TD>
+<a href="/admin/" target="_top">Admin Page</a>
+</TD>
+
+</TR>
+</TABLE>
+

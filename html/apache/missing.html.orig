@@ -1,0 +1,27 @@
+<HTML>
+<HEAD>
+	<TITLE>Error 404 => Access Error </TITLE>
+<!--
+	<meta http-equiv="refresh" content="1; URL=javascript:history.go(-1)"> 
+-->
+</HEAD>
+<BODY BGCOLOR="white" background="/images/ISU_bkgrnd.gif">
+
+<CENTER>
+	<img src="/images/pals_logo.gif">
+	<H1>The document that you requested:</H1>
+	<H1>can not be found on this server</H1>
+</CENTER>
+<BR><BR>
+<H3>Please try one of these links or <a
+href="javascript:history.go(-1)">GO BACK</a>:
+<ul>
+<li><a href="/index.html">PALS Homepage</a></li>
+<li><a href="/c2w/adm/search.html">COMET Database Search</a></li>
+<li><a href="/archivewx/search.html">Archived Weather Data Search</a></li>
+</ul>
+
+<P><BR><BR>
+<H3>If you are having trouble finding a certain page, please <a
+href="/home/email.html">contact us</a>.
+</HTML>

@@ -1,0 +1,103 @@
+#Inventor V2.1 ascii
+
+DEF BM_Root Separator {
+  CoBMRenderOptions {
+    aastring	"low"
+  }
+  DEF LightGroup Group {
+    PointLight {
+      on	TRUE
+      intensity	1
+      location	-71.5294 -1.74473 103.377
+    }
+    DirectionalLight {
+      on	TRUE
+      direction	-0.890792 0.291452 -0.348633
+    }
+  }
+  OrthographicCamera {
+    position	-73.894 4.382 51.9722
+    aspectRatio	1.70115
+    nearDistance	51.9202
+    farDistance	57.9301
+    focalDistance	53.601
+    height	97.8393
+  }
+  DEF BackgroundColor Info {
+    string	"0.75 0.75 0.75"
+  }
+  Material {
+    diffuseColor	1 1 1
+  }
+  DEF theObject Separator {
+    Material {
+      ambientColor	0.0380952 0.0362853 0.0382051
+      diffuseColor	0.152381 0.145141 0.15282
+      specularColor	0.745455 0.745455 0.745455
+      emissiveColor	0 0 0
+      shininess	0.957576
+      transparency	0
+    }
+    DEF _0 CoTextGraph {
+      textType	1
+      string	"Projects"
+      fontName	"Bookman-Light;HonMinchoLtBT--H;HonMinchoLtBT--Hankaku"
+      fontStyle	      FontStyle {
+	size	18
+	style	""
+	justify	"END"
+	spacing	1
+      }
+
+      isBeveled	FALSE
+      bevelCoords	[ 0 0,
+	        3 1.5,
+	        9 1.5,
+	        12 0 ]
+    }
+  }
+  Separator {
+    Material {
+      ambientColor	0.219385 0.226102 0
+      diffuseColor	0.877539 0.904409 0
+      specularColor	0.0955906 0.0955906 0.0955906
+      emissiveColor	0 0 0
+      shininess	0.078125
+      transparency	0
+    }
+    DEF Banner CoMultiButton {
+      leftMargin	0.4
+      rightMargin	0.4
+      topMargin	0.5
+      bottomMargin	0.2
+      resizePolicy	"constant"
+      width	161
+      height	25
+      geometry	      Separator {
+	Transform {
+	  translation	-73.894 4.382 -3.39999
+	  scaleFactor	80.4997 12.5 12.5
+	}
+	Switch {
+	  whichChild	0
+	  Separator {
+	    Scale {
+	      scaleFactor	1 1 0.2
+	    }
+	    Complexity {
+	      value	1
+	    }
+	    Rotation {
+	      rotation	0 0 1  1.5708
+	    }
+	    Cylinder {
+	    }
+	  }
+	}
+      }
+
+      attachTo	      USE _0
+
+    }
+  }
+}

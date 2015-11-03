@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+	<TITLE>Historical Iowa Weather Data</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" background="/images/ISU_bkgnd.gif">
+
+<TABLE WIDTH="600" CELLSPACING="0" ROWSPACING="0">
+
+<TR><TD WIDTH="150"></TD><TD WIDTH="450"></TD></TR>
+
+<TR bgcolor="#00fcf8">
+	<TD colspan="2">
+		<IMG SRC="/images/pals_logo.gif" align="left" WRAP>
+		<spacer type="vertical" size="50">
+		<H1>Historical Iowa Weather Data</H1>
+		<H3>1893 - 1997</H3>
+	</TD>
+</TR>
+
+<TR>
+	<TD valign="top">
+		<TABLE WIDTH="150">
+		<TR><TD bgcolor="#FFCCCC">
+		<B>Other Search Options:</B>
+		</TD></TR>
+		<TR><TD bgcolor="#EEEEEE">
+		Options yet made
+		</TD></TR>
+		</TABLE>
+	</TD>
+	<TD align="center">
+		<H3>Daily Weather Data Search</H3>
+		<form name = "daily" method="POST" action="/cgi-bin/archivewx/iowawx/results.py">
+		<TABLE>
+		<TR><TH>I want data for this year:</TH>
+		<TD><SELECT name="year">
+			<option value="1997">1997
+		</SELECT></TD></TR>
+		<TR><TH>During this month:</TH>
+		<TD><SELECT name="month">
+			<option value="01">January
+		</SELECT></TD></TR>
+		<TR><TH>On this day:</TH>
+		<TD><SELECT name="day">
+			<option value="01">1
+			<option value="02">2
+		</SELECT></TD></TR>
+		<TR><TH>At this city:</TH>
+		<TD><SELECT name="city">
+			<option value="guttenburg">Guttenburg
+		</SELECT></TD></TR>
+		<TR><TH>Click to Submit:</TH>
+		<TD><input type="submit"></TD></TR>
+		</TABLE></form>
+	</TD>
+</TR>
+
+<tr>
+	<td colspan="2" align="right">
+	| <a href="/index.html"> HOME </a> | 
+	<A HREF="javascript:history.go(-1)">GO BACK</A> |
+	</td>
+</tr>
+
+<tr>
+	<td colspan="2">
+	<B> &#169; 1999 - Partnerships to Advance Learning in Science</b><br> 
+	<A HREF="/home/email.html" STYLE="color:blue">Dr. Doug Yarger</A>-project coordinator
+	</td>
+</tr>
+
+</TABLE></HTML>

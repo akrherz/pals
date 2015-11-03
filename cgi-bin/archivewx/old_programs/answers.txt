@@ -1,0 +1,31 @@
+<table border="1" width=400> <th align="left" valign="top">State</th>
+
+<th align="left" valign="top">Severe Weather type</th>
+
+<th align="left" valign="top">During time period</th>
+
+<tr><td>Connecticut</td> <td>3"+ Rainfall</td> <td>6-9 PM (CDT)</td> </tr> <tr><td>Connecticut</td> <td>3"+
+Rainfall</td> <td>9-Midnight PM (CDT)</td> </tr> <tr><td>Florida</td> <td>Hail</td> <td>3-6 PM (CDT)</td> </tr>
+<tr><td>Florida</td> <td><B>Tornado</B></td> <td>12-3 PM (CDT)</td> </tr> <tr><td>Georgia</td> <td>Hail</td> <td>3-6
+PM (CDT)</td> </tr> <tr><td>Illinois</td> <td>Hail</td> <td>3-6 PM (CDT)</td> </tr> <tr><td>Iowa</td> <td>Hail</td>
+<td>12-3 PM (CDT)</td> </tr> <tr><td>Iowa</td> <td>Hail</td> <td>3-6 PM (CDT)</td> </tr> <tr><td>Iowa</td> <td>3"+
+Rainfall</td> <td>3-6 PM (CDT)</td> </tr> <tr><td>Iowa</td> <td>3"+ Rainfall</td> <td>6-9 PM (CDT)</td> </tr>
+<tr><td>Iowa</td> <td><B>Tornado</B></td> <td>12-3 PM (CDT)</td> </tr> <tr><td>Iowa</td> <td><B>Tornado</B></td>
+<td>3-6 PM (CDT)</td> </tr> <tr><td>Kansas</td> <td>Hail</td> <td>12-3 PM (CDT)</td> </tr> <tr><td>Kansas</td>
+<td>Hail</td> <td>3-6 PM (CDT)</td> </tr> <tr><td>Massachusetts</td> <td>3"+ Rainfall</td> <td>3-6 PM (CDT)</td>
+</tr> <tr><td>Massachusetts</td> <td>3"+ Rainfall</td> <td>6-9 PM (CDT)</td> </tr> <tr><td>Massachusetts</td>
+<td>3"+ Rainfall</td> <td>9-Midnight PM (CDT)</td> </tr> <tr><td>Minnesota</td> <td>Hail</td> <td>3-6 PM (CDT)</td>
+</tr> <tr><td>Minnesota</td> <td>Hail</td> <td>9-Midnight PM (CDT)</td> </tr> <tr><td>Minnesota</td> <td>3"+
+Rainfall</td> <td>3-6 PM (CDT)</td> </tr> <tr><td>Minnesota</td> <td>3"+ Rainfall</td> <td>6-9 PM (CDT)</td> </tr>
+<tr><td>Minnesota</td> <td><B>Tornado</B></td> <td>3-6 PM (CDT)</td> </tr> <tr><td>Missouri</td> <td>Hail</td>
+<td>12-3 PM (CDT)</td> </tr> <tr><td>Missouri</td> <td>Hail</td> <td>3-6 PM (CDT)</td> </tr> <tr><td>Missouri</td>
+<td>3"+ Rainfall</td> <td>6-9 PM (CDT)</td> </tr> <tr><td>Missouri</td> <td>3"+ Rainfall</td> <td>9-Midnight PM
+(CDT)</td> </tr> <tr><td>Missouri</td> <td><B>Tornado</B></td> <td>9-Midnight PM (CDT)</td> </tr> <tr><td>New
+York</td> <td>3"+ Rainfall</td> <td>12-3 PM (CDT)</td> </tr> <tr><td>New York</td> <td>3"+ Rainfall</td> <td>3-6 PM
+(CDT)</td> </tr> <tr><td>New York</td> <td>3"+ Rainfall</td> <td>6-9 PM (CDT)</td> </tr> <tr><td>North Dakota</td>
+<td>3"+ Rainfall</td> <td>3-6 PM (CDT)</td> </tr> <tr><td>North Dakota</td> <td>3"+ Rainfall</td> <td>6-9 PM
+(CDT)</td> </tr> <tr><td>Oklahoma</td> <td>Hail</td> <td>6-9 PM (CDT)</td> </tr> <tr><td>Oklahoma</td> <td>3"+
+Rainfall</td> <td>3-6 PM (CDT)</td> </tr> <tr><td>Oklahoma</td> <td>3"+ Rainfall</td> <td>6-9 PM (CDT)</td> </tr>
+<tr><td>Wisconsin</td> <td>Hail</td> <td>3-6 PM (CDT)</td> </tr> <tr><td>Wisconsin</td> <td>Hail</td> <td>6-9 PM
+(CDT)</td> </tr> </table>
+

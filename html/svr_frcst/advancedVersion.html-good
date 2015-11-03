@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<TITLE>Severe Weather Forecasting Exercise | Advanced Version</TITLE>
+</HEAD>
+<body bgcolor="#ffffff" link="blue">
+       
+<TABLE width="100%">
+<TR><TD background="/icons/sidebg.gif" align="CENTER" NOWRAP>
+	<font size="+3" color="white"><B>Severe Weather Forecasting Activity</b></font>
+</TD></TR>
+
+<TR><TD>
+<CENTER>
+<img src="/icons/svrTop.gif">
+</CENTER>
+
+<dd>The Severe Weather Forecasting Exercise is a web-based exercise that is designed to stimulate interest in severe weather. This
+exercise is being developed for use by all levels of meteorologists and K-12 students as well. Because of the wide range of skills
+among users, there are three versions of the forecasting exercise.</dd>
+
+<dd>The exercise is worked by trying one of the cases below.  The case uses archived data and prepared questions to guide the user
+thoughout the cases duration.  Currently, we have two types of cases: the "Summer-like Events" contain questions that concern summer
+like severe weather (tornado, hail, heavy rain), and the "Winter-like Events" stress winter severe weather phenonema.</dd>
+
+<H2><font color="#a0522d">Advanced Version:</font></H2>
+
+
+<a href="/cgi-bin/svr_frcst/classes/index.py?className=test">List Available Cases</a>
+
+
+
+</TD></TR>
+	<TR><TD background="/icons/sidebg.gif" align="right" NOWRAP>
+	<font size="+1" color="white"><B>&copy; 2000 PALS</b></font>
+	</TD></TR>
+<TR><TD align="right" NOWRAP>
+	<a href="http://www.pals.iastate.edu">PALS Home</a> &nbsp; | &nbsp; 
+	<a href="http://www.pals.iastate.edu/svr_frcst">Severe Wx Exercise</a> &nbsp; | &nbsp;
+	</TD></TR>
+</TABLE>
+

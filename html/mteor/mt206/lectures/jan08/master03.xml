@@ -1,0 +1,49 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint">
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout><p:colorscheme
+  colors="#0000FF,#FFFFFF,#00279F,#FFFF00,#F57B49,#FF00FF,#FF0000,#919191"/>
+ <v:background id="_x0000_s1025" o:bwmode="white" fillcolor="blue [0]"/>
+ <p:shaperange id="_x0000_s1026">
+  <v:line id="_x0000_s1026" style='position:absolute;mso-wrap-style:none;
+   v-text-anchor:middle' from="2pt,108pt" to="630pt,108pt" strokecolor="fuchsia [5]"
+   strokeweight="4pt">
+   <v:shadow color="#00279f [2]"/>
+  </v:line></p:shaperange>
+ <p:shaperange id="_x0000_m1027">
+  <v:shapetype id="_x0000_m1027" style='position:absolute;left:30pt;top:21pt;
+   width:612pt;height:87pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m0,0l0,21600,21600,21600,21600,0xe" filled="f"
+   fillcolor="#f57b49 [4]" stroked="f" strokecolor="white [1]" strokeweight="1pt">
+   <v:fill color2="blue [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#00279f [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <v:textbox inset="90487emu,3.5pt,90487emu,3.5pt"/>
+   <p:placeholder type="title"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_m1028">
+  <v:shapetype id="_x0000_m1028" style='position:absolute;left:78pt;top:132pt;
+   width:608.5pt;height:324pt' coordsize="21600,21600" o:master="" o:spt="1"
+   path="m0,0l0,21600,21600,21600,21600,0xe" filled="f" fillcolor="#f57b49 [4]"
+   stroked="f" strokecolor="white [1]" strokeweight="1pt">
+   <v:fill color2="blue [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#00279f [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <v:textbox inset="90487emu,3.5pt,90487emu,3.5pt"/>
+   <p:placeholder type="body" position="1"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s1029">
+  <v:rect id="_x0000_s1029" style='position:absolute;left:4.375pt;top:496.375pt;
+   width:42.25pt;height:35.75pt;mso-wrap-style:none' filled="f" fillcolor="#f57b49 [4]"
+   stroked="f" strokecolor="white [1]" strokeweight="1pt">
+   <v:fill color2="blue [0]"/>
+   <v:shadow color="#00279f [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t' inset="90487emu,3.5pt,90487emu,3.5pt"/>
+  </v:rect></p:shaperange>
+</xml>

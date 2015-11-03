@@ -1,0 +1,65 @@
+<HTML>
+<HEAD>
+        <TITLE> Severe Weather Forecast for Jun 18th</TITLE>
+</HEAD>
+<body  bgcolor="white">
+
+<CENTER><H1>Severe Weather Forecast</H1></CENTER>
+<HR>
+<font size="5">Help for your forecast:</font><BR><BR>
+<img src="/images/point_02.gif">
+<A HREF="hints.html">
+Severe Weather Hints</A><spacer type="horizontal" size="50">
+<img src="/images/point_02.gif">
+<A HREF="data.html">
+All Weather Products for this morning</A><HR><BR><BR>
+<font size="5">Complete your forecast:</font><BR><BR>
+<FORM METHOD=POST ACTION="/cgi-bin/archivewx/grader.py">
+<P><B>1) Where will severe weather occur?</B><P>
+<SELECT NAME="state"><OPTION> (Select a State)
+<OPTION> Alabama <OPTION> Arkansas <OPTION> Arizona
+<OPTION> California <OPTION> Colorado <OPTION> Connecticut 
+<OPTION> Delaware <OPTION> Florida
+<OPTION> Georgia <OPTION> Idaho <OPTION> Illinois <OPTION> Indiana
+<OPTION> Iowa <OPTION> Kansas
+<OPTION> Kentucky <OPTION> Louisiana <OPTION> Maine <OPTION> Maryland
+<OPTION> Massachusetts
+<OPTION> Michigan <OPTION> Minnesota <OPTION> Mississippi 
+<OPTION> Missouri <OPTION> Montana
+<OPTION> Nebraska <OPTION> Nevada <OPTION> New Hampshire 
+<OPTION> New Jersey <OPTION> New Mexico
+<OPTION> New York <OPTION> North Carolina <OPTION> North Dakota 
+<OPTION> Ohio <OPTION> Oklahoma
+<OPTION> Oregon <OPTION> Pennsylvania <OPTION> Rhode Island 
+<OPTION> South Carolina <OPTION> South Dakota
+<OPTION> Tennessee <OPTION> Texas <OPTION> Utah <OPTION> Vermont 
+<OPTION> Virginia <OPTION> Washington
+<OPTION> Wisconsin <OPTION> West Virginia <OPTION> Wyoming 
+</SELECT><BR>
+<spacer type="vertical" size="30">
+<P><B>2) When do you think the severe weather will occur? (PM CDT times)<P>
+</B><SELECT NAME="time"> <OPTION> (Select a time) <OPTION VALUE="1">
+12-3 <OPTION VALUE="2"> 3-6 <OPTION VALUE="3"> 6-9 <OPTION VALUE="4"> 9-Midnight
+</SELECT><BR>
+<spacer type="vertical" size="30">
+<P><B>3) What type of severe weather will occur? (Choose all that apply) <a href="help/severe.html">What is
+Severe?</A></B><P>
+<table width="100%"><tr>
+<td><INPUT TYPE=checkbox NAME="T" VALUE="T"> Tornado
+<td><INPUT TYPE=checkbox NAME="H" VALUE="H"> Hail/Damaging Wind
+<td><INPUT TYPE=checkbox NAME="R" VALUE="R"> Greater Than 3 Inches of Rain
+</tr></table>
+
+<spacer type="vertical" size="30">
+
+<HR><BR><BR><font size="5">Submit your forecast:</font><BR><BR>
+<CENTER><INPUT TYPE=submit Value="Submit my forecast">
+<INPUT TYPE=reset></CENTER></FORM>
+
+<HR><HR>
+<B><H3>Bypass forecast and get to this afternoon's data</H3>
+<a href="data1pm.html">Let's go to 1PM (18Z)</a>
+
+
+</body></html>
+

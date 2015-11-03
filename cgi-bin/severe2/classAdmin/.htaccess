@@ -1,0 +1,10 @@
+AuthUserFile /home/httpd/cgi-bin/severe2/classAdmin/.passwd
+AuthGroupFile /dev/null
+AuthName ClassAdmin
+AuthType Basic
+
+<LIMIT GET POST>
+order deny,allow
+require valid-user
+</LIMIT>
+

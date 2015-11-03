@@ -1,0 +1,103 @@
+#Inventor V2.1 ascii
+
+DEF BM_Root Separator {
+  CoBMRenderOptions {
+    aastring	"low"
+  }
+  DEF LightGroup Group {
+    PointLight {
+      on	TRUE
+      location	-62.3656 -75.433 78.9097
+    }
+    DirectionalLight {
+      on	TRUE
+      direction	-0.890792 0.291452 -0.348633
+    }
+  }
+  OrthographicCamera {
+    position	-122.832 -27.706 51.9722
+    aspectRatio	1.70115
+    nearDistance	51.9202
+    farDistance	72.945
+    focalDistance	53.601
+    height	158.609
+  }
+  DEF BackgroundColor Info {
+    string	"0.75 0.75 0.75"
+  }
+  Material {
+    diffuseColor	1 1 1
+  }
+  DEF theObject Separator {
+    Material {
+      ambientColor	0.2 0.2 0.2 ~
+      diffuseColor	1 1 1 ~
+      specularColor	0 0 0 ~
+      emissiveColor	0 0 0 ~
+      shininess	0.2 ~
+      transparency	0 ~
+    }
+    DEF _0 CoTextGraph {
+      textType	1
+      string	[ "IOWA STATE UNIVERSITY",
+	        "METEOROLOGY" ]
+      fontName	"Bookman-Light;HonMinchoLtBT--H;HonMinchoLtBT--Hankaku"
+      fontStyle	      FontStyle {
+	size	18
+	style	""
+	justify	"END"
+	spacing	1.9
+      }
+
+      isBeveled	FALSE
+      bevelCoords	[ 0 0,
+	        3 1.5,
+	        9 1.5,
+	        12 0 ]
+    }
+  }
+  Separator {
+    Material {
+      ambientColor	0.0132503 0.0625526 0.0797636
+      diffuseColor	0.0510601 0.241047 0.30737
+      specularColor	0.0551487 0.0810796 0.207447
+      emissiveColor	0 0 0
+      shininess	0.0319149
+      transparency	0
+    }
+    DEF Banner CoMultiButton {
+      leftMargin	0.4
+      rightMargin	0.4
+      topMargin	0.5
+      bottomMargin	2.4
+      resizePolicy	"constant"
+      width	261
+      height	100
+      geometry	      Separator {
+	Transform {
+	  translation	-122.832 -27.706 -10.9
+	  scaleFactor	130.5 49.9998 49.9998
+	}
+	Switch {
+	  whichChild	0
+	  Separator {
+	    Scale {
+	      scaleFactor	1 1 0.2
+	    }
+	    Complexity {
+	      value	1
+	    }
+	    Rotation {
+	      rotation	0 0 1  1.5708
+	    }
+	    Cylinder {
+	    }
+	  }
+	}
+      }
+
+      attachTo	      USE _0
+
+    }
+  }
+}

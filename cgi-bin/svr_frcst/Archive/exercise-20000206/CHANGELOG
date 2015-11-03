@@ -1,0 +1,28 @@
+# This is the ChangeLog for the General Exercise
+
+Version 1.02 -------- 2-1-2000 --------------------------------
+2-1-2000:
+	Numerous Code fix-ups. 
+
+	Changed over to new look of the exercise, just like the
+current one for the advanced version...
+
+
+---------------------------------------------------------------
+Version 1.01 -------- 1-18-2000 -------------------------------
+1-18-2000:
+	Fix why bonus points were not showing up, also testing
+an "from functs import *".
+
+	Added col grade_secs in table users to help out with the
+authentification.
+
+
+12-11-99:
+	Added a nice preview of what will happen during at nooon
+
+11-29-99:
+	Added scriptBase variables to make good cvs 
+
+
+---------------------------------------------------------------

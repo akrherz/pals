@@ -1,0 +1,178 @@
+<HTML>
+<HEAD>
+	<TITLE>PALS | ISU Meteorology Program</TITLE>
+	<META name="author" content="Daryl Herzmann">
+</HEAD>
+
+
+<body BGCOLOR="#ffffff" TOPMARGIN="0" LEFTMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0" vlink="blue" alink="blue" link="blue">
+
+<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="3">
+<TR>
+        <TD WIDTH=150 VALIGN="CENTER" BGCOLOR="#99ccff" rowspan="3">
+        <a href="/"><img src="/icons/pals_logo.gif" vpsace="5" hspace="5" border="0"></a>
+        </TD>
+        <TD WIDTH="1" BGCOLOR="#99ccff">
+        &nbsp;&nbsp;
+        </TD>
+        <TD WIDTH="90%" BGCOLOR="#99ccff" colspan="2" ALIGN="CENTER" NOWRAP>
+        <font color="#003366" size="3">Partnerships to Advance Learning in Science</font><BR>
+        </TD>
+</TR>
+
+<TR>
+        <TD WIDTH="3" BGCOLOR="#003366">
+        &nbsp;
+        </TD>
+        
+        <TD colspan="2" ALIGN="CENTER" NOWRAP>
+        <font color="#003366" size="6">ISU Meteorology Program</font><BR>
+        </TD>
+</TR>
+
+<TR>
+        <TD colspan="3" align="center" BGCOLOR="#99ccff">
+        <B>Content:</B> &nbsp;&nbsp;&nbsp;
+        &nbsp;<a href="#classes">Classes</a>&nbsp; 
+        | &nbsp;<a href="#activities">Activities</a>&nbsp; 
+        | &nbsp;<a href="#dev">Development</a>&nbsp; 
+	</TD>
+</TR>
+
+
+
+<TR>
+        <TD valign="TOP" bgcolor="#99ccff">
+
+<!-- Begin the Quick Links section --> 
+        <TABLE border="0" cellpadding="3" width="100%">
+        <TR><TD BGCOLOR="#003366">
+        <B><FONT COLOR="#ffffff">Quick Links:</FONT></B>
+        </TD></TR>
+        <TR><TD BGCOLOR="#99ccff">
+
+                <A HREF="/archivewx/index.html">Archived Wx Data</a><BR><BR>
+                <A HREF="/c2w/index.html">COMET® Library</a><BR><BR>
+                <A HREF="/docu/index.html">Documents</A><BR><BR>
+                <A HREF="/simulations/index.html">Java Simulations</A><BR><BR>
+                <A HREF="/svr_frcst/index.html">Severe Wx Exercise</A><BR><BR>
+                <A HREF="/home/index.html">Local Homepage</A><BR><BR>
+        </TD></TR>
+<!-- End Program Area -->
+
+
+<!-- Begin the Program Area section --> 
+        <TR><TD BGCOLOR="#003366">
+        <B><FONT COLOR="#ffffff">Program Areas:</FONT></B>
+        </TD></TR>
+        <TR><TD BGCOLOR="#99ccff">
+
+                <A HREF="http://project.bio.iastate.edu/">Biology</a><BR><BR>
+                <A HREF="http://www.iitap.iastate.edu/gccourse/">Global Change</a><BR><BR>
+                <B>Meteorology</B><BR><BR>
+                <A HREF="http://introsoils.agron.iastate.edu/">Soil Science</a><BR><BR>
+        </TD></TR>
+<!-- End Program Area -->
+        
+        <TR><TD BGCOLOR="#003366">
+        <B><FONT COLOR="#ffffff">Search PALS:</FONT></B>
+        </TD></TR>
+        <TR><TD BGCOLOR="#99ccff">
+        <form method="POST" action="/cgi-bin/htsearch">
+        <input type="text" name="words" size="10">
+        <input type="image" SRC="/icons/index.gif" BORDER="0" ALIGN="CENTER">
+        </form> 
+        </TD></TR>
+
+        <TR><TD BGCOLOR="#003366">
+        <B><FONT COLOR="#ffffff">On PALS:</FONT></B>
+        </TD></TR>
+        <TR><TD BGCOLOR="#99ccff">
+                <A HREF="/carlson/">Cool Clouds</a><BR><BR>
+                <A HREF="/campbell/">Campbell Wx Stations</a><BR><BR>
+                <A HREF="/stats/">Server Stats</a><BR><BR>
+        </TD></TR>
+        </TABLE>
+        
+        <TD></TD>
+        
+        <TD colspan="2" valign="TOP">
+
+<!-- Begin content -->
+	<BR><BR>
+        <CENTER>
+        <img src="/icons/bpixel.gif" height="3" width="50">
+        <a name="info"><img src="/gen/header.php3?label=Information&font_size=20" hspace="0" vspace="0" border="0"></a>
+        <img src="/icons/bpixel.gif" height="3" width="50">
+        </CENTER>
+
+	<P>This page contains links to resources used by some of the Meteorology classes at Iowa State University.
+	Many of these links are works in progress....
+
+	<BR><BR>
+        <CENTER>
+        <img src="/icons/bpixel.gif" height="3" width="50">
+        <a name="classes"><img src="/gen/header.php3?label=Classes&font_size=20" hspace="0" vspace="0" border="0"></a>
+        <img src="/icons/bpixel.gif" height="3" width="50">
+        </CENTER>
+
+	<a href="/mteor/mt206">Meteorology 206</a>
+	
+	<BR><BR>
+        <CENTER>
+        <img src="/icons/bpixel.gif" height="3" width="50">
+        <a name="activities"><img src="/gen/header.php3?label=Activities&font_size=20" hspace="0" vspace="0" border="0"></a>
+        <img src="/icons/bpixel.gif" height="3" width="50">
+        </CENTER>
+	
+	<UL>
+	<li><a href="sample/index.html">Forecast Exercise</a> used in MT206.</li>
+	<li><a href="modules/storms.html">Clouds and Storms</a> contains a collection of animatations to help in Storm
+	spotters training.</li>
+	<li><a href="AGI/index.html">AGI</a></li>
+	</UL>
+	
+	
+	<BR><BR>
+	
+        </TD>
+</TR>
+
+<TR BGCOLOR="#99ccff">
+        <TD align="RIGHT">
+        <font color="blue" size="4">PALS</font>
+        </TD>
+        <TD colspan="3" ALIGN="CENTER" NOWRAP>
+        <font color="blue" size="3">Developing, Implementing, and Sharing Constructivist Learning Resources</font>
+        </TD>
+</TR>
+
+<TR>
+        <TD colspan="4" bgcolor="#EEEEEE" align="RIGHT">
+        
+        <TABLE BORDER="0" CELLPADDING="4" CELLSPACING="4" WIDTH="100%">
+        <TR VALIGN="TOP">
+                <TD NOWRAP>
+                        <font size="-1" FACE="HELVECTIA">
+                        <B>Partnerships to Advance Learning in Science</B><BR>
+                        <a href="MAILTO:doug@iastate.edu">Dr. Douglas Yarger</a>-program coordinator<BR>
+                        ISU Agronomy Building<BR>
+                        Ames, Iowa 50011, USA<BR>
+                        Tel: (515)-294-9872
+                </TD>
+                <TD NOWRAP>
+                        <font size="-1" FACE="HELVECTIA">
+                        <P ALIGN="RIGHT">
+                        &#169; 1999, PALS, all rights reserved<BR>
+                        URL: http://www.pals.iastate.edu<BR><BR>
+                        COMET® is a registered Trademark of the<BR>
+                        University Corporation for Atmospheric Research
+                </TD>
+        </TR>
+        </TABLE>
+
+        </TD>
+
+</TABLE>
+
+

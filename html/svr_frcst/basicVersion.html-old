@@ -1,0 +1,185 @@
+<HTML>
+<HEAD>
+	<TITLE>PALS | Severe Weather Forecasting Exercise | Basic Version</TITLE>
+	<META name="author" content="Daryl Herzmann">
+	<link rel=stylesheet type=text/css href=/css/pals.css>
+</HEAD>
+
+
+<body BGCOLOR="#ffffff" TOPMARGIN="0" LEFTMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0" vlink="blue" alink="blue" link="blue">
+
+<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="3">
+<TR>
+        <TD WIDTH=150 VALIGN="CENTER" BGCOLOR="#99ccff" rowspan="3">
+        <a href="/"><img src="/icons/pals_logo.gif" vpsace="5" hspace="5" border="0"></a>
+        </TD>
+        <TD WIDTH="1" BGCOLOR="#99ccff">
+        &nbsp;&nbsp;
+        </TD>
+        <TD WIDTH="90%" BGCOLOR="#99ccff" colspan="2" ALIGN="CENTER" NOWRAP>
+        <font color="#003366" size="3">Partnerships to Advance Learning in Science</font><BR>
+        </TD>
+</TR>
+
+<TR>
+        <TD WIDTH="3" BGCOLOR="#003366">
+        &nbsp;
+        </TD>
+        
+        <TD colspan="2" ALIGN="CENTER" NOWRAP>
+        <font color="#003366" size="6">Severe Weather Forecasting Exercise</font><BR>
+        </TD>
+</TR>
+
+<TR>
+        <TD colspan="3" align="center" BGCOLOR="#99ccff">
+        <B>Content:</B> &nbsp;&nbsp;&nbsp;
+        &nbsp;<a href="#info">Information</a>&nbsp; 
+        | &nbsp;<a href="#basic">Basic Version</a>&nbsp; 
+<!--
+        | &nbsp;<a href="#advance">Advanced Version</a>&nbsp; 
+        | &nbsp;<a href="#dev">Development</a>&nbsp; 
+-->
+        </TD>
+</TR>
+
+
+
+<TR>
+        <TD valign="TOP" bgcolor="#99ccff">
+
+<!-- Begin the Quick Links section --> 
+        <TABLE border="0" cellpadding="3" width="100%">
+        <TR><TD BGCOLOR="#003366">
+        <P class="heads">Quick Links:
+        </TD></TR>
+        <TR><TD>
+                <A class="sides" HREF="/archivewx/index.html">Archived Wx Data</a><BR>
+                <A class="sides" HREF="/c2w/index.html">COMET® Library</a><BR>
+                <A class="sides" HREF="/docu/index.html">Documents</A><BR>
+                <A class="sides" HREF="/simulations/index.html">Java Simulations</A><BR>
+                <A class="sides" HREF="/svr_frcst/index.html">Severe Wx Exercise</A>
+		<P align="right">
+			<B>Basic Version</B><BR>
+			<a href="advancedVersion.html">Advanced Version</a><BR>
+			<a href="dev.html">Development</a><BR>
+		<BR><BR>
+        </TD></TR>
+<!-- End Program Area -->
+
+
+<!-- Begin the Program Area section --> 
+        <TR><TD BGCOLOR="#003366">
+        <P class="heads">Program Areas:
+        </TD></TR>
+        <TR><TD BGCOLOR="#99ccff">
+
+                <A class="sides" HREF="http://project.bio.iastate.edu/">Biology</a><BR>
+                <A class="sides" HREF="http://www.iitap.iastate.edu/gcp">Global Change</a><BR>
+                <A class="sides" HREF="http://www.pals.iastate.edu/mteor">Meteorology</a><BR>
+                <A class="sides" HREF="http://introsoils.agron.iastate.edu/">Soil Science</a><BR>
+		<BR><BR>
+        </TD></TR>
+<!-- End Program Area -->
+        
+        <TR><TD BGCOLOR="#003366">
+        <P class="heads">Search PALS:
+        </TD></TR>
+        <TR><TD BGCOLOR="#99ccff">
+        <form method="POST" action="/cgi-bin/htsearch">
+        <input type="text" name="words" size="10">
+        <input type="image" SRC="/icons/index.gif" BORDER="0" ALIGN="CENTER">
+        </form> 
+        </TD></TR>
+
+        <TR><TD BGCOLOR="#003366">
+        <P class="heads">On PALS:
+        </TD></TR>
+        <TR><TD BGCOLOR="#99ccff">
+                <A class="sides" HREF="/carlson/">Cool Clouds</a><BR>
+                <A class="sides" HREF="/campbell/">Campbell Wx Stations</a><BR>
+                <A class="sides" HREF="/stats/">Server Stats</a><BR>
+        </TD></TR>
+        </TABLE>
+        
+        <TD></TD>
+        
+        <TD colspan="2" valign="TOP">
+
+<!-- Begin content -->
+	<BR><BR>
+        <CENTER>
+        <img src="/icons/bpixel.gif" height="3" width="50">
+        <a name="info"><img src="/gen/header.php3?label=Information&font_size=20" hspace="0" vspace="0" border="0"></a>
+        <img src="/icons/bpixel.gif" height="3" width="50">
+        </CENTER>
+
+	<P>The Severe Weather Forecasting Exercise is a web-based exercise that is designed to
+	stimulate interest in severe weather.  This exercise is being developed for use
+	by all levels of meteorologists and K-12 students as well.  
+
+	<BR><BR>
+        <CENTER>
+        <img src="/icons/bpixel.gif" height="3" width="50">
+        <a name="basic"><img src="/gen/header.php3?label=Basic%20Version&font_size=20" hspace="0" vspace="0" border="0"></a>
+        <img src="/icons/bpixel.gif" height="3" width="50">
+        </CENTER>
+
+	<P>The basic version of this exercise contains questions geared more to college introductory
+	level meteorology courses.  This exercise can be accessed with the following links...
+
+	<MULTICOL COLS="4">
+	<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s0">June 18, 1998</A><BR>
+	<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s3">June 27, 1998</A><BR>
+	<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s12">May 3, 1999</A><BR>
+	<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s14">May 16, 1999</A><BR>
+	<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s15">May 17, 1999</A><BR>
+	<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s17">June 1, 1999</A><BR>
+	<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s18">June 2, 1999</A><BR>
+	<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s20">June 4, 1999</A><BR>
+	<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s34">June 5, 1999</A><BR>
+	<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s19">June 9, 1999</A><BR>
+	<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s21">June 10, 1999</A><BR>
+	</MULTICOL>
+
+        </TD>
+</TR>
+
+<TR BGCOLOR="#99ccff">
+        <TD align="RIGHT">
+        <font color="blue" size="4">PALS</font>
+        </TD>
+        <TD colspan="3" ALIGN="CENTER" NOWRAP>
+        <font color="blue" size="3">Developing, Implementing, and Sharing Constructivist Learning Resources</font>
+        </TD>
+</TR>
+
+<TR>
+        <TD colspan="4" bgcolor="#EEEEEE" align="RIGHT">
+        
+        <TABLE BORDER="0" CELLPADDING="4" CELLSPACING="4" WIDTH="100%">
+        <TR VALIGN="TOP">
+                <TD NOWRAP>
+                        <font size="-1" FACE="HELVECTIA">
+                        <B>Partnerships to Advance Learning in Science</B><BR>
+                        <a href="MAILTO:doug@iastate.edu">Dr. Douglas Yarger</a>-program coordinator<BR>
+                        ISU Agronomy Building<BR>
+                        Ames, Iowa 50011, USA<BR>
+                        Tel: (515)-294-9872
+                </TD>
+                <TD NOWRAP>
+                        <font size="-1" FACE="HELVECTIA">
+                        <P ALIGN="RIGHT">
+                        &#169; 1999, PALS, all rights reserved<BR>
+                        URL: http://www.pals.iastate.edu<BR><BR>
+                        COMET® is a registered Trademark of the<BR>
+                        University Corporation for Atmospheric Research
+                </TD>
+        </TR>
+        </TABLE>
+
+        </TD>
+
+</TABLE>
+
+

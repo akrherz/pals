@@ -1,0 +1,98 @@
+#Inventor V2.1 ascii
+
+DEF BM_Root Separator {
+  CoBMRenderOptions {
+    aastring	"low"
+  }
+  DEF LightGroup Group {
+    PointLight {
+      on	TRUE
+      location	-2.82646 100.919 181.903
+    }
+  }
+  OrthographicCamera {
+    position	-0.175995 9.944 51.9722
+    aspectRatio	1.70115
+    nearDistance	51.9202
+    farDistance	63.1353
+    focalDistance	53.601
+    height	205.402
+  }
+  DEF BackgroundColor Info {
+    string	"0.75 0.75 0.75"
+  }
+  Group {
+  }
+  Material {
+    diffuseColor	1 1 1
+  }
+  DEF theObject Separator {
+    Material {
+      ambientColor	0 0 0
+      diffuseColor	0 0 0
+      specularColor	1 0.991559 0.963793
+      emissiveColor	0 0 0
+      shininess	0.557576
+      transparency	0
+    }
+    DEF _0 CoTextGraph {
+      textType	1
+      string	"Program Areas"
+      fontName	"Palatino-Roman;HonMinchoLtBT--H;HonMinchoLtBT--Hankaku"
+      fontStyle	      FontStyle {
+	size	32
+	justify	"MIDDLE"
+	spacing	1
+      }
+
+      isBeveled	FALSE
+    }
+  }
+  Separator {
+    Material {
+      ambientColor	0.00714286 0.00495707 0
+      diffuseColor	0.314286 0.218111 0
+      specularColor	0.729592 0.647862 0
+      emissiveColor	0 0 0
+      shininess	0.132653
+      transparency	0
+    }
+    Texture2 {
+    }
+    Texture2Transform {
+    }
+    TextureCoordinateDefault {
+    }
+    DEF Rectangle CoMultiButton {
+      leftMargin	0
+      rightMargin	0
+      topMargin	0
+      bottomMargin	0
+      resizePolicy	"constant"
+      width	338
+      height	38
+      geometry	      Separator {
+	Transform {
+	  translation	-0.175995 9.944 -6.35
+	  scaleFactor	169 19 19
+	}
+	Switch {
+	  whichChild	0
+	  Separator {
+	    Scale {
+	      scaleFactor	1 1 0.25
+	    }
+	    Complexity {
+	      value	1
+	    }
+	    Cube {
+	    }
+	  }
+	}
+      }
+
+      attachTo	      USE _0
+
+    }
+  }
+}

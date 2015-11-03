@@ -1,0 +1,72 @@
+<HTML>
+<HEAD>
+	<TITLE>PALS - Meteorology</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white">
+<FONT FACE="arial">
+<TABLE BORDER="0" CELLSPACING="0" ROWSPACING="0" WIDTH="588">
+
+<tr><td width="150"></td><td width="438"></td></tr>
+
+<TR>
+<TD COLSPAN="2">
+<img src="/images/PALS_mteor.gif" align="center">
+</td></tr>
+
+<tr>
+<td bgcolor="#EEEEEE" valign="top">
+<table width="150" border="0" CELLSPACING="0">
+
+<TR><td colspan="2" bgcolor="#FFCCCC">
+	<FONT color="black"><B>Class Activities:</B></FONT></td></TR>
+
+<TR><TD> <IMG SRC="../images/point_02.gif" BORDER="0"></TD>
+        <TD><A HREF="AGI/index.html">AGI (in progress)</A></TD></TR>
+        
+<TR><TD> <IMG SRC="../images/point_02.gif" BORDER="0"></TD>
+        <TD><A HREF="sample/index.html">Forecast Excercise</A></TD></TR>
+
+<TR><TD WIDTH="12"><IMG SRC="../images/point_02.gif" BORDER="0"></TD>
+        <TD><A HREF="../simulations/index.html">Simulations</A></TD></TR>
+        
+<TR><td colspan="2"><BR><BR><BR></td></tr>
+<TR><td colspan="2" bgcolor="#FFCCCC">
+	<FONT color="black"><B>Electronic Media:</B></FONT>
+	</td></TR>
+
+<TR><TD><IMG SRC="../images/point_02.gif" BORDER="0"></TD>
+        <TD><A HREF="/archivewx/index.html">Archived Weather Data</A></TD></TR>
+
+<TR><TD><IMG SRC="../images/point_02.gif" BORDER="0"></TD>
+        <TD><A HREF="modules/storms.html">Clouds and Storms</A></TD></TR>
+
+<TR><TD><IMG SRC="../images/point_02.gif" BORDER="0"></TD>
+        <TD><A HREF="../c2w/index.html">COMET Video Library</A></TD></TR>
+
+<TR><td colspan="2"><BR><BR><BR></td></tr>
+</TABLE>
+</td>
+
+<td valign="top">
+<CENTER><B>Still Being worked on....</B></center>
+<spacer type="vertical" size="400">
+</td>
+</tr>
+
+<tr><td colspan="2" align="right">
+| <a href="/index.html"> HOME </a> | 
+<A HREF="javascript:history.go(-1)">GO BACK</A> |
+</td></tr>
+
+<tr><td colspan="2">
+<B> &#169; 1999 - Partnerships to Advance Learning in Science</b><br> 
+<A HREF="/home/email.html" STYLE="color:blue">Dr. Doug Yarger</A>-project
+coordinator
+
+
+</td></tr>
+
+</TABLE>
+</FONT>
+</body></html>

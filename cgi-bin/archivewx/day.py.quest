@@ -1,0 +1,28 @@
+#!/usr/local/bin/python
+# This will display data for a say once searched on
+# Daryl Herzmann 8/25/98
+
+import os, posix, re
+from cgi import *
+
+data_path = '/home/httpd/html/archivewx/CGI_SRC/day.src'
+
+def determine_day():
+	form = FormContent()
+	day = form["day"][0]
+	return day
+
+def Main():
+	day = determine_day()
+	print 'Content-type: text/html\n\n'
+        f = open(data_path, 'r')
+        comp = f.read() 
+        f.close() 
+        lines = re.split('\012', comp)
+        for line in lines:
+                if line == "INSERTHERE":
+			nothing = "0"
+                else:
+                        print line	
+
+Main()

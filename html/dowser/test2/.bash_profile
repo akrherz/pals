@@ -1,0 +1,1 @@
+/home/httpd/html/dowser/test2/.bash_profile

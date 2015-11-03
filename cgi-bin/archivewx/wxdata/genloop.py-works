@@ -1,0 +1,68 @@
+#!/usr/local/bin/python
+# THis is a rather silly python program that will gen javascript, barf...
+# Daryl Herzmann 2-9-2000
+
+import cgi, re, time, printHTML
+
+
+def Main():
+	form = cgi.FormContent()
+	dateStr = form["dateStr"][0]
+	year = dateStr[0:4]
+	month = dateStr[4:6]
+	day = dateStr[6:8]
+	hour = dateStr[8:10]
+
+	timeSpan = int( form["increment"][0] )
+	mapType = form["mapType"][0]
+
+	timeTuple = (int(year), int(month), int(day), int(hour), 0, 0, 0, 0, -1)
+
+	print 'Content-type: text/html \n\n'
+	print '<HTML><HEAD></HEAD>'
+	now = time.mktime(timeTuple) 
+	nowTuple = time.localtime(now)
+	fdirName = time.strftime("%Y_%m_%d/", nowTuple)
+        ffileName = time.strftime(mapType+"%y%m%d%H.gif", nowTuple)
+
+
+	printHTML.printTop()
+	print """
+	image_name = "jpg/LIT";
+	image_type = "gif";
+	image_channel = "vis";"""
+
+	print 'first_image = 1;'
+	print 'last_image = '+str(timeSpan+1)+';'
+	print 'animation_height = 540;'
+	print 'animation_width = 720;'
+
+	printHTML.printBot()
+
+	print 'theImages[0] = new Image();'
+	print 'theImages[0].src = "'+fdirName+ffileName+'";'
+	print 'imageNum[0] = true;'
+
+
+	printHTML.printBot15()
+
+	for i in range(1, timeSpan+1):
+		thisSecs = now + i*3600
+		thisTuple = time.localtime(thisSecs)		
+		dirName = time.strftime("%Y_%m_%d/", thisTuple)
+		fileName = time.strftime(mapType+"%y%m%d%H.gif", thisTuple)
+		
+		print 'theImages['+str(i)+'] = new Image();'
+		print 'theImages['+str(i)+'].src = "'+dirName+fileName+'";'
+		print 'imageNum['+str(i)+'] = true;'
+		print 'document.animation.src = theImages['+str(i)+'].src;'
+		print 'document.control_form.frame_nr.value = '+str(i)+';'
+
+
+	printHTML.printBot2()
+
+	print 'SRC="'+fdirName+ffileName+'"'
+
+	printHTML.printBot3()
+	
+Main()

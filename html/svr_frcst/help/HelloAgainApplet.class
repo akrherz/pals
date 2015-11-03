@@ -1,0 +1,14 @@
+import java.awt.Graphics;
+import java.Font;
+import java.Color;
+
+public class HelloAgainApplet extends java.applet.Applet {
+
+	Font f = new font ("TimesRoman", Font.BOLD, 36);
+
+	public void(Graphics g) {
+		g.setFont(f);
+		g.setColor(Color.red);
+		g.drawString("Hello Again!", 5, 40);
+	}
+}

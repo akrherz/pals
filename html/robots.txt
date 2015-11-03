@@ -1,0 +1,8 @@
+# Robots file for PALS 
+
+User-agent: *
+Disallow: /admin/
+Disallow: /cgi-bin/admin/ 
+Disallow: /cgi-bin/
+Disallow: /stats/
+Disallow: /archivewx/data/

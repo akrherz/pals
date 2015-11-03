@@ -1,0 +1,77 @@
+<HTML>
+<HEAD>
+	<META NAME="GENERATOR" CONTENT="Adobe PageMill 2.0 Mac">
+<TITLE>PALS Severe Weather Forecasting Exercise - Basic Version</TITLE>
+<script language="JavaScript">
+
+<!--<CR>function MM_swapImgRestore() { //v2.0
+  if (document.MM_swapImgData != null)
+    for (var i=0; i<(document.MM_swapImgData.length-1); i+=2)
+      document.MM_swapImgData[i].src = document.MM_swapImgData[i+1];
+}
+
+function MM_preloadImages() { //v2.0
+  if (document.images) {
+    var imgFiles = MM_preloadImages.arguments;
+    if (document.preloadArray==null) document.preloadArray = new Array();
+    var i = document.preloadArray.length;
+    with (document) for (var j=0; j<imgFiles.length; j++) if (imgFiles[j].charAt(0)!="#"){
+      preloadArray[i] = new Image;
+      preloadArray[i++].src = imgFiles[j];
+  } }
+}
+
+function MM_swapImage() { //v2.0
+  var i,j=0,objStr,obj,swapArray=new Array,oldArray=document.MM_swapImgData;
+  for (i=0; i < (MM_swapImage.arguments.length-2); i+=3) {
+    objStr = MM_swapImage.arguments[(navigator.appName == 'Netscape')?i:i+1];
+    if ((objStr.indexOf('document.layers[')==0 && document.layers==null) ||
+       (objStr.indexOf('document.all[')   ==0 && document.all   ==null))
+      objStr = 'document'+objStr.substring(objStr.lastIndexOf('.'),objStr.length);
+    obj = eval(objStr);
+    if (obj != null) {
+      swapArray[j++] = obj;
+      swapArray[j++] = (oldArray==null || oldArray[j-1]!=obj)?obj.src:oldArray[j];
+      obj.src = MM_swapImage.arguments[i+2];
+  } }
+  document.MM_swapImgData = swapArray; //used for restore
+}
+//-->
+</script>
+</HEAD>
+
+<BODY BGCOLOR="#ffffff" onLoad="MM_preloadImages('btn/PALSLogoBall2.gif','#952697783900');MM_preloadImages('btn/SevereTitle2a.gif','#952698953933')">
+
+<TABLE WIDTH="540" BORDER="0" CELLSPACING="0" CELLPADDING="12" >
+<TR>
+    <TD WIDTH="120"><a href="http://www.pals.iastate.edu" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.Image1','document.Image1','btn/PALSLogoBall2.gif','#952697783900')">
+<img name="Image1" border="0" src="btn/PALSLogoBall.gif" width="126" height="94"></a></TD>
+    <TD WIDTH="420" VALIGN="CENTER"><a href="http://www.pals.iastate.edu/svr_frcst/index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.Image2','document.Image2','btn/SevereTitle2a.gif','#952698953933')">
+<img name="Image2" border="0" src="btn/SevereTitle2.gif" width="215" height="54"></a><BR>
+<B><FONT COLOR="#CC0000" SIZE=+3>&nbsp;Basic Version</FONT></B></TD></TR>
+<TR><TD ALIGN="CENTER" VALIGN="TOP" BACKGROUND="btn/mammaBar.jpg"><P><B><FONT SIZE=+1>Summer-like
+Events</FONT></B><BR>
+<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s0">June 18, 1998</A><BR>
+<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s3">June 27, 1998</A><BR>
+<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s12">May 3, 1999</A><BR>
+<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s14">May 16, 1999</A><BR>
+<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s15">May 17, 1999</A><BR>
+<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s17">June 1, 1999</A><BR>
+<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s18">June 2, 1999</A><BR>
+<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s20">June 4, 1999</A><BR>        
+<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s34">June 5, 1999</A><BR>        
+<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s19">June 9, 1999</A><BR>        
+<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=s21">June 10, 1999</A><BR>
+</P>
+
+<P><B><FONT SIZE=+1>Winter-like Events</FONT></B><BR>
+<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=w13">Jan 19, 2000</a><BR>
+<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=w14">Jan 22, 2000</a><BR>
+<A HREF="/cgi-bin/svr_frcst/exercise/index.py?case_num=w15">Jan 25, 2000</a><BR>
+</TD>
+
+<TD VALIGN="TOP">
+<B><FONT COLOR="#CC0000" SIZE=+2>T</FONT></B>he basic version of this exercise contains questions geared more
+to college introductory level meteorology courses. This exercise can be accessed by selecting a date from the
+list on the left.<BR>
+<BR><CR><B><FONT COLOR="#CC0000" SIZE=+2>T</FONT></B>his is an excerise in forecasting<CR>severe weather. You will be given weather data for 6 hours into the forecast<CR>and then you will be asked to make a decision on what you believe will happen.<CR>Here is a look at the forecasting page you will encounter at 18z. A few<CR>things you may want to keep an eye on in order to make an accurate forecast<CR>are: the speed of the system to see how fast or slow it is moving, moisture<CR>supply out of the Gulf of Mexico to fuel storms, and any type of gradient(s)<CR>that exist (temperature, dew point, wind). At the end of this forecasting<CR>period, you will then be given your results.</TD></TR></TABLE><CR></BODY><CR></HTML><CR>

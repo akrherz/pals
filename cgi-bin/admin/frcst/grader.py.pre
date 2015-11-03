@@ -1,0 +1,65 @@
+#!/usr/local/bin/python
+# This program grades the kiddies and changes the db
+# Daryl Herzmann 8-30-99
+
+import cgi, pg, math
+
+mydb = pg.connect('frcst')
+
+def grade_temp(ans, guess):
+	return str( math.fabs(ans - guess) )
+
+def grade_prec( ans, guess):
+	if ans == 9 and (guess == 0 or guess == 1):
+		return str(0)
+
+	if ans == guess:
+		return str(0)
+
+	return str( 4 * math.fabs( ans - guess) )
+
+
+def Main(yeer, month, day):
+	entry = mydb.query("SELECT class_name from cases WHERE yeer = '"+yeer+"' and month = '"+month+"' and day = '"+day+"' ").getresult()  
+	class_name = entry[0][0]
+
+	students = mydb.query("SELECT userid from users WHERE userid ~* '"+class_name+"' ").getresult()
+
+	answers = mydb.query("SELECT * from answers WHERE yeer = '"+yeer+"' and month = '"+month+"' and day = '"+day+"' ").getresult()
+	graders = mydb.query("SELECT * from forecasts  WHERE yeer = '"+yeer+"' and month = '"+month+"' and day = '"+day+"' ").getresult()
+
+	dmx_high = answers[0][3]
+	dmx_low = answers[0][4]
+	dmx_prec = answers[0][5]
+	dmx_snow = answers[0][6]
+	floater_high = answers[0][7]
+	floater_low = answers[0][8]
+	floater_prec = answers[0][9]
+	floater_snow = answers[0][10]
+
+	for i in range(len(graders)):
+		userid = graders[i][0]
+		udmx_high = graders[i][4]
+	        udmx_low = graders[i][5]
+        	udmx_prec = graders[i][6]
+        	udmx_snow = graders[i][7]
+        	ufloater_high = graders[i][8]
+        	ufloater_low = graders[i][9]
+        	ufloater_prec = graders[i][10]
+        	ufloater_snow = graders[i][11]
+
+		print '<PRE>'
+
+		dmx_high_err = grade_temp( int(dmx_high), int(udmx_high) )
+		dmx_low_err = grade_temp( int(dmx_low), int(udmx_low) )
+		floater_high_err = grade_temp( int(floater_high), int(ufloater_high) )
+		floater_low_err = grade_temp( int(floater_low), int(ufloater_low) )
+
+		dmx_prec_err = grade_prec( int(dmx_prec), int(udmx_prec) )
+		dmx_snow_err = grade_prec( int(dmx_snow), int(udmx_snow) )
+		floater_prec_err = grade_prec( int(floater_prec), int(ufloater_prec) )
+		floater_snow_err = grade_prec( int(floater_snow), int(ufloater_snow) )
+
+#		print dmx_high_err+ dmx_low_err+ floater_high_err+ floater_low_err +dmx_prec_err+dmx_snow_err+floater_prec_err+ floater_snow_err
+
+		insert = mydb.query("INSERT into grades values ('"+userid+"', '"+yeer+"', '"+month+"', '"+day+"', '"+dmx_high_err+"', '"+dmx_low_err+"', '"+floater_high_err+"', '"+floater_low_err+"' ,'"+dmx_prec_err+"', '"+dmx_snow_err+"', '"+floater_prec_err+"','"+floater_snow_err+"') ")

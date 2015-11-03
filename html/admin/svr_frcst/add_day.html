@@ -1,0 +1,87 @@
+<HTML>
+<HEAD>
+	<TITLE>Add a day</TITLE>
+</HEAD>
+
+<body bgcolor="white">
+
+<H3 align="center">Add a day</H3>
+
+<BR>
+
+<form method="POST" action="/cgi-bin/admin/svr_frcst/add_day.py">
+<CENTER>
+<TABLE WIDTH="500">
+
+<TR>
+	<TH colspan="2">Select type of case</TH></TR>
+<TR>
+	<TH colspan="2">
+	<SELECT name="type">
+		<option value="summer">Summer Case
+		<option value="winter">Winter Case
+	</SELECT></TH></TR>
+<TR>
+	<TH colspan="2">Select the applicable timespan:</TH></TR>
+<TR>
+	<TH>Start Date:</TH><TH>End Date:</TH></TR>	
+<TR>
+	<TD>Select a Day:<BR>
+		<SELECT name="start_day">
+		<option>01	<option>02	<option>03	<option>04
+		<option>05	<option>06	<option>07	<option>08
+		<option>09	<option>10	<option>11	<option>12
+		<option>13	<option>14	<option>15	<option>16
+		<option>17	<option>18	<option>19	<option>20
+		<option>21	<option>22	<option>23	<option>24
+		<option>25	<option>26	<option>27	<option>28
+		<option>29	<option>30	<option>31
+	</SELECT></TD>
+	<TD>Select a Day:<BR>
+		<SELECT name="end_day">
+		<option>01	<option>02	<option>03	<option>04
+		<option>05	<option>06	<option>07	<option>08
+		<option>09	<option>10	<option>11	<option>12
+		<option>13	<option>14	<option>15	<option>16
+		<option>17	<option>18	<option>19	<option>20
+		<option>21	<option>22	<option>23	<option>24
+		<option>25	<option>26	<option>27	<option>28
+		<option>29	<option>30	<option>31
+	</SELECT></TD></TR>
+
+<TR>
+	<TD>Select a month:<BR>
+		<SELECT name="start_month">
+		<option value="01">January	<option value="02">Febuary
+		<option value="03">March	<option value="04">April
+		<option value="05">May		<option value="06">June
+		<option value="07">July		<option value="08">August
+		<option value="09">September	<option value="10">October
+		<option value="11">November	<option value="12">December
+	</SELECT></td>
+	<TD>Select a month:<BR>
+		<SELECT name="end_month">
+		<option value="01">January	<option value="02">Febuary
+		<option value="03">March	<option value="04">April
+		<option value="05">May		<option value="06">June
+		<option value="07">July		<option value="08">August
+		<option value="09">September	<option value="10">October
+		<option value="11">November	<option value="12">December
+	</SELECT></td>
+</tr>
+
+<TR>
+	<TD>Input a year in a 4 digit format:<BR>
+		<input type="text" size="4" name="start_yeer">
+	</TD>
+	<TD>Input a year in a 4 digit format:<BR>
+		<input type="text" size="4" name="end_yeer">
+	</TD></TR>
+
+<TR><TH colspan="2"><input type="submit"></TH></TR>
+
+</TABLE>
+
+</form>
+
+</body></html>

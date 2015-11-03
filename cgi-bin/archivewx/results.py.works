@@ -1,0 +1,71 @@
+#!/usr/local/bin/python
+# The Script that will do all grading 
+# Daryl Herzmann 7/30/98
+
+from cgi import *
+import style, pgext, os, posix
+
+mydbase = pgext.connect("archwx")
+
+def Main():
+	form = FormContent()
+	state = form["state"][0]	
+	time = form["time"][0]	
+	if time == "1": realtime = "12-3 PM (CDT)"
+	if time == "2": realtime = "3-6 PM (CDT)"
+	if time == "3": realtime = "6-9 PM (CDT)"
+	if time == "4": realtime = "9-Midnight PM (CDT)"
+	tornado = form["T"][0]
+	realtornado = "No"
+	realrain = "No" 
+	realhail = "No"
+        if tornado == "T": realtornado = "Yes"
+	rain = form["R"][0]
+	if rain != "no": realrain = "Yes"
+        hail = form["H"][0]
+	if hail != "no": realhail = "Yes"
+	
+	results = mydbase.query("Select * from jun1898 where state = '"+state+"' AND date = '"+time+"'") 
+        results = results.getresult()
+
+	style.header("Your Score","/images/ISU_bkgrnd.gif")
+	print '<H1>Your forecast results</H1>'
+	print '<table><tr><td>'
+	print "<H2>You predicted</H2>"
+	print "During "+realtime+" you predicted <BR>"
+	if realtornado == "Yes":
+		print "a <B>tornado</B> in<B> "+state+"</B>,<BR> "  
+        if realhail == "Yes":
+		print "a <B>hail storm</B> in<B> "+state+"</B>,<BR> "
+        if realrain == "Yes":
+		print "a <B>rain event</B> of over 3 inches in<B> "+state+"</B>,"
+	print '</td><TD><spacer type="horizontal" size="100"><BR></TD><td>'
+	print "<H2>Actually Happened</H2>"
+	print "In "+state+", during "+realtime+" this is what happened  <BR>"
+	for i in range(len(results)):
+		severe = results[i][1]
+		if severe == "T":
+			print "a tornado occured<BR>"
+		elif severe == "H":
+			print "a hail storm occured<BR>"
+		elif severe == "R":
+			print "a heavy rain fall occured<BR>"
+	print '</td></tr></table>'
+
+	print '<table><tr><td>'
+
+	print '<H3>What happened:</H3>'
+	f = open('answers.txt','r')
+	comp = f.readlines()
+	f.close()
+	for line in comp:
+		print line
+
+	print '</td><td valign="top">'
+	print '<H3>Here is a picture of what happened</H3>'
+	print '<img src="/archivewx/jun181998/map.gif">'
+	print '</td></tr></table>'
+
+	style.std_bot()
+
+Main()

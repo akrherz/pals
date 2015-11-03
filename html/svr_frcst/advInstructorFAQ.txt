@@ -1,0 +1,180 @@
+# Readme for the Advanced Version of the Severe Weather Forecasting Activity.
+# Daryl Herzmann ( akrherz@iastate.edu ) 12 June 2000 
+# v.0.0.2
+
+Severe Weather Forecasting Activity
+	1.  Introduction
+	2.  Setting up your class to use the activity
+	3.  Customizing the activity for your class
+	4.  Pointing your students to the correct location
+	5.  FAQ
+	
+	
+-------> 1. Introduction
+
+	The severe weather forecasting activity is a web-based exercise
+developed at Iowa State University for use in a wide range of meteorology
+classes.  This activity uses archived weather data, prepared questions and
+responses, and just-in-time questions to teach the students important
+meteorological concepts.  The exercise has been broken into three versions
+based on the difficulty of the questions asked and topics covered.
+	The advanced version of the exercise contains questions geared for
+upper-level meteorology students.  Here is a listing of some of the
+questions asked in the exercise.
+
+-- From this initial data and the model forecasts, name a state where you
+think severe weather may threaten on this day.
+
+-- What role do you feel a cap will play in this event? (is there one, how
+strong, where might it prevent convection)
+
+-- Examine how 700 mb temperatures are changing upstream of Kansas City
+(over the distance air might travel in 8 hours). What do these changes
+indicate with respect to severe weather potential:
+
+-- By this time of day, it can be important to look at satellite data or
+surface observations to see if cloudcover is present in a severe weather
+risk area. What impact could cloudcover in this case at this time have on
+later severe weather:
+
+-- Within a region that you feel could have severe weather, do you see any
+areas where lingering cloudcover from earlier convective systems may
+reduce the instability, making severe weather less likely?
+
+-- What can you infer in this case from the moisture divergence plot at
+this time, and over the last 2-3 hours:
+
+-- If no storms have yet developed in the region you expect severe
+weather, describe where you expect initiation to occur later, roughly what
+time you´d expect it, and what mechanism you think will initiate it. If
+your forecast is verifying OK, explain the main reasons you correctly
+picked this state.
+
+-- The evolution of the dew point field in a region of severe weather risk
+can reveal important information about the atmosphere. Which statement is
+true for this event:
+
+-- If no storms have yet formed in your region, estimate a probability
+that something will yet occur today in your area (if there are storms,
+just answer "OK"). Justify your probability (if your probability is 50% or
+more, explain why you still expect storms; if not, explain what you think
+is going wrong).
+
+	After these questions are asked during the exercise, the users are
+given immediate responses.  The weather data can then be reviewed, if the
+user desires; otherwise, the user continues on throughout the case.
+
+-------> 2.  Setting up your class to use the activity
+
+	The advanced version of the exercise is available for anybody to
+work though, but the results of the user's work are not saved nor sent to
+anyone.  If you would simply like your users to do the exercise for the
+experience alone, a class does not need to be set up.  On the other hand,
+if an instructor would like their students' results emailed to
+them, he/she would need to set up a class.
+	Setting up a class is easily accomplished with the on-line class
+registration.  The URL is located at
+http://www.pals.iastate.edu/svr_frcst/advInstructor.html .  The page
+contains some of the same information presented in this document.  Once
+you have reviewed the information, click on the link to create a class.  
+The subsequent page presents a simple form to fill out.  Please fill out
+the required fields and submit the form.  You may want to password protect
+your exercise, so that only your students can access the exercise.  This
+protection keeps others from running the exercise and then sending you
+results of people not in your class.
+	After submitting the form, a result page is generated, showing you
+the values for your class.  It also has two links on the page, which show
+you where you can modify the exercise and where users should go in order
+to start the exercise.  You will want to write these URLs down for future
+reference.
+
+-------> 3.  Customizing the activity for your class
+
+	In order for your users to use the exercise as members of your
+class, you need to "release" cases for use by your class.  The PALS staff
+has created a multitude of cases for use by your class.  These cases are
+ready to be used by your class as soon as you release them.  Releasing
+cases is easily done through the classAdmin webpages on the PALS server.  
+The classAdmin pages can be found at
+http://www.pals.iastate.edu/cgi-bin/severe2/classAdmin/index.py .  Once
+you access this page, you are prompted for a password.  Enter your class
+abreviation and password that you created in Step 2.  Once you have
+successfully logged in, you will see a listing of options that can be used
+to customize the exercise.
+
+	[Create/Edit/Add Specific Questions] 
+	This option allows you to add specific questions and answers to
+any time in any of the cases.  For instance, if you wanted to add a
+question about the 13Z moisture convergence plot at 13z 18 June 1998, you
+could click on this option, select the case for 18 June 2000 and then
+select the 13z time.  Then you will be presented with a form in which you can
+enter a question, options, answers, and responses.  Once you have
+submitted this form, the question will appear for your users in the
+exercise.  You will recieve the results of this question in an email as
+soon as your users finish the case.
+
+	[Release/Revoke Cases] 
+	This option allows your users to work through cases that you
+release to them.  When the user starts the exercise, they are presented a
+list of cases that they can work through.  In order for cases to appear in
+this list, they need to released to them. Simply fallow the instructions
+and populate the right hand column with cases you wish them to work
+through.
+
+	[Edit Hourly Annonations] 
+	This option allows the administrator to tweak the annonations that
+appear throughout the case.  Sometimes the instructor will want to ask a
+question whose answer may have been given away previously in one of the annonations.  
+With this option, the administration can edit the annotations as they see fit.
+
+-------> 4.  Pointing your students to the correct location
+
+	In order for your users to log into the exercise under your class,
+they need to be pointed to a specific location.  It is recomended that you
+set up a link from one of your local webpages that points to the exercise on
+the PALS server.  The URL to link to is given to you when you create the
+class.  The other method is to give your users the URL and have them type
+it in.
+
+-------> 5.  FAQ
+
+	-- The instructions are too long, give me the quick ones.
+
+Go to http://www.pals.iastate.edu/svr_frcst/advInstructor.html and then
+click on the link to "Create a Class."  Fill out the form for your class
+and then write down the URLs given to you. Then log into classAdmin and
+release a case for your class to use.  Then point your students to the
+main page for the exercise, in which they can then work through cases you
+have released.  Once they complete the case, you will be emailed their
+results.  Done :)
+
+	-- I cannot read the emails that are sent to me, when my students
+complete the exercise.
+
+If you indeed have this problem, email Daryl Herzmann at
+akrherz@iastate.edu and tell him of your setup that is not allowing the
+emails to be viewed.
+
+	-- Is there anyway to turn off some of the questions that
+automatically appear throughout the case?
+
+Currently, I do not have a mechanism to do this. I will incorporate it 
+into the exercise in the near future.
+
+	-- I forgot my password for classAdmin.  Please help.
+
+Just email Daryl Herzmann at akrherz@iastate.edu and I will send it to
+you.
+
+	-- How tight is security / authentification for the exercise?
+
+Security is not a major concern to this exercise, yet.  Your information
+is safe on the PALS server and your email will not be given out.
+
+	-- What should I do about grading this exercise?
+
+Currently, we recommend that you just give your students credit for
+working each case in the exercise and then grading their text responses.  
+The exercise is meant as a learning tool for the students and not
+neccessarily as a quiz.  The best use of the results may be to influence
+what material is reviewed or emphasized in lectures.

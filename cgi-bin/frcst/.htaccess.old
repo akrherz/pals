@@ -1,0 +1,11 @@
+AuthUserFile /home/httpd/cgi-bin/frcst/.users
+AuthGroupFile /dev/null
+AuthName "Forecast Excercise"
+AuthType Basic
+
+<LIMIT GET>
+order deny,allow
+require user mt311_001
+require user mt411_001
+</LIMIT>
+

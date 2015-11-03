@@ -1,0 +1,70 @@
+#!/usr/local/bin/python
+# A rewrite of an old PERL program to use the PUT method
+# I will use it as a guid but alot of work needs to be done 
+# to make the system more secure
+
+import os, sys, cgi, posixpath
+
+def log(logstring):
+	logfile = open("/tmp/putlog", 'a')
+	logfile.write(logstring + '\n')
+	logfile.close()
+	reply("Upload Successfull")
+
+def reply(replystring):
+	# reply via html here....  Daryl, replace this with some 
+	# nicer code please
+        # print 'Status: 500\n'
+	print 'Content-type: text/html\n\n'
+	print '<html><head><title>PUT SCRIPT REPORT</title></head><body>'
+	print replystring
+	print '</body></html>'
+	log(replystring)  # for now we will log the replystring as well, for debug
+
+def test_path(pathTrans):
+	ourPath = os.path.split(pathTrans)	# Find out what directory we are looking for
+	if not posixpath.isdir(ourPath[0]):	# Do we have this directory?
+		os.system("mkdir -p "+ourPath[0])
+		
+
+def main():
+	# obtain the environment variable we are needing...
+	if os.environ.has_key('REQUEST_METHOD'): 
+		httpdMethod = os.environ['REQUEST_METHOD']
+	else: 
+		reply("No request methond set, how did we get called anyway?")
+		sys.exit(0)
+	if os.environ.has_key('REMOTE_USER'): 
+		user = os.environ['REMOTE_USER']
+	else: 
+		reply("No remote user set, how did we get access?")
+		sys.exit(0)
+	if os.environ.has_key('CONTENT_LENGTH'): 
+		conLen = os.environ['CONTENT_LENGTH']
+	else: 
+		reply("No content length, nothing to send?")
+		sys.exit(0)
+	if os.environ.has_key('PATH_TRANSLATED'): 	
+		pathTrans = os.environ['PATH_TRANSLATED']
+	else: 
+		reply("Bad path, no place to PUT?")
+		sys.exit(0)
+
+	# If we got this far let's try and read and write some data
+	grabbed = httpdMethod + user + conLen + pathTrans
+
+        # Get that pesky stdin and we are done!  :)
+	test_path(pathTrans)
+	fp = open(pathTrans, 'w')
+	while 1:
+		line = sys.stdin.readline()
+		if not line:
+			break
+		else:
+			fp.write(line)		
+
+	fp.close()
+	log(grabbed)
+		
+main()
+

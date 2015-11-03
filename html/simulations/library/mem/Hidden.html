@@ -1,0 +1,51 @@
+<HTML>
+<HEAD>
+<TITLE>Memops</TITLE>
+<!-- Randall W. Bower, 6/21/1997 -->
+</HEAD>
+
+<BODY bgcolor="white">
+
+<CENTER>
+  <H3>Memops: An Introduction to Memory Operations</H3>
+</CENTER>
+<HR>
+
+An example of the <b>hidden memory</b> is shown below: 
+<CENTER>
+  <APPLET CODE="HiddenDemo.class" width=240 height=216></APPLET>
+</CENTER>
+The numeric values are only <b>covered</b> with the "###".
+They are still there, you just can not see them.<br>
+
+<P>
+In performing the exercises on the hidden memory, you must use the
+<b>compare</b> command in addition to the <b>load</b> command.
+This command <b>compares</b> the value in one location with the value
+in another location.
+  
+The <b>compare</b> command shown below would <b>compare</b> the value
+in location X[1] to the value in location X[2]:
+<pre>
+  compare x[1] with x[2]
+</pre>
+Note carefully the form of the command.  Brackets <b>[ ]</b> and <b>spaces</b> are
+important.  A <b>c</b> can be typed instead of the word <b>compare</b> and a 
+<b>w</b> can be typed instead of the word <b>with</b>.
+
+<P>
+Here are a few more <b>examples</b> of the <b>compare</b> command:
+<pre>
+  compare x[2] with x[5]
+  compare x[3] with z
+</pre>
+Remember, you must press Return after typing a command to have it executed!
+
+<P>
+<a href="index.html#MainMenu">Main Menu</a>
+<a href="Ex7.html">Next Exercise</a>
+
+<HR>
+</BODY>
+</HTML>
+

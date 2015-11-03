@@ -1,0 +1,85 @@
+#Inventor V2.1 ascii
+
+DEF BM_Root Separator {
+  CoBMRenderOptions {
+    aastring	"low"
+  }
+  DEF LightGroup Group {
+    PointLight {
+      on	TRUE
+      location	-2.78733 -2.85895 39.2995
+    }
+  }
+  OrthographicCamera {
+    position	0.0360031 8.32001 51.9722
+    aspectRatio	1
+    nearDistance	51.9202
+    farDistance	253.425
+    focalDistance	53.601
+    height	206.757
+  }
+  DEF BackgroundColor Info {
+    string	"1.00 1.00 1.00"
+  }
+  Material {
+    diffuseColor	1 1 1
+  }
+  DEF theObject Separator {
+    Material {
+      ambientColor	0.2 0.2 0.2
+      diffuseColor	0.8 0.8 0.8
+      specularColor	0 0 0
+      emissiveColor	0 0 0
+      shininess	0.2
+      transparency	0
+    }
+    DEF _0 CoTextGraph {
+      textType	1
+      string	"ISU"
+      fontName	"Palatino-Roman;HonMinchoLtBT--H;HonMinchoLtBT--Hankaku"
+      fontStyle	      FontStyle {
+	size	24
+	justify	"MIDDLE"
+	spacing	1
+      }
+
+      isBeveled	FALSE
+    }
+  }
+  Separator {
+    Material {
+      diffuseColor	1 0.7 0.1
+      specularColor	1 0.39 0.19
+      shininess	0.8
+    }
+    DEF TextOnly CoMultiButton {
+      leftMargin	0.4
+      rightMargin	0.4
+      topMargin	0.4
+      bottomMargin	3.8
+      resizePolicy	"constant"
+      alignment	"inked_area"
+      width	200
+      height	200
+      geometry	      Separator {
+	Transform {
+	  translation	0.0360012 8.32 -101.2
+	  scaleFactor	100 100 100
+	}
+	Switch {
+	  whichChild	0
+	  Separator {
+	    DrawStyle {
+	      style	INVISIBLE
+	    }
+	    Cube {
+	    }
+	  }
+	}
+      }
+
+      attachTo	      USE _0
+
+    }
+  }
+}

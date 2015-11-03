@@ -1,0 +1,6 @@
+create table sessions (key varchar(40), name varchar(40), email varchar(40), last_time varchar(20), ans7am varchar(2000),
+ans8am varchar(2000), ans9am varchar(2000), ans10am varchar(2000), ans11am varchar(2000), ans12pm varchar(2000), ans1pm
+varchar(2000), ans2pm varchar(2000), ans3pm varchar(2000), ans4pm varchar(2000), ans5pm varchar(2000), ans6pm varchar(2000),
+ans7pm varchar(2000), ans8pm varchar(2000), ans9pm varchar(2000), ans10pm varchar(2000), ans11pm varchar(2000), etime
+varchar(10), state varchar(30), t varchar(1), h varchar(1), r varchar(1) );
+

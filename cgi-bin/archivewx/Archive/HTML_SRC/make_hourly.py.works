@@ -1,0 +1,69 @@
+#!/usr/local/bin/python
+# This program takes people through the archivewx forecast
+# Daryl Herzmann 8/14/98
+
+from cgi import *
+import os, sys, posix, style, re
+from pgext import *
+
+mydb = connect('archanswers')
+
+data_path = '/home/httpd/html/archivewx/CGI_SRC/hours.src'
+form = FormContent()
+day = form["day"][0]
+hour = "07AM(CDT)12Z"
+if form.has_key("hour"): hour = form["hour"][0]
+if day[:3] == "jun": month = '06'
+if day[:3] == "jul": month = '07'
+if day[:3] == "aug": month = '08'
+hour = str(hour[:2]+' '+hour[2:4]+' '+hour[4:9]+' '+hour[9:])
+realyez = day[-2:]+month+day[3:5]+hour[12:14]
+
+real = mydb.query("Select real from conversions where abbrev = '"+day+"' ").getresult()
+
+def next():
+	aaa = str(int(hour[:2])+(1))
+	if int(aaa) < 10:
+		aaa = '0'+aaa
+	bbb = str(int(hour[-3:-1])+(1))
+	nexthour = aaa+hour[2:12]+bbb+'Z'
+	condense = aaa+hour[3:5]+hour[6:11]+bbb+'Z'
+	return nexthour, condense
+
+def closer():
+	print '<center><H3>You have now seen all the data for Today</H3>'
+	print '<a href="/cgi-bin/archivewx/HTML_SRC/make_forecast.py?day='+day+'">'
+	print 'It is time to Forecast</a>'
+	style.std_bot()
+	sys.exit()
+
+def Main():  
+	style.header('Forecast Exercise for '+real[0][0],'white')
+	nexthour, condense = next()
+	f = open(data_path, 'r')
+        comp = f.read() 
+        f.close() 
+        lines = re.split('\012', comp)
+	for line in lines:
+		if line == "REPLACE":
+			print day
+		elif line == "REALTIME":
+			print hour
+		elif line == "REALYEZ":
+			print realyez
+		elif line == "NEXTHOUR":
+			print condense
+		elif line == "DAY":
+                        print day
+		elif line == "REAL":
+			print real[0][0]
+		elif line == "STOP":
+			if hour[:2] == "12":
+				closer()
+			else:
+				print '<BR>'
+		else:
+			print line
+	style.std_bot()
+
+Main()

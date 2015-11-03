@@ -1,0 +1,86 @@
+#Inventor V2.1 ascii
+
+DEF BM_Root Separator {
+  CoBMRenderOptions {
+    aastring	"low"
+  }
+  DEF LightGroup Group {
+    PointLight {
+      on	TRUE
+      location	-2.78733 -2.85895 39.2995
+    }
+  }
+  OrthographicCamera {
+    position	131.328 -52.704 51.9722
+    aspectRatio	1.70115
+    nearDistance	51.9202
+    farDistance	205.65
+    focalDistance	53.601
+    height	159.032
+  }
+  DEF BackgroundColor Info {
+    string	"0.75 0.75 0.75"
+  }
+  Material {
+    diffuseColor	1 1 1
+  }
+  DEF theObject Separator {
+    Material {
+      ambientColor	0.00746438 0.00673081 0.00690282
+      diffuseColor	0.0291577 0.0262922 0.0269642
+      specularColor	0.938776 0.0550317 0.0550317
+      emissiveColor	0 0 0
+      shininess	0.0612245
+      transparency	0
+    }
+    DEF _0 CoTextGraph {
+      textType	1
+      string	[ "Partnerships to",
+	        "Advance Learning",
+	        "in Science" ]
+      fontName	"Palatino-Roman;HonMinchoLtBT--H;HonMinchoLtBT--Hankaku"
+      fontStyle	      FontStyle {
+	size	32
+	justify	"BEGIN"
+	spacing	1
+      }
+
+      isBeveled	FALSE
+    }
+  }
+  Separator {
+    Material {
+      diffuseColor	1 0.7 0.1
+      specularColor	1 0.39 0.19
+      shininess	0.8
+    }
+    DEF TextOnly CoMultiButton {
+      leftMargin	0
+      rightMargin	0
+      topMargin	0
+      bottomMargin	2
+      resizePolicy	"grow"
+      width	261.696
+      height	151.872
+      geometry	      Separator {
+	Transform {
+	  translation	131.328 -52.704 -77.536
+	  scaleFactor	130.848 75.936 75.936
+	}
+	Switch {
+	  whichChild	0
+	  Separator {
+	    DrawStyle {
+	      style	INVISIBLE
+	    }
+	    Cube {
+	    }
+	  }
+	}
+      }
+
+      attachTo	      USE _0
+
+    }
+  }
+}

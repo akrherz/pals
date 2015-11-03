@@ -1,0 +1,12 @@
+/home/httpd/html/dowser/test2/.Xdefaults
+/home/httpd/html/dowser/test2/.bash_logout
+/home/httpd/html/dowser/test2/.bash_profile
+/home/httpd/html/dowser/test2/.bashrc
+/home/httpd/html/dowser/test2/try.py
+/home/httpd/html/dowser/test3/.Xdefaults
+/home/httpd/html/dowser/html/c2w.cdf
+/home/httpd/html/dowser/html/servers.txt
+/home/httpd/html/dowser/html/cdf.txt
+/home/httpd/html/dowser/html/cdf.py
+/home/httpd/html/dowser/html/dowser.py
+/home/httpd/html/dowser/html/dowser.py.work

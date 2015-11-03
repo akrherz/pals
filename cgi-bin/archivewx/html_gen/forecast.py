@@ -1,0 +1,42 @@
+#!/usr/local/bin/python
+
+from cgi import *
+
+form = FormContent()
+date = form["date"][0]
+
+print 'Content-type: text/html\n\n'
+print '<HTML><HEAD><TITLE>Forecast for '+date+'</TITLE></HEAD>'
+print '<BODY BGCOLOR=#e3d3ad><CENTER><H3>Forecast for '+date+'</H3></CENTER>'
+print '<HR><FORM METHOD=POST ACTION="noresult.html">'
+print '<INPUT TYPE=hidden NAME=cn_option VALUE="Submit TEST">'
+print '<INPUT TYPE=hidden NAME="Class Name" VALUE="Public Forecasting">'
+print '<INPUT TYPE=hidden NAME="Assignment Name" VALUE="Forecast_1">'
+print '<LEFT><H2>You Will Be Forecasting Severe Weather Today Starting At 12 p.m.</H1>'
+print '<H2><IMG SRC="gifs/weather.gif" HEIGHT=40'
+print 'WIDTH=40>Forecast SevereWeather</H2></LEFT><A HREF="'+date+'hints.html"><IMG'
+print 'SRC="gifs/maps.gif" ALT=Maps WIDTH=25'
+print 'HEIGHT=25>Severe Weather Hints</A><HR><CENTER></CENTER>' 
+print '<A HREF="'+date+'data.html"><IMG'
+print 'SRC="gifs/maps.gif" ALT=Maps WIDTH=25'
+print 'HEIGHT=25>Weather Products</A><HR></CENTER>'
+print '<B>1) </B> <B>State <SELECT NAME="1.1"><OPTION> <OPTION> ALABAMA<OPTION> ARKANSAS<OPTION> ARIZONA'
+print '<OPTION> CALIFORNIA <OPTION> COLORADO <OPTION> CONNECTICUT <OPTION> DELAWARE <OPTION> FLORIDA'
+print '<OPTION> GEORGIA <OPTION> IDAHO <OPTION> ILLINOIS <OPTION> INDIANA <OPTION> IOWA <OPTION> KANSAS'
+print '<OPTION> KENTUCKY <OPTION> LOUISIANA <OPTION> MAINE <OPTION> MARYLAND <OPTION> MASSACHUSETTS'
+print '<OPTION> MICHIGAN <OPTION> MINNESOTA <OPTION> MISSISSIPPI <OPTION> MISSOURI <OPTION> MONTANA'
+print '<OPTION> NEBRASKA <OPTION> NEVADA <OPTION> NEW HAMPSHIRE <OPTION> NEW JERSEY <OPTION> NEW MEXICO'
+print '<OPTION> NEW YORK <OPTION> NORTH CAROLINA <OPTION> NORTH DAKOTA <OPTION> OHIO <OPTION> OKLAHOMA'
+print '<OPTION> OREGON <OPTION> PENNSYLVANIA <OPTION> RHODE ISLAND <OPTION> SOUTH CAROLINA <OPTION> SOUTH DAKOTA'
+print '<OPTION> TENNESSEE <OPTION> TEXAS <OPTION> UTAH <OPTION> VERMONT <OPTION> VIRGINIA <OPTION> WASHINGTON'
+print '<OPTION> WISCONSIN <OPTION> WEST VIRGINIA <OPTION> WYOMING </SELECT></B><P><HR>'
+print '<B>2) </B> <B>Choose The Time Period During Which You Think Severe Weather Will Occur (All Times P.M.)'
+print '</B><SELECT NAME="2.1"> <OPTION> <OPTION> <F> <OPTION> 12-3 <OPTION> 3-6 <OPTION> 6-9 <OPTION> 9-12(A.M.)'
+print '</SELECT><P><HR><INPUT TYPE=hidden NAME=3. VALUE=MULTIPLE><B>3)</B> <B>Choose the Type of Severe Weather (You May Choose As Many Options As You Like)</BR>'
+print '</BR><INPUT TYPE=checkbox NAME=3.1.1 VALUE=1 > Tornado <INPUT TYPE=checkbox NAME=3.1.2 VALUE=1 > Hail/Damaging Wind'
+print '<INPUT TYPE=checkbox NAME=3.1.3 VALUE=1 > Greater Than 3 Inches of Rain </?> </B><HR>'
+print '<INPUT TYPE=hidden NAME=4. VALUE=MULTIPLE><B>4) </B> <B>Reasons For Severe Weather (You May Choose As Many Options As You Like) </BR></BR>'
+print '<INPUT TYPE=checkbox NAME=4.1.1 VALUE=1 > Frontal Position <INPUT TYPE=checkbox NAME=4.1.2 VALUE=1 > Daytime Heating'
+print '<INPUT TYPE=checkbox NAME=4.1.3 VALUE=1 > Moisture Supply <INPUT TYPE=checkbox NAME=4.1.4 VALUE=1 > Upper Level Winds'
+print '</?></BR><HR><CENTER><H4><INPUT TYPE=submit Value=Submit><INPUT TYPE=reset></H4><p></CENTER></FORM>'
+print '</html>'

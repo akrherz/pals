@@ -1,0 +1,44 @@
+#!/usr/local/bin/python
+# This program figures out what day they want to edit, or maybe add a new entry
+# Daryl Herzmann 7-15-99
+
+import style, time, std_form, pg, SEVERE2, cgi
+
+mydb = pg.connect("severe2_adv", 'localhost', 5555)
+
+def Main():
+	SEVERE2.setupPage("ClassAdmin for Sx Forecasting Activity")
+
+	print """
+	<H3>Edit Specific Hourly Questions:</H3>
+	<blockquote>
+	<B>Instructions:</B> This exercise comes pre-built with a standard set of questions that get asked at various hours.  You can add your
+	own questions at any hour of your choice.  These questions are then asked when students work through the exercise and the results are
+	emailed back to you.
+	</blockquote>
+	"""
+
+	form = cgi.FormContent()
+	if not form.has_key("caseNum"):
+		print '<form method="POST" action="index.py">'
+		print '<H3>Select Case to Edit Questions for:</H3>'
+		SEVERE2.listGoodCases()
+		print '<BR><input type="submit" value="Select Case">'
+		print '</form>'
+	else:
+		caseNum = form["caseNum"][0]
+		print '<form method="POST" action="edit.py">'
+		print '<input type="hidden" value="'+caseNum+'" name="caseNum">'
+		print '<H3>Select Hour to Add/Delete/Edit Specific Question For:</H3>'
+		SEVERE2.listHours(caseNum)
+		print '<BR><input type="submit" value="Select Specific Time">'
+		print '</form>'
+
+
+	print '<P>Links outta here:'
+	print '<HR>'
+	print '<a href="../index.py">ClassAdmin</a>'
+	
+	SEVERE2.finishPage()
+
+Main()

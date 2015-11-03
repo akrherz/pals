@@ -1,0 +1,120 @@
+#!/usr/local/bin/python
+# This program will release, revoke, create cases for this exercise.
+# Daryl Herzmann 5 September 2000
+
+import pg, cgi, cityFX
+mydb = pg.connect("cityfx", "localhost", 5555)
+mydb.query("SET TIME ZONE 'GMT' ")
+
+def releasedCases():
+	print """
+	<form method="POST" action="cases.py" name="revoke">
+	<input type="hidden" value="v" name="mode">
+	<B>Select Case:</b><BR>
+	<SELECT name="caseID">"""
+	rs = mydb.query("SELECT caseid, starttime::date as start from cases WHERE released = 't' order by starttime").dictresult()
+	for i in range(len( rs )):
+		print '<option value="',rs[i]["caseid"],'">'+rs[i]["start"]
+	print '</SELECT>'
+	
+	print '<P><input type="SUBMIT" value="Revoke Case">'
+	
+	print '</form>'
+
+def revokedCases():
+	print """
+	<form method="POST" action="cases.py" name="release">
+	<input type="hidden" value="r" name="mode">
+	<B>Select Case:</b><BR>
+	<SELECT name="caseID">"""
+	rs = mydb.query("SELECT caseid, starttime::date as start from cases WHERE released = 'f' order by starttime").dictresult()
+	for i in range(len( rs )):
+		print '<option value="',rs[i]["caseid"],'">'+rs[i]["start"]
+	print '</SELECT>'
+	
+	print '<P><input type="SUBMIT" value="Release Case">'
+	
+	print '</form>'
+
+def insertCase(startTime, endTime):
+	sqlStr = "INSERT into cases(startTime, endTime, released) values "
+	sqlStr = sqlStr + "('"+startTime+"', '"+endTime+"', 'false') "
+	
+	mydb.query(sqlStr)
+
+def releaseCase(caseID):
+	mydb.query("UPDATE cases SET released = 't' WHERE caseid = "+caseID+" ")
+	
+def revokeCase(caseID):
+	mydb.query("UPDATE cases SET released = 'f' WHERE caseid = "+caseID+" ")
+
+
+def createCaseDialog():
+	print """
+	<H3>Create A New Case:</H3>
+	<FORM METHOD="GET" action="cases.py" name="new">
+	<TABLE>
+	<TR>
+	<TD>Input Start Date-Time (GMT):</TD>
+	<TD><input type="text" name="starttime"></TD>
+	<TD>2000-06-23 12:00</TD>
+	</TR>
+	
+	<TR>
+	<TD>Input End Date-Time (GMT):</TD>
+	<TD><input type="text" name="endtime"></TD>
+	<TD>2000-06-24 5:00</TD>
+	</TR>
+	
+	<TD><TD colspan="3">
+		<input type="SUBMIT">
+		<input type="RESET">
+	</TD></TR>
+
+	</TABLE>
+	"""
+	
+	
+def Main():
+	cityFX.setupPage()
+	form = cgi.FormContent()
+	mode = "b"
+	if form.has_key("mode"):
+		mode = form["mode"][0]
+	
+	if form.has_key("starttime"): # We must be posting a new case
+		startTime = form["starttime"][0]
+		endTime = form["endtime"][0]
+		insertCase(startTime, endTime)
+	
+	elif mode == "r": # We need to release a case		
+		caseID = form["caseID"][0]
+		releaseCase( caseID )
+	elif mode == "v":
+		caseID = form["caseID"][0]
+		revokeCase( caseID )
+	
+	
+	print """
+	<TABLE width="100%">
+	<TR>
+	<TH>Release Cases:</TH>
+	<TH>Revoked Cases:</TH>
+	</TR>
+	
+	<TR>
+	<TD>"""
+	releasedCases()
+	print "</TD><TD>"
+	revokedCases()
+	print "</TD></TR></TABLE>"
+
+	print '<BR><BR>'
+
+	createCaseDialog()
+
+	print '<P><a href="/admin">Back to Admin Page</a>'	
+
+	cityFX.finishPage()
+	
+Main()

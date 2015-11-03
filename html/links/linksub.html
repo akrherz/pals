@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+	<TITLE>Link Submiter</TITLE>
+</HEAD>
+<body bgcolor="white">
+<img src="../../images/pals_logo.gif" align=left> 
+<spacer type=vertical size="30"> 
+<H1>Submit a link to our database</H1> 
+<P>Please enter the appropiate information below; 
+<BR CLEAR="all"> <HR> 
+<a href="index.html">Links page</a>-- 
+<a href="../index.html">Go to PALS Homepage</a>-- 
+<a href="../home/email.html">Contact Us</a>-- 
+<a href="http://pals.agron.iastate.edu/cgi-bin/daryl_dev/printout.py">List all our links</a>
+<BR CLEAR="all"> <HR>
+<H3>New link entry:</H3>
+
+<FORM method="POST" action="http://pals.agron.iastate.edu/cgi-bin/daryl_dev/linksub.py">
+<table>
+<tr>
+	<th align="right">LINK TITLE:
+	<td><INPUT type="text" name="link" size="30">
+<tr>
+	<th align="right">URL:
+	<td><INPUT type="text" name="URL" size="50">
+<tr>
+	<th align="right" valign="top">Categories:
+	<td>
+	<table>
+		<tr>
+		<td><INPUT type="checkbox" name="kindA" value="AA">A
+		<td><INPUT type="checkbox" name="kindB" value="BB">B
+		<tr>
+		<td><INPUT type="checkbox" name="kindC" value="CC">C
+		<td><INPUT type="checkbox" name="kindD" value="DD">D
+		</table>
+<tr>
+	<th align="right" valign="top">Description:
+	<td><textarea name="description" cols="50" rows="4"></textarea>
+<tr>
+	<td colspan="2" align="center"><INPUT type="submit" value="Send it in">
+</table>
+</form>
+</html>

@@ -1,0 +1,54 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (WinNT; U) [Netscape]">
+   <TITLE> Radiation Simulation</TITLE>
+</HEAD>
+<BODY BGCOLOR="#F0F0F0">
+<IMG SRC="media/sun.gif" >
+<CENTER>
+<H1>
+Radiation Balance</H1></CENTER>
+
+<CENTER><IMG SRC="media/rainbow.gif" ></CENTER>
+Various meteorological parameters (temperature, humidity, and wind) above
+the surface of the earth are measured using balloons (radiosondes) twice
+each day at specific locations. The balloons are launched just before 12Z
+(6 AM in Iowa) and 00Z (6 PM). Data for 6 AM reflect conditions from the
+previous night; the 6 PM values represent daytime conditions.
+
+<P>During the fall of 1997, a narrow band of snow fell across the state
+of Iowa. The data in this simulation are based on this event using the
+snow and surrounding surface conditions. We will examine the differing
+effects of the various surface conditions on temperature.
+
+<P>Explore and observe various environments for both day and night conditions. 
+<H3>
+Directions:</H3>
+Drag the balloon in the following picture to various heights with the mouse.
+The height of the balloon (in meters) will be indicated. The temperatures
+corresponding to the various heights will be used to produce a vertical
+profile of temperature in the accompanying graph. Surface conditions and
+time of day will change the temperature profile. Compare the different
+profiles. You may plot several profiles concurrently to compare differences before clearing the plot.
+
+<CENTER>
+<APPLET CODE="RadiationSim.class"
+        WIDTH=610
+        HEIGHT=334>
+        <PARAM NAME="playAudio" VALUE="TRUE">
+        <PARAM NAME="filePath" VALUE="testing">
+        <PARAM NAME="mode" VALUE="demo">
+</APPLET></CENTER>
+
+
+<P>
+<table>
+<tr>
+<td width=550>&nbsp;</td>
+<td><form><input type="button" value="Return" onClick="javascript:window.close()"></form></td>
+</tr>
+</table>
+</P>
+</BODY>
+</HTML>

@@ -1,0 +1,32 @@
+                                      
+                            <HTML>
+<HEAD><TITLE>DAILY WEATHER SUMMARIES</TITLE></HEAD>
+<BODY BGCOLOR="WHITE">
+<CENTER><B><font color="red"><font size="+2">DAILY WEATHER
+SUMMARIES</font></B></CENTER>
+<BR><BR><BR>
+<DT><IMG SRC="button.gif"><B>May 15, 2000</B></DT>
+<DD>By 18z, there are scattered showers in the northcentral plains and
+the West coast. In the southern plains, there are showers and 
+thunderstorms moving into Missouri Due to a warm front spanning from
+Texas to a low pressure system in Colorado. Ahead of this front, we have
+warm moist air being pumped in from the Gulf. We also have a
+low pressure system moving into the west coast. The eastern US is
+dominated by high pressure from the Ohio valley, eastward. </DD> <BR>
+<DT><IMG SRC="button.gif"><B>May 16, 2000</B></DT>
+<DD>Showers and thunderstorms ahead of a warm front moving into
+Missouri. Showers in the great lakes region. High pressure continues
+to dominate the eastern US. A cold front moving through the Southwest 
+might touch off some Thunderstorms later today into tonight.</DD> <BR>
+<DT><IMG SRC="button.gif"><B>May
+17, 2000</B></DT> <DD>write something here......</DD>
+<BR>
+<DT><IMG SRC="button.gif"><B>May 18, 2000</B></DT>
+<DD>write something here......</DD>
+<BR>
+<DT><IMG SRC="button.gif"><B>May 19, 2000</B></DT>
+<DD>write something here......</DD>
+<BR>
+
+</BODY>
+</HTML>

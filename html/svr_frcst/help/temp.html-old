@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+    <TITLE>Surface and Dew Point Temperature Maps </TITLE>
+</HEAD>
+<BODY BGCOLOR="#e6e0ff">
+<a href=javascript:history.go(-1)>GO BACK</a>
+<CENTER><H1 ALIGN="CENTER">
+<U><FONT SIZE="7">Surface Temperature Map Help Page</FONT></U></H1>
+</CENTER><DL>
+    <DT>
+    <FONT SIZE="4">The surface temperature map shows not only surface 
+    temperature but also wind direction and speed. </FONT>
+    <DD>
+
+</DL>
+<P>
+<IMG SRC="images/18ztmp.JPG"
+ ALIGN="TOP"></P>
+<DL>
+    <DT>
+    A contoured surface temperature map 
+    <DD>
+    <DT>
+
+    <DT>
+    <B><FONT SIZE="4">Surface Temperatures: </FONT></B><FONT SIZE="4">Different 
+    surface temperatures (in degrees </FONT>
+    <DT>
+    <FONT SIZE="4">fahrenheit) are shown by the different colors on 
+    this map. The closer the colors are to red, the warmer the temperatures 
+    are. The different contours are determined by temperature ranges of 5 
+    degrees fahrenheit. </FONT>
+</DL>
+<P>
+<B><FONT SIZE="4">Wind Direction/Speed:</FONT></B><FONT SIZE="4"> The 
+solid black stick like lines on the map represent the wind 
+speed/direction at that location. The direction is determined by where 
+the shorter black line extending from the stick is located. </FONT></P>
+<DL>
+    <DT>
+    <U>Direction</U> 
+    <DD>
+
+    <DD>
+    Stick points to bottom of map = wind from the south 
+    <DD>
+    Stick points to left of map = wind from the west 
+    <DD>
+    Stick points to top of map = wind from the north 
+    <DD>
+    Stick points to right of map = wind from the east 
+    <DT>
+    <U>Speed</U> 
+    <DL>
+        <DT>
+        Wind speed is determined by the number and length of lines 
+        <DD>
+
+        <DT>
+        coming out of the end of the stick. 
+    </DL>
+    <DD>
+
+    <DD>
+    Short line = 5 mph (miles per hour) 
+    <DD>
+    Long line = 10 mph 
+    <DD>
+    Triangle = 50 mph 
+</DL>
+<P>
+</P>
+<DD>
+
+</BODY>
+</HTML>

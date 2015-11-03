@@ -1,0 +1,353 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (WinNT; U) [Netscape]">
+   <TITLE> Radiation Simulation</TITLE>
+
+<script>
+<!---
+tryedIt1 = false;
+function viewAnswer1()
+{
+   if (document.chooseIt1.Option1[3].checked)
+	{
+displayAnswer=window.open("study/1correct.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+tryedIt1=true;
+	}
+
+   else if ((document.chooseIt1.Option1[0].checked)  ||  (document.chooseIt1.Option1[1].checked)  ||  (document.chooseIt1.Option1[2].checked))
+	{
+tryedIt1=true;
+ displayAnswer=window.open("study/1wrong.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+	}
+if (!(document.chooseIt1.Option1[1].checked) && !(document.chooseIt1.Option1[0].checked)  &&  !(document.chooseIt1.Option1[2].checked)  &&  !(document.chooseIt1.Option1[3].checked))
+	alert('Please try to answer the question.');
+}
+//-->
+
+<!---
+tryedIt2 = false;
+function viewAnswer2()
+{
+   if (document.chooseIt2.Option1[1].checked)
+	{
+displayAnswer=window.open("study/2correct.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+tryedIt2=true;
+	}
+
+   else if ((document.chooseIt2.Option1[0].checked)  ||  (document.chooseIt2.Option1[2].checked)  ||  (document.chooseIt2.Option1[3].checked))
+	{
+tryedIt2=true;
+ displayAnswer=window.open("study/2wrong.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+	}
+if (!(document.chooseIt2.Option1[1].checked) && !(document.chooseIt2.Option1[0].checked)  &&  !(document.chooseIt2.Option1[2].checked)  &&  !(document.chooseIt2.Option1[3].checked))
+	alert('Please try to answer the question.');
+}
+//-->
+
+<!---
+tryedIt3 = false;
+function viewAnswer3()
+{
+   if (document.chooseIt3.Option1[2].checked)
+	{
+displayAnswer=window.open("study/3correct.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+tryedIt3=true;
+	}
+
+   else if ((document.chooseIt3.Option1[0].checked)  ||  (document.chooseIt3.Option1[1].checked)  ||  (document.chooseIt3.Option1[3].checked))
+	{
+tryedIt3=true;
+ displayAnswer=window.open("study/3wrong.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+	}
+if (!(document.chooseIt3.Option1[1].checked) && !(document.chooseIt3.Option1[0].checked)  &&  !(document.chooseIt3.Option1[2].checked)  &&  !(document.chooseIt3.Option1[3].checked))
+	alert('Please try to answer the question.');
+}
+//-->
+
+<!-- //  Do not change any of this code between here
+     //  begin textbox check control
+function checkAllabove(field, i) {
+if (i == 3) {
+	for (i = 0; i < 3; i++)
+		field[i].checked = false;
+	}
+else
+	if ((field[0].checked == true) && (field[1].checked == true) && (field[2].checked == true))
+		{
+		field[0].checked = false
+		field[1].checked = false
+		field[2].checked = false
+		field[3].checked = true
+		}
+else
+	if ((field[0].checked == false) || (field[1].checked == false) || (field[2].checked == false))
+		{
+		field[3].checked = false
+		}
+}
+	// end textbox check control
+	// and here
+//-->
+
+<!---
+var tries4=0;
+tryedIt4 = false;
+function viewAnswer4()
+{
+	if (document.allabove.box[3].checked)
+	{ displayAnswer=window.open("study/4correct.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+		tryedIt4=true;
+	}
+  else if (((document.allabove.box[0].checked) || (document.allabove.box[1].checked) || (document.allabove.box[2].checked))  && (tries4 ==1))
+
+	{
+		tryedIt4=true;
+displayAnswer=window.open("study/4wrong2nd.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+		tries4=0;
+	}
+  else if (((document.allabove.box[0].checked) || (document.allabove.box[1].checked) || (document.allabove.box[2].checked))  && (tries4 ==0))
+	{
+		tryedIt4=true;
+displayAnswer=window.open("study/4wrong.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+		tries4=1;
+	}
+if (!(document.allabove.box[0].checked) && !(document.allabove.box[1].checked) && !(document.allabove.box[2].checked) && !(document.allabove.box[3].checked))
+	alert('Please try to answer the question.');
+
+}
+
+//-->
+
+<!--
+var tries5=0;
+function viewNumber5(option, low, high)
+	{
+     if (option.value == "")
+       alert('Please answer the question.')
+     else
+	{
+       if (isNaN(option.value))
+         alert(option.value + ' is not a numeric value')
+       else
+         if (option.value >= low && option.value <= high)
+	{
+displayAnswer=window.open("study/5correct.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+	}
+else if (tries5==1)
+	{		displayAnswer=window.open("study/5wrong2nd.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+
+tries5=2;
+	}
+else
+	{		displayAnswer=window.open("study/5wrong.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+
+tries5=1;
+	}
+
+	}
+	}
+//-->
+
+<!--
+var tries6=0;
+function viewNumber6(option, low, high)
+	{
+     if (option.value == "")
+       alert('Please answer the question.')
+     else
+	{
+       if (isNaN(option.value))
+         alert(option.value + ' is not a numeric value')
+       else
+         if (option.value >= low && option.value <= high)
+	{
+displayAnswer=window.open("study/6correct.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+	}
+else if (tries6==1)
+	{		displayAnswer=window.open("study/6wrong2nd.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+
+tries6=2;
+	}
+else
+	{		displayAnswer=window.open("study/6wrong.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+
+tries6=1;
+	}
+
+	}
+	}
+//-->
+
+<!--
+var tries7=0;
+function viewAnswer7(option1,option2)
+{
+   if ((option1.value == "") || (option2.value == ""))
+
+      alert('Please answer the question.');
+
+   else if ((option1.value.toLowerCase() == 'snow' && option2.value.toLowerCase() == 'snow') || (option1.value.toLowerCase() == 'night' && option2.value.toLowerCase() == 'night'))
+
+      alert('You typed the same condition for both answers.');
+
+   else
+      if ((option1.value.toLowerCase() == 'snow' || option1.value.toLowerCase() == 'night') && (option2.value.toLowerCase() == 'snow' || option2.value.toLowerCase() == 'night'))
+				{
+displayAnswer=window.open("study/7correct.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+				}
+      else
+      if (tries7 == 1)
+				{
+displayAnswer=window.open("study/7wrong2nd.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+      tries7 = 2;
+				}
+      else
+				{
+displayAnswer=window.open("study/7wrong.html","displayAnswer","toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=500,height=150"); displayAnswer.focus()
+      tries7 = 1;
+				}
+			}
+
+// -->
+</script>
+</HEAD>
+<BODY BGCOLOR="#F0F0F0">
+<IMG SRC="media/sun.gif" >
+<CENTER>
+<H1>
+Radiation Balance</H1></CENTER>
+
+<CENTER><IMG SRC="media/rainbow.gif" ></CENTER>
+Various meteorological parameters (temperature, humidity, and wind) above
+the surface of the earth are measured using balloons (radiosondes) twice
+each day at specific locations. The balloons are launched just before 12Z
+(6 AM in Iowa) and 00Z (6 PM). Data for 6 AM reflect conditions from the
+previous night; the 6 PM values represent daytime conditions.
+
+<P>During the fall of 1997, a narrow band of snow fell across the state
+of Iowa. The data in this simulation are based on this event using the
+snow and surrounding surface conditions. We will examine the differing
+effects of the various surface conditions on temperature.
+
+<P>Explore and observe various environments for both day and night conditions.
+<H3>
+Directions:</H3>
+Drag the balloon in the following picture to various heights with the mouse.
+The height of the balloon (in meters) will be indicated. The temperatures
+corresponding to the various heights will be used to produce a vertical
+profile of temperature in the accompanying graph. Surface conditions and
+time of day will change the temperature profile. Compare the different
+profiles. You may plot several profiles concurrently to compare differences before clearing the plot.
+
+<CENTER>
+<APPLET CODE="RadiationSim.class"
+        WIDTH=610
+        HEIGHT=334>
+        <PARAM NAME="playAudio" VALUE="TRUE">
+        <PARAM NAME="filePath" VALUE="testing">
+        <PARAM NAME="mode" VALUE="demo">
+</APPLET></CENTER>
+
+
+<P>
+<FORM name="chooseIt1">
+</center>
+<TABLE><TR>
+<B>Study Question 1</B><BR>
+The correct order of daytime surface temperatures from coldest to warmest is
+<TR><TD VALIGN="TOP"></center><INPUT name="Option1" type="radio">snow, grass, sand, plowed field</TD><td width="50"> </td></TR>
+<TR><TD VALIGN="TOP"></center><INPUT name="Option1" type="radio">snow, sand, grass, plowed field</TD><td> </td></TR>
+<TR><TD VALIGN="TOP"></center><INPUT name="Option1" type="radio">plowed field, grass, sand, snow</TD><td> </td></TR>
+<TR><TD VALIGN="TOP"></center><INPUT name="Option1" type="radio">snow, grass, plowed field, sand</TD><td> </td></TR>
+<TR><TD VALIGN="TOP" COLSPAN=2></center><INPUT name="giveAnswer" type="button" value="Check Answer" onclick="viewAnswer1()"></TD></TR>
+</TABLE>
+</FORM>
+
+
+<P>
+<FORM name="chooseIt2">
+</center>
+<TABLE><TR>
+
+<B>Study Question 2</B><BR>
+The greatest change in surface temperature between day and night occurs over
+<TR><TD VALIGN="TOP"></center><INPUT name="Option1" type="radio">grass</TD><td width="50"> </td></TR>
+<TR><TD VALIGN="TOP"></center><INPUT name="Option1" type="radio">sand</TD><td> </td></TR>
+<TR><TD VALIGN="TOP"></center><INPUT name="Option1" type="radio">snow</TD><td> </td></TR>
+<TR><TD VALIGN="TOP"></center><INPUT name="Option1" type="radio">plowed field</TD><td> </td></TR>
+<TR><TD VALIGN="TOP" COLSPAN=2></center><INPUT name="giveAnswer" type="button" value="Check Answer" onclick="viewAnswer2()"></TD></TR>
+</TABLE>
+</FORM>
+
+<P>
+<FORM name="chooseIt3">
+</center>
+<TABLE><TR>
+
+<B>Study Question 3</B><BR>
+The daytime air at 600 meters is colder than the underlying surface for
+<TR><TD VALIGN="TOP"></center><INPUT name="Option1" type="radio">snow, grass, sand</TD><td width="50"> </td></TR>
+<TR><TD VALIGN="TOP"></center><INPUT name="Option1" type="radio">snow, sand, plowed field</TD><td> </td></TR>
+<TR><TD VALIGN="TOP"></center><INPUT name="Option1" type="radio">sand, grass plowed field</TD><td> </td></TR>
+<TR><TD VALIGN="TOP"></center><INPUT name="Option1" type="radio">grass, plowed field, snow</TD><td> </td></TR>
+<TR><TD VALIGN="TOP" COLSPAN=2></center><INPUT name="giveAnswer" type="button" value="Check Answer" onclick="viewAnswer3()"></TD></TR>
+</TABLE>
+</FORM>
+
+</CENTER><TABLE>
+<FORM name=allabove>
+<B>Study Question 4</B><BR>
+For this period, a large fan would result in warming at the ground at night for which surfaces?
+<TR><TD VALIGN="TOP"></center><INPUT type="checkbox" name="box" onclick="checkAllabove(document.allabove.box, 0)">grass, sand</TD></TR>
+<TR><TD VALIGN="TOP"></center><INPUT type="checkbox" name="box" onclick="checkAllabove(document.allabove.box, 1)">grass, plowed field</TD></TR>
+<TR><TD VALIGN="TOP"></center><INPUT type="checkbox" name="box" onclick="checkAllabove(document.allabove.box, 2)">all but snow</TD></TR>
+<TR><TD VALIGN="TOP"></center><INPUT type="checkbox" name="box" onclick="checkAllabove(document.allabove.box, 3)">All of the above</TD></TR>
+</TABLE>
+</center><INPUT name="giveAnswer" type=button value="Check Answer" onclick="viewAnswer4()">
+<INPUT NAME="clear" TYPE=Reset value="Clear">
+</form>
+
+
+<P>
+<B>Study Question 5</B><BR>
+The boundary layer is the layer next to the ground which experiences diurnal temperature changes. What is your best estimate of the height of the boundary for this period?
+
+<P></center>
+<FORM>
+<INPUT name="NumberD" TYPE="Text" SIZE="5"> m
+<INPUT type=button value="Check Answer" onClick='viewNumber5(NumberD,500,900)'>
+</FORM>
+
+<P>
+<B>Study Question 6</B><BR>
+What is the daytime change in temperature between the surface and 500 m for sand, grass, and plowed field?
+
+<P></center>
+<FORM>
+<INPUT name="NumberD" TYPE="Text" SIZE="5"> <SUP>o</SUP>
+<INPUT type=button value="Check Answer" onClick='viewNumber6(NumberD,8,12)'>
+</FORM>
+
+
+</center><P>
+<B>Study Question 7</B><BR>
+What conditions would produce the coldest temperatures near the ground?
+
+<P>
+<FORM>
+<INPUT TYPE="Text" NAME="Answer1" SIZE="6"><BR>
+<INPUT TYPE="Text" NAME="Answer2" SIZE="6"><BR>
+<INPUT TYPE=Button VALUE="Check Answer" onClick="viewAnswer7(Answer1,Answer2)"><P>
+</FORM>
+
+<P>
+<table>
+<tr>
+<td width=550>&nbsp;</td>
+<td><form><input type="button" value="Return" onClick="javascript:window.close()"></form></td>
+</tr>
+</table>
+
+</BODY>
+</HTML>

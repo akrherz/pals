@@ -1,0 +1,36 @@
+<HTML>
+<HEAD>
+	<TITLE>Administration of ArchiveWx</title>
+</HEAD>
+
+<Body bgcolor="white">
+
+<center><H1>Administrative Access to PALS Archivewx</H1></center>
+
+<form method = "post" action = "/cgi-bin/archivewx/adm/index.py">
+
+<select name="page">
+<option value="severe.py">Complete Answer Keys for Severe Forecast Days
+<option value="annote.py">Edit Annotations
+<option value="hourly.py">Edit Hourly Reports for Severe Weather Forecast Days
+</select>
+<H3>Enter your password:</H3>
+<input type="password" name="password">
+<BR>
+<input type="submit" value="enter">
+
+</form>
+
+<HR><HR>
+<H2>Access currently unfinished forecast days:</H2>
+<BR><a href="/cgi-bin/archivewx/HTML_SRC/index.py?day=jun291998">June 29, 1998</a>
+<BR><a href="/cgi-bin/archivewx/HTML_SRC/index.py?day=jul011998">July 1, 1998</a>
+<BR><a href="/cgi-bin/archivewx/HTML_SRC/index.py?day=jul021998">July 2, 1998</a>
+<BR><a href="/cgi-bin/archivewx/HTML_SRC/index.py?day=jul031998">July 3, 1998</a>
+<BR><a href="/cgi-bin/archivewx/HTML_SRC/index.py?day=jun181998">June 18, 1998</a>
+<BR><a href="/cgi-bin/archivewx/HTML_SRC/index.py?day=jun281998">June 28, 1998</a>
+<BR><a href="/cgi-bin/archivewx/HTML_SRC/index.py?day=jun291998">June 29, 1998</a>
+<BR><a href="/cgi-bin/archivewx/HTML_SRC/index.py?day=jun301998">June 30, 1998</a>
+
+</body>
+</html>

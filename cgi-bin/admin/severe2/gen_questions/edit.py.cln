@@ -1,0 +1,60 @@
+#!/usr/local/bin/python
+# This program changes db stuff
+# Daryl Herzmann 8-16-99
+
+import cgi, pg, style, time, string
+
+mydb = pg.connect('severe2', 'localhost', 5555)
+
+def get_question(intval):
+	entry = mydb.query("SELECT * from intquestions WHERE intval = '"+intval+"' ").dictresult()
+	return entry
+	
+def mk_option(letter, optionval):
+	print '<BR><BR>Option '+letter+' '
+#	print '<input type="text" size="100" name="option'+letter+'" value="'+optionval+'">'		
+	print '<textarea cols="80" rows="2" name="option'+string.lower(letter)+'" WRAP>'+optionval+'</textarea>'		
+
+
+def Main():
+	form = cgi.FormContent()
+	intval = form["intval"][0]
+
+	style.header("Edit answer for Generic Question", "white")
+
+	quest = get_question(intval)
+
+	print '<H3>This is Question number '+intval+'</H3>'
+
+	question = quest[0]["question"]
+	optiona = quest[0]["optiona"]
+	optionb = quest[0]["optionb"]
+	optionc = quest[0]["optionc"]
+	optiond = quest[0]["optiond"]
+	optione = quest[0]["optione"]
+	optionf = quest[0]["optionf"]
+	optiong = quest[0]["optiong"]
+	optionh = quest[0]["optionh"]
+
+	print '<form method="POST" action="change.py">'
+	print '<input type="hidden" value="'+intval+'" name="intval">'
+
+	print '<B>Edit this question:</B><BR>'
+	print '<textarea name="question" WRAP cols="80" rows="3">'+question+'</textarea><BR>'
+
+	print '<B>Enter the options:</B><BR>'
+	mk_option("A", optiona)
+	mk_option("B", optionb)
+	mk_option("C", optionc)
+	mk_option("D", optiond)
+	mk_option("E", optione)
+	mk_option("F", optionf)
+	mk_option("G", optiong)
+	mk_option("H", optionh)
+
+	print '<BR><BR>'
+	print '<input type="submit" value="SUBMIT">'
+
+	print '</form>'
+
+Main()

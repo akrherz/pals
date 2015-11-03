@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+<TITLE>Memops</TITLE>
+<!-- Randall W. Bower, 6/21/1997 -->
+</HEAD>
+
+<BODY bgcolor="white">
+
+<CENTER>
+  <H3>Memops: An Introduction to Memory Operations</H3>
+</CENTER>
+<HR>
+
+An example of the <b>visible memory</b> is shown below: <br>
+<CENTER>
+  <APPLET CODE="VisibleDemo.class" width=240 height=216></APPLET>
+</CENTER>
+
+<P>
+In performing the exercises on the visible memory, you must use the <b>load</b>
+command.  The command loads values into one location from another.
+  
+The <b>load</b> command shown below would <b>copy</b> the value which is in location
+X[1] into location Z:
+<pre>
+  load z with x[1]
+</pre>
+Note carefully the form of the command.  Brackets <b>[ ]</b> and <b>spaces</b> are
+important.  An <b>l</b> can be typed instead of the word <b>load</b> and a <b>w</b>
+can be typed instead of the word <b>with</b>.
+
+<P>
+Here are a few more <b>examples</b> of the <b>load</b> command:
+<pre>
+  load x[2] with x[5]
+  load x[3] with z
+</pre>
+Remember, you must press Return after typing a command to have it executed!
+
+<P>
+<a href="index.html#MainMenu">Main Menu</a>
+<a href="Ex1.html">Next Exercise</a>
+
+<HR>
+</BODY>
+</HTML>
+

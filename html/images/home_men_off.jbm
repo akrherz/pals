@@ -1,0 +1,102 @@
+#Inventor V2.1 ascii
+
+DEF BM_Root Separator {
+  CoBMRenderOptions {
+    aastring	"low"
+  }
+  DEF LightGroup Group {
+    PointLight {
+      on	TRUE
+      location	-71.5294 -1.74473 103.377
+    }
+    DirectionalLight {
+      on	TRUE
+      direction	-0.890792 0.291452 -0.348633
+    }
+  }
+  OrthographicCamera {
+    position	-73.822 6.794 51.9722
+    aspectRatio	1.70115
+    nearDistance	51.9202
+    farDistance	57.9301
+    focalDistance	53.601
+    height	97.8393
+  }
+  DEF BackgroundColor Info {
+    string	"0.75 0.75 0.75"
+  }
+  Material {
+    diffuseColor	1 1 1
+  }
+  DEF theObject Separator {
+    Material {
+      ambientColor	0.2 0.2 0.2 ~
+      diffuseColor	1 1 1 ~
+      specularColor	0 0 0 ~
+      emissiveColor	0 0 0 ~
+      shininess	0.2 ~
+      transparency	0 ~
+    }
+    DEF _0 CoTextGraph {
+      textType	1
+      string	"PALS Home"
+      fontName	"Bookman-Light;HonMinchoLtBT--H;HonMinchoLtBT--Hankaku"
+      fontStyle	      FontStyle {
+	size	18
+	style	""
+	justify	"END"
+	spacing	1
+      }
+
+      isBeveled	FALSE
+      bevelCoords	[ 0 0,
+	        3 1.5,
+	        9 1.5,
+	        12 0 ]
+    }
+  }
+  Separator {
+    Material {
+      ambientColor	0.0132503 0.0625526 0.0797636
+      diffuseColor	0.0510601 0.241047 0.30737
+      specularColor	0.0551487 0.0810796 0.207447
+      emissiveColor	0 0 0
+      shininess	0.0319149
+      transparency	0
+    }
+    DEF Banner CoMultiButton {
+      leftMargin	0.4
+      rightMargin	0.4
+      topMargin	0.5
+      bottomMargin	0.3
+      resizePolicy	"constant"
+      width	161
+      height	25
+      geometry	      Separator {
+	Transform {
+	  translation	-73.822 6.794 -3.39999
+	  scaleFactor	80.4997 12.5 12.5
+	}
+	Switch {
+	  whichChild	0
+	  Separator {
+	    Scale {
+	      scaleFactor	1 1 0.2
+	    }
+	    Complexity {
+	      value	1
+	    }
+	    Rotation {
+	      rotation	0 0 1  1.5708
+	    }
+	    Cylinder {
+	    }
+	  }
+	}
+      }
+
+      attachTo	      USE _0
+
+    }
+  }
+}

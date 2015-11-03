@@ -1,0 +1,13 @@
+/home/httpd/html/c2w/fire
+/home/httpd/html/c2w/acsse
+/home/httpd/html/c2w/forecast
+/home/httpd/html/c2w/satellite1
+/home/httpd/html/c2w/satellite2
+/home/httpd/html/c2w/csm
+/home/httpd/html/c2w/hydro
+/home/httpd/html/c2w/marine1
+/home/httpd/html/c2w/marine2
+/home/httpd/html/archivewx/CD
+/home/httpd/html/archivewx/data
+/home/httpd/html/archivewx/data_days
+/home/httpd/oldhtml

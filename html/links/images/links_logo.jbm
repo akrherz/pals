@@ -1,0 +1,100 @@
+#Inventor V2.1 ascii
+
+DEF BM_Root Separator {
+  CoBMRenderOptions {
+    aastring	"low"
+  }
+  DEF LightGroup Group {
+    DirectionalLight {
+      on	TRUE
+      intensity	0.724138
+      direction	-0.09723 -0.63356 -0.76756
+    }
+    DirectionalLight {
+      on	TRUE
+      intensity	0.301724
+      direction	-0.168078 0.743599 -0.647156
+    }
+  }
+  OrthographicCamera {
+    position	-0.197998 6.58 51.9722
+    aspectRatio	1.70115
+    nearDistance	51.9202
+    farDistance	74.0461
+    focalDistance	53.601
+    height	158.609
+  }
+  DEF BackgroundColor Info {
+    string	"0.75 0.75 0.75"
+  }
+  Material {
+    diffuseColor	1 1 1
+  }
+  DEF theObject Separator {
+    Material {
+      ambientColor	0.00892394 0.00892394 0.00892394
+      diffuseColor	0.042835 0.042835 0.042835
+      specularColor	0.113468 0.109578 0.156265
+      emissiveColor	0 0 0
+      shininess	0.0638298
+      transparency	0
+    }
+    DEF _0 CoTextGraph {
+      textType	1
+      string	[ "Links",
+	        " " ]
+      fontName	"Palatino-Roman;HonMinchoLtBT--H;HonMinchoLtBT--Hankaku"
+      fontStyle	      FontStyle {
+	size	36
+	justify	"MIDDLE"
+	spacing	1
+      }
+
+      isBeveled	FALSE
+    }
+  }
+  Separator {
+    Material {
+      ambientColor	0.2 0.2 0.2
+      diffuseColor	0.8 0.8 0.8
+      specularColor	0 0 0
+      emissiveColor	0 0 0
+      shininess	0.2
+      transparency	0
+    }
+    DEF Banner CoMultiButton {
+      leftMargin	0.4
+      rightMargin	0.4
+      topMargin	0.5
+      bottomMargin	1.2
+      resizePolicy	"constant"
+      width	261
+      height	101
+      geometry	      Separator {
+	Transform {
+	  translation	-0.198 6.58 -11.9
+	  scaleFactor	130.5 50.4998 50.4998
+	}
+	Switch {
+	  whichChild	0
+	  Separator {
+	    Scale {
+	      scaleFactor	1 1 0.2
+	    }
+	    Complexity {
+	      value	1
+	    }
+	    Rotation {
+	      rotation	0 0 1  1.5708
+	    }
+	    Cylinder {
+	    }
+	  }
+	}
+      }
+
+      attachTo	      USE _0
+
+    }
+  }
+}

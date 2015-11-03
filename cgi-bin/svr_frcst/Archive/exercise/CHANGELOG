@@ -1,0 +1,59 @@
+# This is the ChangeLog for the General Exercise
+Version 1.06 ---------------------------------------------
+3-29-2000:
+	Change things all around to make for "new" look.
+
+Version 1.05 -------- 3-26-2000 ---------------------------------
+3-8-2000:
+	brad found MAJOR time errors, make me think that I need 
+more sleep.
+
+2-22-2000:
+	Brought back BASE HREF tags that are very important
+to making the annotations run correctly.
+
+	Got rid of anti-Internet Explorer tags, ex) <MULTICOL)
+eventhough it is HTML 4.0 complient.
+
+
+Version 1.04 -------- 2-19-2000 ---------------------------------
+2-19-2000:
+	Added in the case introduction, now they are seperate.
+
+	Cleaned up sections on the pages...
+
+2-10-2000: 
+	Added the pop-up menu for the help topics...
+
+Version 1.03 -------- 2-6-2000 --------------------------------
+2-6-2000:
+	Changed to using the nowrad radar in stead of the NAT
+suffix.
+
+
+Version 1.02 -------- 2-1-2000 --------------------------------
+2-1-2000:
+	Numerous Code fix-ups. 
+
+	Changed over to new look of the exercise, just like the
+current one for the advanced version...
+
+
+---------------------------------------------------------------
+Version 1.01 -------- 1-18-2000 -------------------------------
+1-18-2000:
+	Fix why bonus points were not showing up, also testing
+an "from functs import *".
+
+	Added col grade_secs in table users to help out with the
+authentification.
+
+
+12-11-99:
+	Added a nice preview of what will happen during at nooon
+
+11-29-99:
+	Added scriptBase variables to make good cvs 
+
+
+---------------------------------------------------------------

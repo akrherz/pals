@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+    <META NAME="Generator" CONTENT="Cosmo Create 1.0.3">
+</HEAD>
+<BODY BGCOLOR="#e6e0ff">
+<a href=javascript:history.go(-1)>GO BACK</a>
+<CENTER><H3 ALIGN="CENTER">
+<U><FONT SIZE="7">Dew Point Temperature Map Help Page</FONT></U></H3>
+</CENTER><DL>
+    <DT>
+    <FONT SIZE="4">The dew point temperature map shows not only surface</FONT>
+     
+    <DD>
+
+    <DT>
+    <FONT SIZE="4">dew point temperature but also wind direction and 
+    speed.</FONT> 
+</DL>
+<P>
+<IMG SRC="jpg/18zdwpt.JPG" SGI_SRC_INVALID
+ ALIGN="TOP" WIDTH="511" HEIGHT="347"
+ SGI_SRC="/disk3/users/bross/jpg/18zdwpt.JPG"
+ SGI_NATIVE_SRC="/disk3/users/bross/jpg/18zdwpt.JPG"></P>
+<P>
+A contoured surface dew point temperature map</P>
+<P>
+<B><FONT SIZE="4">Surface Dew Point Temperature: </FONT></B><FONT
+ SIZE="4">Different dew point temperatures (in degrees fahrenheit) are 
+shown by the different colors on this map. The closer the colors are to 
+red, the higher the dew point will be and thus the more moist the area 
+is. The different countours are determined by dew point temperature 
+ranges of 5 degrees fahrenheit. </FONT></P>
+<P>
+<B><FONT SIZE="4">Wind Direction/Speed: </FONT></B><FONT SIZE="4">The 
+solid black stick like lines on the map represent the wind 
+speed/direction at that location. The direction is determined by where 
+the shorter black line extending from the stick is located. </FONT></P>
+<DL>
+    <DT>
+    <U>Direction</U> 
+    <DD>
+
+    <DD>
+    Stick points to bottom of map = wind from the south 
+    <DD>
+    Stick points to left of map = wind from the west 
+    <DD>
+    Stick points to top of map = wind from the north 
+    <DD>
+    Stick points to right of map = wind from the east 
+    <DT>
+    <U>Speed</U> 
+    <DL>
+        <DT>
+        Wind speed is determined by the number and length of lines 
+    </DL>
+    <DD>
+    coming out of the end of the stick. 
+    <DD>
+
+    <DD>
+    Short line = 5 mph (miles per hour) 
+    <DD>
+    Long line = 10 mph 
+    <DD>
+    Triangle = 50 mph 
+</DL>
+<P>
+</P>
+<P>
+</P>
+<P>
+<B><FONT SIZE="4">Helpful Questions and Answers:</FONT></B></P>
+<UL>
+    <LI>
+    What is a good dew point level for severe weather?
+    <LI>
+    <B>For severe weather, dew points of 60s and 70s are generally good 
+    values to look for in the Summer. During the Spring, dew point values 
+    can be in the 50s and 60s.</B>
+    <LI>
+
+    <LI>
+    What does it mean when there is a sharp change in dew point values? For 
+    example, dew point levels are 65 degrees in central Texas, but only 45 
+    in west Texas and New Mexico.
+    <LI>
+    <B>When there is a sharp change in dew point levels close to each 
+    other, it means there is either a cold front or a dryline causing the 
+    gradient. This is a good thing to look for when predicting severe 
+    weather, as storms tend to form along fronts and drylines. A dryline is 
+    just a boundary separating dry air from moist air.</B>
+    <LI>
+
+    <LI>
+    What does it mean when the winds are from the south on the dew point 
+    map?
+    <LI>
+    <B>When winds are pointing from the south, it means moisture is 
+    advecting up from the Gulf of Mexico and dew points should begin to 
+    rise. </B>
+    <LI>
+
+    <LI>
+    What does it mean when the winds are from the north on the dew point 
+    map?
+    <LI>
+    <B>When winds are pointing from the north, it means dry air is 
+    moving into the region and dew points may decrease.</B>
+    <LI>
+
+</UL>
+</BODY>
+</HTML>
