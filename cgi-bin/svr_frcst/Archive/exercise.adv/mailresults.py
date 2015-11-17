@@ -5,7 +5,7 @@
 from functs import *
 import posix
 
-SENDTO = "akrherz@iastate.edu"
+SENDTO = "akrherz+pals@iastate.edu"
 
 def Main(ldb, secs, key, case_num, str_date, forecast_pts, bonus_pts, className):
 	usersTable = "users"
