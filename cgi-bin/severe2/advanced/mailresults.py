@@ -7,7 +7,7 @@ import posix, functs, mx.DateTime, pg, time, regsub, os, string
 tmpdb = pg.connect('severe2_tmp', 'localhost', 5432)
 advdb = pg.connect('severe2_adv', 'localhost', 5432)
 
-SENDTO = "akrherz@iastate.edu"
+SENDTO = "akrherz+pals@iastate.edu"
 
 def Main(userKey, caseNum, forecast_pts, bonus_pts, className):
 
