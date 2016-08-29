@@ -29,8 +29,8 @@ def Main():
 
 	now_tuple = time.localtime( int(float(secs)) )
 
-	cor_filename = time.strftime("/home/httpd/html/archivewx/data/%Y_%m_%d/ans%y%m%d%H.html", now_tuple) 
-	wro_filename = time.strftime("/home/httpd/html/archivewx/data/%Y_%m_%d/answ%y%m%d%H.html", now_tuple) 
+	cor_filename = time.strftime("/home/www/pals/html/archivewx/data/%Y_%m_%d/ans%y%m%d%H.html", now_tuple) 
+	wro_filename = time.strftime("/home/www/pals/html/archivewx/data/%Y_%m_%d/answ%y%m%d%H.html", now_tuple) 
 	base_ref = time.strftime("http://www.pals.iastate.edu/archivewx/data/%Y_%m_%d/", now_tuple)
 	print '<base href="'+base_ref+'">'
 

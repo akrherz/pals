@@ -1,4 +1,4 @@
-AuthUserFile /home/httpd/.security/passwd
+AuthUserFile /home/www/pals/.security/passwd
 AuthGroupFile /dev/null
 AuthName Administrative
 AuthType Basic

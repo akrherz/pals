@@ -6,8 +6,8 @@ import cgi, style, os, string
 from pgext import *
 
 image_href = "http://www.pals.iastate.edu/carlson/images/"
-images_dir = "/home/httpd/html/carlson/images/"
-html_dir = "/home/httpd/html/carlson"
+images_dir = "/home/www/pals/html/carlson/images/"
+html_dir = "/home/www/pals/html/carlson"
 
 mydb = connect('carlson')
 

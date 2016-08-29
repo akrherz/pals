@@ -10,8 +10,8 @@ from cgi import *
 dirname = tempfile.mktemp()                     # Create a directory name via tempfile module
 dirname = dirname[-5:-2] + dirname[-1:] 
 
-iowa_gif_src = "/home/httpd/html/campbell/src/iowa.gif"
-iowa_gif_out = "/home/httpd/html/campbell/hist/tmp/"+dirname+".gif"
+iowa_gif_src = "/home/www/pals/html/campbell/src/iowa.gif"
+iowa_gif_out = "/home/www/pals/html/campbell/hist/tmp/"+dirname+".gif"
 iowa_gif_href = "/campbell/hist/tmp/"+dirname+".gif"
 
 def mk_image(im):

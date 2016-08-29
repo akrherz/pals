@@ -283,7 +283,7 @@ def Main():
 
 
 
-	fileRef = "/home/httpd/html/archivewx/cases/results/"+caseNum+".gif"
+	fileRef = "/home/www/pals/html/archivewx/cases/results/"+caseNum+".gif"
 	if os.path.isfile(fileRef):
 		print '<img src="http://www.pals.iastate.edu/archivewx/cases/results/'+caseNum+'.gif">'
 	else:

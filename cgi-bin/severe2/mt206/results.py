@@ -270,19 +270,13 @@ def Main():
         print '<TABLE bgcolor="#EEEEEE" border="0" cellpadding="2" width="100%">'
         print '<TR><TD><font color="blue" size="4" face="ARIAL"><B>Graphical Representation:</B></font></TD></TR>'
         print '<TR><TD bgcolor="white" align="center">'
-        fileRef = "/home/httpd/html/archivewx/cases/results/"+caseNum+".gif"                
+        fileRef = "/home/www/pals/html/archivewx/cases/results/"+caseNum+".gif"                
         if os.path.isfile(fileRef):
                 print '<img src="http://www.pals.iastate.edu/archivewx/cases/results/'+caseNum+'.gif">'                
         else:
 #               print fileRef+" Not found<BR>"
                 print 'Visual image for today is not available'
 
-#	fileRef = "/home/httpd/html/archivewx/data/"+std_date+"/svr"+std_date+".gif"
-#        if os.path.isfile(fileRef):
-#                print '<img src="http://www.pals.iastate.edu/archivewx/data/'+std_date+'/svr'+std_date+'.gif">'
-#        else:
-#               print fileRef+" Not found<BR>"
-#                print 'Visual image for today is not available'
 
 	print '</TD></TR></TABLE>'
         print '</TD></TR></TABLE>'

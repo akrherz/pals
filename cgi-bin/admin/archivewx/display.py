@@ -5,7 +5,7 @@
 import os, posix, style
 from cgi import *
 
-data_src = '/home/httpd/html/archivewx/data/'
+data_src = '/home/www/pals/html/archivewx/data/'
 url_ref = 'http://www.pals.iastate.edu/archivewx/data/'
 
 def checker(passwd):

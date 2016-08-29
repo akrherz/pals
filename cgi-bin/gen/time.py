@@ -4,7 +4,7 @@
 
 import gd, cgi
 
-base_pic = '/home/httpd/html/src/time.gif'
+base_pic = '/home/www/pals/html/src/time.gif'
 
 def Main():
 	form = cgi.FormContent()

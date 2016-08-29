@@ -105,13 +105,13 @@ def create_time(year, month, day, hour, minute):
 
 
 def mk_data_link2(file, thumbnail, string_txt, i, hour_time):
-	if os.path.isfile('/home/httpd/html/'+file):
+	if os.path.isfile('/home/www/pals/html/'+file):
 		print '<a href="/cgi-bin/svr_frcst/general/picture.py?file='+file+'" target="_new"> '+hour_time+'</a><BR>'
 	else:
 		print "Missing"
 
 def mk_data_link(file, thumbnail, string_txt):
-	if os.path.isfile('/home/httpd/html/'+file):
+	if os.path.isfile('/home/www/pals/html/'+file):
 		print '<a href="/cgi-bin/svr_frcst/general/picture.py?file='+file+'" target="_new">'+string_txt+'</a><BR>'
 
 def mk_row_data(orig_secs, prefix, suffix, icon_ref, title, multipler):

@@ -22,7 +22,7 @@ def which_hours():
 def which_days():
 	print '<H3>on this day <spacer type="horizontal" size="50">'
 	print '<select name="day">'
-	files = posix.listdir('/home/httpd/html/archivewx/data')
+	files = posix.listdir('/home/www/pals/html/archivewx/data')
 	files.sort()
 	for file in files:
 		try:

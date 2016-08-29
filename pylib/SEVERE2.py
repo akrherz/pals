@@ -361,7 +361,7 @@ def makeData(nowDate, userKey, caseNum = "s12" , multipler = 1, version = 'a'):
 
 
 def mk_data_link2(file, string_txt, i, hour_time, randString):
-	if os.path.isfile('/home/httpd/html/'+file):
+	if os.path.isfile('/home/www/pals/html/'+file):
 		print '\t<a href="javascript:launchURL(\'/cgi-bin/severe2/resource/getPic.py?file='+file+'\', \'wxdata'+randString+'\', 720, 640)">'
 		print '\t<img src="/icons/g.gif" border="0" hspace=0 vspace=0></a>'
 		return 1
@@ -371,14 +371,14 @@ def mk_data_link2(file, string_txt, i, hour_time, randString):
 
 def mkTDlink(file,  string_txt, randString):
 	print '<TD>'
-	if os.path.isfile('/home/httpd/html/'+file):
+	if os.path.isfile('/home/www/pals/html/'+file):
 		print '\t<a href="javascript:launchURL(\'/cgi-bin/severe2/resource/getPic.py?file='+file+'\', \'wxdata'+randString+'\', 720, 640)">'+string_txt+'</a>'
 	else:
 		print '\t'+string_txt
 	print '</TD>'
 
 def mk_data_link(file,  string_txt, randString):
-	if os.path.isfile('/home/httpd/html/'+file):
+	if os.path.isfile('/home/www/pals/html/'+file):
 		print '<BR><a href="javascript:launchURL(\'/cgi-bin/severe2/resource/getPic.py?file='+file+'\', \'wxdata'+randString+'\', 720, 640)">'+string_txt+'</a>'
                 
                 

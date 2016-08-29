@@ -4,7 +4,7 @@
 
 import cgi, style, os, time
 
-DATA_DIR = '/home/httpd/html/archivewx/data/'
+DATA_DIR = '/home/www/pals/html/archivewx/data/'
 HREF = '/archivewx/data/'
 
 vals = ("temp","dew", "NAT", "moist","cape",'tpw','li','light','850mb','700mb','500VORT','500mb','300mb','200mb','1000m','3000m','5600m','9000m','sat')

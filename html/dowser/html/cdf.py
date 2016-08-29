@@ -3,22 +3,22 @@
 import posix, os, sys, posixpath, string
 
 def Main():
-	localfile = open('/home/httpd/html/dowser/html/cdf.txt','w')
+	localfile = open('/home/www/pals/html/dowser/html/cdf.txt','w')
 	comp = localfile.read()
-	files = posix.listdir('/home/httpd/html/dowser/')
-	os.chdir('/home/httpd/html/dowser/')
+	files = posix.listdir('/home/www/pals/html/dowser/')
+	os.chdir('/home/www/pals/html/dowser/')
 	dirs = []
 	paths = []
 	for i in range(len(files)):
 		file = files[i]
 		if posixpath.isdir(file):
-			os.chdir('/home/httpd/html/dowser/'+file+'/')		
+			os.chdir('/home/www/pals/html/dowser/'+file+'/')		
 			hello = posix.getcwd()
 			refs = posix.listdir(hello)
 			for it in range(len(refs)):
 				ref = refs[it]
 				paths.append(hello+"/"+ref)
-			os.chdir('/home/httpd/html/dowser/')	
+			os.chdir('/home/www/pals/html/dowser/')	
 	
 	
 	print comp

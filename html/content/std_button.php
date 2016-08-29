@@ -4,7 +4,7 @@
 	}
 
 #	$gif = ImageCreate(125,30);
-	$gif = ImageCreateFromGif("/home/httpd/html/campbell/src/iowa.gif");
+	$gif = ImageCreateFromGif("/home/www/pals/html/campbell/src/iowa.gif");
 
 #	$bg = ImageColorTransparent($gif,1); 
 

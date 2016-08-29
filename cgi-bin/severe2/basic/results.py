@@ -273,7 +273,7 @@ def Main():
         print '<TR><TD bgcolor="white" align="center">'
 
 
-	fileRef = "/home/httpd/html/archivewx/cases/results/"+caseNum+".gif"
+	fileRef = "/home/www/pals/html/archivewx/cases/results/"+caseNum+".gif"
         if os.path.isfile(fileRef):
                 print '<img src="/archivewx/cases/results/'+caseNum+'.gif">'
         else:

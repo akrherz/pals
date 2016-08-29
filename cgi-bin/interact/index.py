@@ -17,7 +17,7 @@ home = "http://www.pals.iastate.edu/cgi-bin/interact/index.py?user="
 home = home + user
 base = "http://www.pals.iastate.edu/cgi-bin/interact/index.py"
 point_image = '<img src="http://www.pals.iastate.edu/images/point_02.gif">'
-prefix = "/home/httpd/html/"
+prefix = "/home/www/pals/html/"
 
 def menuloader():
 	print '<center>'

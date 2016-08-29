@@ -27,7 +27,7 @@ def menuloader():
 	print '</center>'
 
 def urlloader(target):
-	prefix = "/home/httpd/html/"
+	prefix = "/home/www/pals/html/"
 	if target == "c2w":
 		ctwloader()
 	else:	 

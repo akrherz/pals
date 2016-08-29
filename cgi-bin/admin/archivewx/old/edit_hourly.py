@@ -29,7 +29,7 @@ def get_entry():
 	return entries
 
 def avail(day):
-	files = posix.listdir('/home/httpd/html/archivewx/data/'+day)
+	files = posix.listdir('/home/www/pals/html/archivewx/data/'+day)
 	files.sort()
 	print '<H3>Available files to link in:</H3>'
 	print '<form name="two">'
