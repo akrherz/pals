@@ -11,7 +11,7 @@ def Main():
 	style.header(file, "white")
 
 	print '<P align="right">'
-	print '<a href="#" onClick="top.close();return false;"><img src="/gen/header.php3?label=Close%20Window&font_size=20" border="0"></a>'
+	print '<a href="#" onClick="top.close();return false;"><img src="/gen/header.php?label=Close%20Window&font_size=20" border="0"></a>'
 
 	test = os.path.split(file)
 	
@@ -35,7 +35,7 @@ def Main():
 	print '<BR><IMG SRC="'+file+'">'
 
 	print '<BR><P align="right">'
-	print '<a href="#" onClick="top.close();return false;"><img src="/gen/header.php3?label=Close%20Window&font_size=20" border="0"></a>'
+	print '<a href="#" onClick="top.close();return false;"><img src="/gen/header.php?label=Close%20Window&font_size=20" border="0"></a>'
 
 	style.std_bot()
 

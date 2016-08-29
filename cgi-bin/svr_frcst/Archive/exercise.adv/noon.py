@@ -118,7 +118,7 @@ def Main():
 		<TH bgcolor="#EEEEEE">Submit Your Forecast:</TH></TR>
 	<TR>
 		<TD align="CENTER">
-		<BR><BR><input type="IMAGE" src="/gen/hour.php3?label=Submit%20Forecast&font_size=25" BORDER="0">
+		<BR><BR><input type="IMAGE" src="/gen/hour.php?label=Submit%20Forecast&font_size=25" BORDER="0">
 		<input type="reset">
 		</TD></TR>
 

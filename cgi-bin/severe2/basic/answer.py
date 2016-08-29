@@ -25,7 +25,7 @@ def Main():
 	nowDate = mx.DateTime.ISO.ParseDateTimeGMT(lastTime)
 	nowTuple = nowDate.tuple()
 	 
-	base_ref = time.strftime("http://www.pals.iastate.edu/archivewx/data/%Y_%m_%d/", nowTuple)
+	base_ref = time.strftime("/archivewx/data/%Y_%m_%d/", nowTuple)
 	print '<base href="'+base_ref+'">'
 
 

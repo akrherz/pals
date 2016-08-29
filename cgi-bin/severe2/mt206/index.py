@@ -55,10 +55,10 @@ def Main():
 	print '<CENTER>'
 	if caseNum[0] == "s":
 		cgiValues = 'caseNum='+caseNum+'&secs='+str(int(start_secs)+3600)+'&key='+str(key)
-		print '<a href="hourly_pre.py?'+cgiValues+'"><img src="/gen/hour.php3?label=Click%20To%20Start&font_size=25" border="0"></a>'
+		print '<a href="hourly_pre.py?'+cgiValues+'"><img src="/gen/hour.php?label=Click%20To%20Start&font_size=25" border="0"></a>'
 	else:
 		cgiValues = 'caseNum='+caseNum+'&secs='+str(start_secs)+'&key='+str(key)
-		print '<a href="hourly_pre.py?'+cgiValues+'"><img src="/gen/hour.php3?label=Click%20To%20Start&font_size=25" BORDER="0"></a>'
+		print '<a href="hourly_pre.py?'+cgiValues+'"><img src="/gen/hour.php?label=Click%20To%20Start&font_size=25" BORDER="0"></a>'
 
 	print '</CENTER>'
 	functs.svrBot()

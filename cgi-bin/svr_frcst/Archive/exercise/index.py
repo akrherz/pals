@@ -45,10 +45,10 @@ def Main():
 	print '<CENTER>'
 	if caseNum[0] == "s":
 		print '<a href="hour.py?userKey='+str(userKey)+'">'
-		print '<img src="/gen/hour.php3?label=Click%20To%20Start&font_size=25" BORDER="0"></a>'
+		print '<img src="/gen/hour.php?label=Click%20To%20Start&font_size=25" BORDER="0"></a>'
 	else:
 		print '<a href="hour.py?userKey='+str(userKey)+'">'
-		print '<img src="/gen/hour.php3?label=Click%20To%20Start&font_size=25" BORDER="0"></a>'
+		print '<img src="/gen/hour.php?label=Click%20To%20Start&font_size=25" BORDER="0"></a>'
 
 	print '</CENTER>'
 

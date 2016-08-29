@@ -45,10 +45,10 @@ def mk_before(caseNum, key):
                         icon_ref = int(time.strftime("%H", now_tuple ))
                         icon_ref = str(icon_ref)+"%20Z"
 #                        print '<a href="'+scriptBase+'/hourly_pre.py?caseNum='+caseNum+'&secs='+str(this_time)+'&key='+str(key)+'">'
-#                        print '<img src="/gen/hour.php3?label='+icon_ref+'&font_size=25" border="0"></a>'
+#                        print '<img src="/gen/hour.php?label='+icon_ref+'&font_size=25" border="0"></a>'
                 elif this_time == noon_secs:
                         print '<a href="'+scriptBase+'/noon.py?key='+str(key)+'&caseNum='+caseNum+'&secs='+str(next_secs)+'">'
-                        print '<img src="/gen/hour.php3?label=Make%20Forecast&font_size=25" border="0"></a>'
+                        print '<img src="/gen/hour.php?label=Make%20Forecast&font_size=25" border="0"></a>'
                         noMore = 1
                         break
         if not noMore:

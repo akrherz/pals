@@ -47,7 +47,7 @@ good luck!
 
 	print '<CENTER>'
 	cgiValues = 'userKey='+str(userKey)
-	print '<a href="/cgi-bin/severe2/advanced/hour.py?'+cgiValues+'"><img src="/gen/hour.php3?label=Click%20To%20Start&font_size=25" border="0"></a>'
+	print '<a href="/cgi-bin/severe2/advanced/hour.py?'+cgiValues+'"><img src="/gen/hour.php?label=Click%20To%20Start&font_size=25" border="0"></a>'
 	print '</CENTER>'
 	SEVERE2.finishPage("advanced")
 

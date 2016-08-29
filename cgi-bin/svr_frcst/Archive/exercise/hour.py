@@ -8,7 +8,7 @@ from functs import *
 def navigation(userKey):
         print '<H2><img src="/icons/ball.red.gif" align="bottom"><font color="#a0522d">Navigation:</font></H2>'
 	print '<CENTER>'
-        print '<a href="hour.py?userKey='+str(userKey)+'"><img src="/gen/hour.php3?label=Next%20Hour&font_size=25" BORDER="0"></a>.'
+        print '<a href="hour.py?userKey='+str(userKey)+'"><img src="/gen/hour.php?label=Next%20Hour&font_size=25" BORDER="0"></a>.'
 	print '</CENTER>'
 
 def next_hour(caseNum, secs):

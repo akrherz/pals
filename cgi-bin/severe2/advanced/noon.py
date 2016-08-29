@@ -85,7 +85,7 @@ def Main(userKey, caseNum):
 
         print '<TR><TH bgcolor="#EEEEEE">Submit Your Forecast:</TH></TR>'
         print '<TR><TD align="CENTER">'
-        print '<input type="IMAGE" src="/gen/hour.php3?label=Submit%20Forecast&font_size=20" BORDER="0">'
+        print '<input type="IMAGE" src="/gen/hour.php?label=Submit%20Forecast&font_size=20" BORDER="0">'
         print '</TD></TR>'
 
         print '</TABLE>'

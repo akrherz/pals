@@ -5,7 +5,7 @@ import results, noon, functs, question, cgi, mx.DateTime, SEVERE2
 def navigation(userKey):
         print '<H2><img src="/icons/ball.red.gif" align="bottom"><font color="#a0522d">Navigation:</font></H2>'
         print '<CENTER>'
-        print '<a href="/cgi-bin/severe2/advanced/hour.py?userKey='+str(userKey)+'"><img src="/gen/hour.php3?label=Click%20To%20Continue&font_size=25" BORDER="0"></a>.'
+        print '<a href="/cgi-bin/severe2/advanced/hour.py?userKey='+str(userKey)+'"><img src="/gen/hour.php?label=Click%20To%20Continue&font_size=25" BORDER="0"></a>.'
         print '</CENTER>'
 
 def Main():

@@ -123,13 +123,13 @@ def Main():
 	
 	if (pause_page):
 		print '<P align="right"><a href="/cgi-bin/severe2/advanced/hour.py?userKey='+userKey+'">'
-		print '<img src="/gen/button.php3?label=Click%20To%20Continue&font_size=30" BORDER="0"></a>'
+		print '<img src="/gen/button.php?label=Click%20To%20Continue&font_size=30" BORDER="0"></a>'
 		SEVERE2.finishPage("advanced")
 		sys.exit(0)
 
 	print '<CENTER>'
 	print '<P><a href="/cgi-bin/severe2/advanced/hour.py?userKey='+userKey+'">'
-	print '<img src="/gen/button.php3?label=Click%20To%20Continue&font_size=30" BORDER="0"></a>'
+	print '<img src="/gen/button.php?label=Click%20To%20Continue&font_size=30" BORDER="0"></a>'
 	print '</CENTER>'
 
 	if caseNum[0] == 'w':

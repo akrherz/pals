@@ -1,15 +1,17 @@
-#!/usr/bin/python
 # Functions file for Severe Weather Forecasting Excercise
 # Daryl Herzmann
 
-import time, os, sys, time, regsub, pg, string, style, insText, mx.DateTime, cgi, pals, SEVERE2
+import time, os, sys, time
+import re
+import pg, string, style
+import mx.DateTime, cgi, pals, SEVERE2
 
 mydb = pg.connect('severe2', 'localhost', 5432)
 mydb.query("SET TIME ZONE 'GMT'")
 usersTable = "users"
 casesTable = "cases"
 annoteTable = "annotations"
-scriptBase = "http://www.pals.iastate.edu/cgi-bin/severe2/basic/"
+scriptBase = "/cgi-bin/severe2/basic/"
 
 def getIntro(caseNum):
         print '<H2><img src="/icons/ball.red.gif" align="bottom"><font color="#a0522d" size="+2">Case Introduction:</font></H2>'
@@ -47,7 +49,7 @@ def retreiveUser(userKey = 'null'):
 	return userKey, lastTime, gradeTime, startTime, noonTime, endTime, caseNum
 
 def clean_str(re_string):
-	re_string = regsub.gsub("'", "&#180;", re_string)
+	re_string = re.sub("'", "&#180;", re_string)
 	return re_string
 
 def svrTop( thisTime ):
@@ -60,6 +62,7 @@ def mk_sub_sec(string_title):
 	print '<TR><TD>&nbsp;</TD><TH align="left">'
 	print '<font color="gold" size="4">'+string_title+'</FONT>'
 	print '</TH><TD bgcolor="white">&nbsp;</TD></TR>'
+
 
 def dbComments(nowDate, colName, secHead):
         print '<H2><img src="/icons/ball.red.gif" align="bottom"><font color="#a0522d" size="+2">'+secHead+'</font></H2>'

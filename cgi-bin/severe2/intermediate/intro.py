@@ -29,7 +29,7 @@ def Main():
 	
 	functs.updateUser(userKey, "lasttime", startTime)
 	print '<H2><img src="/icons/ball.red.gif" align="bottom"><font color="#a0522d" size="+2">Navigation:</font></H2>'
-	print '<CENTER><a href="/cgi-bin/severe2/intermediate/hour.py?userKey='+str(userKey)+'""><img src="/gen/hour.php3?label=Start%20Exercise&font_size=20" BORDER="0"></a></CENTER>'
+	print '<CENTER><a href="/cgi-bin/severe2/intermediate/hour.py?userKey='+str(userKey)+'""><img src="/gen/hour.php?label=Start%20Exercise&font_size=20" BORDER="0"></a></CENTER>'
 	print '<BR><BR><BR>'
 		
 	functs.finishPage()

@@ -46,10 +46,10 @@ good luck!
 	print '<CENTER>'
 	if case_num[0] == "s":
 		cgiValues = 'className='+className+'&interval='+startInterval+'&case_num='+case_num+'&secs='+str(int(start_secs)+3600)+'&key='+str(key)
-		print '<a href="hourly_pre.py?'+cgiValues+'"><img src="/gen/hour.php3?label=Click%20To%20Start&font_size=25" border="0"></a>'
+		print '<a href="hourly_pre.py?'+cgiValues+'"><img src="/gen/hour.php?label=Click%20To%20Start&font_size=25" border="0"></a>'
 	else:
 		cgiValues = 'className='+className+'&interval='+startInterval+'&case_num='+case_num+'&secs='+str(start_secs)+'&key='+str(key)
-		print '<a href="hourly_pre.py?'+cgiValues+'"><img src="/gen/hour.php3?label=Click%20To%20Start&font_size=25" BORDER="0"></a>'
+		print '<a href="hourly_pre.py?'+cgiValues+'"><img src="/gen/hour.php?label=Click%20To%20Start&font_size=25" BORDER="0"></a>'
 
 	print '</CENTER>'
 	svrFrcst.svrBot()

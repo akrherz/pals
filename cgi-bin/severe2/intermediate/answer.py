@@ -91,7 +91,7 @@ def Main():
 			print "<HR>"
 			
 	print '<CENTER><a href="/cgi-bin/severe2/intermediate/hour.py?userKey='+userKey+'">'
-	print '<img src="/gen/button.php3?label=Click%20To%20Continue&font_size=30" BORDER="0"></a></CENTER>'
+	print '<img src="/gen/button.php?label=Click%20To%20Continue&font_size=30" BORDER="0"></a></CENTER>'
 
 	if caseNum[0] == 'w':
 		SEVERE2.makeData(lastTime, userKey, caseNum, 3)

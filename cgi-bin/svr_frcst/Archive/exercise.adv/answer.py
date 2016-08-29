@@ -123,7 +123,7 @@ def Main():
                 mk_data(secs_tuple, 1)
 
 	print '<P align="right"><a href="'+refer+'?className='+className+'&interval='+interval+'&secs='+str(secs)+'&key='+key+'&case_num='+case_num+'&q=yes">'
-	print '<img src="/gen/button.php3?label=Click%20To%20Continue&font_size=30" BORDER="0"></a>'
+	print '<img src="/gen/button.php?label=Click%20To%20Continue&font_size=30" BORDER="0"></a>'
 
 	svrFrcst.svrBot()
 

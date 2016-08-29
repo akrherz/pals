@@ -111,7 +111,7 @@ def get_day(city, ticks):
 	cloud_type = weather_logic(int(month), int(high), int(low), round(float(rain), 2), round(float(snow), 2) )
 
 	print '<TD WIDTH="120" VALIGN="TOP" BORDER="1" align="CENTER">'
-	print '<img src="/content/date.php3?yeer='+yeer+'&month='+str_month+'&day='+day+'"><BR>'
+	print '<img src="/content/date.php?yeer='+yeer+'&month='+str_month+'&day='+day+'"><BR>'
 	print '<TABLE>'
 	print "<TR><TH>HIGH </TH><TD> "+str(high)+"</TD></TR>"
 	print "<TR><TH>LOW  </TH><TD> "+str(low)+"</TD></TR>"
@@ -133,7 +133,7 @@ def now_get_day(city, ticks):
 
 	print '<TD VALIGN="TOP" BORDER="1" bgcolor="#EEEEEE" rowspan="2" NOWRAP align="center">'
 	print '<font color="BLUE">HAPPY BIRTHDAY!!</font><BR><BR>'
-	print '<img src="/content/date.php3?yeer='+yeer+'&month='+str_month+'&day='+day+'"><BR>'
+	print '<img src="/content/date.php?yeer='+yeer+'&month='+str_month+'&day='+day+'"><BR>'
 	print '<TABLE>'
 	print "<TR><TH>HIGH </TH><TD> "+str(high)+"</TD></TR>"
 	print "<TR><TH>LOW  </TH><TD> "+str(low)+"</TD></TR>"

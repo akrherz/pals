@@ -34,10 +34,10 @@ def mk_before(caseNum, key):
                         icon_ref = int(time.strftime("%H", now_tuple ))
                         icon_ref = str(icon_ref)+"%20Z"
 #                        print '<a href="'+scriptBase+'/hourly_post.py?caseNum='+caseNum+'&secs='+str(this_time)+'&key='+str(key)+'">'
-#                        print '<img src="/gen/hour.php3?label='+icon_ref+'&font_size=25" border="0"></a>'
+#                        print '<img src="/gen/hour.php?label='+icon_ref+'&font_size=25" border="0"></a>'
                 elif this_time == end_secs + multi*3600*1:
                         print '<CENTER><a href="'+scriptBase+'/results.py?key='+str(key)+'&caseNum='+caseNum+'&secs='+str(next_secs)+'">'
-                        print '<img src="/gen/hour.php3?label=View%20Results&font_size=25" border="0"></a></CENTER>'
+                        print '<img src="/gen/hour.php?label=View%20Results&font_size=25" border="0"></a></CENTER>'
                         noMore = 1
                         break
         if not noMore:
