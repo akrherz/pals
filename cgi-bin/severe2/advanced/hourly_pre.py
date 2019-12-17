@@ -66,7 +66,7 @@ def Main():
 		question.Main(interval, case_num, secs, key, "hourly_pre.py", className, ldb)	# Looks for generic and specific questions to give the user
 
 	dir_format = time.strftime("/archivewx/data/%Y_%m_%d/", time.localtime(secs))
-	print '<BASE HREF="http://www.pals.iastate.edu'+dir_format+'">'
+	print '<BASE HREF="https://pals.agron.iastate.edu'+dir_format+'">'
 
 
 	print """

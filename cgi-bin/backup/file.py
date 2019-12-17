@@ -39,7 +39,7 @@ def Main():
 
  	style.header('c2w=>'+filename,'white') 
         style.std_top(filename) 
-        print '<form method="post" action="http://www.pals.iastate.edu/cgi-bin/prev.py">'
+        print '<form method="post" action="https://pals.agron.iastate.edu/cgi-bin/prev.py">'
 	print '<input type="hidden" name="url" value="'+url+'">'
 	print '<input type="submit" value="Save the file location">'
 	print '</form>'
@@ -48,7 +48,7 @@ def Main():
 	print '<br>'
 	print '<br>'
 	print "You can add your comments about this file to the end of this section."
-	print '<form method="POST" action="http://www.pals.iastate.edu/cgi-bin/file2.py">'
+	print '<form method="POST" action="https://pals.agron.iastate.edu/cgi-bin/file2.py">'
 	print '<textarea name="comment" cols="60" rows="20">'+comments+'</textarea>'
 	print '<P>'
 	print '<input type="hidden" name="url" value="'+url+'">'

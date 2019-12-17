@@ -272,7 +272,7 @@ def Main():
         print '<TR><TD bgcolor="white" align="center">'
         fileRef = "/home/www/pals/html/archivewx/cases/results/"+caseNum+".gif"                
         if os.path.isfile(fileRef):
-                print '<img src="http://www.pals.iastate.edu/archivewx/cases/results/'+caseNum+'.gif">'                
+                print '<img src="https://pals.agron.iastate.edu/archivewx/cases/results/'+caseNum+'.gif">'                
         else:
 #               print fileRef+" Not found<BR>"
                 print 'Visual image for today is not available'
@@ -323,7 +323,7 @@ def Main():
 	
 	<P>You can try and work a <a href="/mteor/mt206/">different case</a> if you like.
 	
-	<BR><a href="http://www.pals.iastate.edu">PALS Homepage</a><BR>
+	<BR><a href="https://pals.agron.iastate.edu">PALS Homepage</a><BR>
 	</BODY></HTML>"""
 
 #	mailresults.Main(secs, key)

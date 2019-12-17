@@ -155,7 +155,7 @@ def Main():
 		cityParts = re.split("__", form["city"][0])
 	except:
 		print "<P><P><B>Invalid Post:</B><BR>"
-		print "Please use this URL <a href='http://www.pals.iastate.edu/archivewx/birthday/'>http://www.pals.iastate.edu/archivewx/birthday/</a>"
+		print "Please use this URL <a href='https://pals.agron.iastate.edu/archivewx/birthday/'>https://pals.agron.iastate.edu/archivewx/birthday/</a>"
 		sys.exit(0)	
 
 	city = cityParts[0]

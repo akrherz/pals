@@ -61,7 +61,7 @@ def Main():
 	print """
 # Output for Iowa Campbell Station Data
 # Notes on the format of this data and units can be found at
-#	http://www.pals.iastate.edu/campbell/info.txt
+#	https://pals.agron.iastate.edu/campbell/info.txt
 # If you have trouble getting the data you want, please send email to akrherz@iastate.edu
 
 """

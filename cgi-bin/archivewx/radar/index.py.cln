@@ -34,8 +34,8 @@ def setupHTML():
 </TABLE>
 
 <B>Navigation:</B>
-<a href="http://www.pals.iastate.edu/">PALS</a> &nbsp;>&nbsp;
-<a href="http://www.pals.iastate.edu/archivewx/">Archived Weather Data</a> &nbsp;>&nbsp;
+<a href="https://pals.agron.iastate.edu/">PALS</a> &nbsp;>&nbsp;
+<a href="https://pals.agron.iastate.edu/archivewx/">Archived Weather Data</a> &nbsp;>&nbsp;
 <B>Radar Looper</B> 
 
 

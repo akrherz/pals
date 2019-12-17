@@ -23,8 +23,8 @@ def Main():
 
         style.header("Your saved file locations","white")
 	style.std_top("Titles of saved files")
-	print '<a href="http://www.pals.iastate.edu/c2w/adm/search.html">New Search</a>--'
-        print '<a href="http://www.pals.iastate.edu/c2w/adm/saves.html">Enter a different username</a>'
+	print '<a href="https://pals.agron.iastate.edu/c2w/adm/search.html">New Search</a>--'
+        print '<a href="https://pals.agron.iastate.edu/c2w/adm/saves.html">Enter a different username</a>'
         print '<HR>'
         print '<TABLE BORDER="1" WIDTH="650">\n<TR>\n'
         print '<TH ALIGN="LEFT" VALIGN="TOP" WIDTH="125">Username:</TH>'
@@ -51,7 +51,7 @@ def Main():
                         print '<TD ALIGN="LEFT" VALIGN="CENTER">'+user+'</TD>'
                         print '<TD ALIGN="LEFT" VALIGN="CENTER">'+title+'</TD>'
                         print '<TD ALIGN="LEFT" VALIGN="CENTER">'+mytime[4:10]+mytime[22:27]+'</TD>'
-			print '<TD ALIGN="LEFT" VALIGN="CENTER"><a href="http://www.pals.iastate.edu/cgi-bin/file.py?url='+url+'">'+filename+'</a></TD>'
+			print '<TD ALIGN="LEFT" VALIGN="CENTER"><a href="https://pals.agron.iastate.edu/cgi-bin/file.py?url='+url+'">'+filename+'</a></TD>'
         else: 
                 print "Your username not found" 
         print '</table>\n'

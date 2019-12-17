@@ -79,7 +79,7 @@ def search(mystring, field, filename, question):
 
 	print '<BR CLEAR="all">\n<HR>\n'
 	if question == "new":
-		print '<form method=POST action="http://www.pals.iastate.edu/cgi-bin/enter.py">\n'
+		print '<form method=POST action="https://pals.agron.iastate.edu/cgi-bin/enter.py">\n'
 		print '<input type=hidden name="total" value="',total,'">\n'
 	        print '<input type=hidden name="string" value="'+mystring+'">\n'
 	        print '<input type=hidden name="field" value="'+field+'">\n'
@@ -94,8 +94,8 @@ def search(mystring, field, filename, question):
 			print "<dt>\n"
 			print item+1
 			print ")"
-			print '<IMG SRC="http://www.pals.iastate.edu/images/point_02.gif">'
-			print '<a href="http://www.pals.iastate.edu/cgi-bin/file.py?url='+dresults[item][0]+'">'+dresults[item][0]+'</a>'
+			print '<IMG SRC="https://pals.agron.iastate.edu/images/point_02.gif">'
+			print '<a href="https://pals.agron.iastate.edu/cgi-bin/file.py?url='+dresults[item][0]+'">'+dresults[item][0]+'</a>'
 			size = int(dresults[item][4])
 			if size >= 1024000:
 				size = (size)/(1024000)
@@ -113,8 +113,8 @@ def search(mystring, field, filename, question):
                 	print "<dt>\n" 
                 	print item+1
                		print ")" 
-                	print '<IMG SRC="http://www.pals.iastate.edu/images/point_02.gif">'
-			print '<a href="http://www.pals.iastate.edu/cgi-bin/file.py?url='+fresults[item][0]+'">'+fresults[item][0]+'</a>'
+                	print '<IMG SRC="https://pals.agron.iastate.edu/images/point_02.gif">'
+			print '<a href="https://pals.agron.iastate.edu/cgi-bin/file.py?url='+fresults[item][0]+'">'+fresults[item][0]+'</a>'
 			size = int(fresults[item][4])
                         if size >= 1024000: 
                                 size = (size)/(1024000) 
@@ -132,8 +132,8 @@ def search(mystring, field, filename, question):
                 	print "<dt>\n" 
                 	print item+1
                 	print ")" 
-                	print '<IMG SRC="http://www.pals.iastate.edu/images/point_02.gif">'
-			print '<a href="http://www.pals.iastate.edu/cgi-bin/file.py?url='+bresults[item][0]+'">'+bresults[item][0]+'</a>'
+                	print '<IMG SRC="https://pals.agron.iastate.edu/images/point_02.gif">'
+			print '<a href="https://pals.agron.iastate.edu/cgi-bin/file.py?url='+bresults[item][0]+'">'+bresults[item][0]+'</a>'
                 	size = int(bresults[item][4]) 
                         if size >= 1024000: 
                                 size = (size)/(1024000) 

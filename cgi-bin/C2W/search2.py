@@ -18,8 +18,8 @@ def Main():
 
 	style.header("C2W Search Results","white")
 	style.std_top('Results of your search for "'+mystring+'"')
-        print '<a href="http://www.pals.iastate.edu/c2w/adm/search.html">New Search</a>--'
-	print '<a href="http://www.pals.iastate.edu/c2w/adm/access.html">Access Saved Search</a>'
+        print '<a href="https://pals.agron.iastate.edu/c2w/adm/search.html">New Search</a>--'
+	print '<a href="https://pals.agron.iastate.edu/c2w/adm/access.html">Access Saved Search</a>'
 
 	c2w.old_search(mystring,field,filename)	
 	style.std_bot()	

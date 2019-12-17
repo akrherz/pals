@@ -44,7 +44,7 @@ def Main():
 	print '<img src="../../images/pals_logo.gif" align=left>\n'
         print '<spacer type=vertical size="30">\n'
         print '<H1>PALS bulletin board</H1>\n'
-        print '<a href="http://www.pals.iastate.edu/home/bboard.html">Add comment</a>'
+        print '<a href="https://pals.agron.iastate.edu/home/bboard.html">Add comment</a>'
 	print '<BR CLEAR="all"><HR>'
 
 

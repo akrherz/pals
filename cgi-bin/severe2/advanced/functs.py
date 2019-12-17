@@ -9,7 +9,7 @@ advdb = pg.connect('severe2_adv', 'localhost', 5432)
 tmpdb = pg.connect('severe2_tmp', 'localhost', 5432)
 advdb.query("SET TIME ZONE 'GMT'")
 
-scriptBase = "http://www.pals.iastate.edu/cgi-bin/severe2/advanced/"
+scriptBase = "https://pals.agron.iastate.edu/cgi-bin/severe2/advanced/"
 usersTable = "users"
 
 def updateUser(userKey, col, val):

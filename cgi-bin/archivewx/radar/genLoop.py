@@ -62,7 +62,7 @@ def Main():
 	else:
 		myYear = "20"+myYear
 
-        webRoot = 'http://www.pals.iastate.edu/archivewx/data/'+myYear+'_'+myMonth+'_'+myDay+'/'+siteDir+'/'
+        webRoot = 'https://pals.agron.iastate.edu/archivewx/data/'+myYear+'_'+myMonth+'_'+myDay+'/'+siteDir+'/'
         htmlRoot = '/home/httpd/html/archivewx/data/'+myYear+'_'+myMonth+'_'+myDay+'/'+siteDir+'/'
 
 	goodFiles = []

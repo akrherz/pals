@@ -33,8 +33,8 @@ def Main():
 
 	style.header("Email Successfully Sent!","/images/ISU_bkgrnd.gif")
 	style.std_top("Sent email")
-	print '<a href="http://www.pals.iastate.edu/home/email.html">Send another Email</a>--'
-        print '<a href="http://www.pals.iastate.edu">GO to PALS Homepage</a>'
+	print '<a href="https://pals.agron.iastate.edu/home/email.html">Send another Email</a>--'
+        print '<a href="https://pals.agron.iastate.edu">GO to PALS Homepage</a>'
 	print '<HR>\n'
 	print '<center>'
 	print "<H1>Email Sent to:</H1>\n"

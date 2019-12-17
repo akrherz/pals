@@ -7,7 +7,7 @@ import sys, re, regsub, os, urllib, urlparse, regex, string
 from cgi import *
 
 	# Define some constants used thoughout
-dominator_href = "http://www.pals.iastate.edu/cgi-bin/daryl_dev/dominator.py"
+dominator_href = "https://pals.agron.iastate.edu/cgi-bin/daryl_dev/dominator.py"
 
 def gifGetter(url, file):
     if file != "none":

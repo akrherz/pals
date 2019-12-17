@@ -26,7 +26,7 @@ def Main():
 	print '<P><H3>Enter a username and title for your search</H3>' 
 	print '<BR CLEAR="all">\n'
 	
-	print '<FORM METHOD=POST action="http://www.pals.iastate.edu/cgi-bin/C2W/submit.py">\n'
+	print '<FORM METHOD=POST action="https://pals.agron.iastate.edu/cgi-bin/C2W/submit.py">\n'
 	print '<table>\n<tr>\n'
 	print '<th align=right>Enter a Username:'
 	print '<td>\n'

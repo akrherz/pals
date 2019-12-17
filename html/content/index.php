@@ -71,7 +71,7 @@
 	
 		<LI><A HREF="http://project.bio.iastate.edu/">Biology</a><BR><BR></LI>
 		<LI><A HREF="http://www.iitap.iastate.edu/gcp">Global Change</a><BR><BR></LI>
-		<LI><A HREF="http://www.pals.iastate.edu/mteor">Meteorology</a><BR><BR></LI>
+		<LI><A HREF="https://pals.agron.iastate.edu/mteor">Meteorology</a><BR><BR></LI>
 		<LI><A HREF="http://introsoils.agron.iastate.edu/">Soil Science</a><BR><BR></LI>
 
 

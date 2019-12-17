@@ -67,7 +67,7 @@ def Main():
 
 	print 'Content-type: text/html\n\n'
 	print '<HTML><HEAD><TITLE>'+real+'Z on the '+nice_date+'</TITLE></HEAD>'
-	print '<base href="http://www.pals.iastate.edu/archivewx/data_days/'+today+'/">'
+	print '<base href="https://pals.agron.iastate.edu/archivewx/data_days/'+today+'/">'
 	print '<Body bgcolor="white">'
 
 	print '<center><H1>'+real+'Z ('+ustime+'PM CDT) '+nice_date+'</H1></center>'
@@ -90,7 +90,7 @@ def Main():
 
 	if real == "05":
 		print "<center><HR><H2>Let's view your forecast results</H2>"
-		print '<a href="http://www.pals.iastate.edu/cgi-bin/archivewx/results.py?'+string+'">'
+		print '<a href="https://pals.agron.iastate.edu/cgi-bin/archivewx/results.py?'+string+'">'
 		print 'CLICK HERE</a></center>'
 
 	else:
@@ -101,7 +101,7 @@ def Main():
        		print '<a href="/archivewx/help/sfcmap.html">Surface Map</a> ---'
         	print '<a href="/archivewx/help/dewp.html">Surface Dewpoints Map</a> --'
 	        print '<a href="/archivewx/help/radar.html">Radar</a>'
-		print '<HR><center><a href="http://www.pals.iastate.edu/cgi-bin/archivewx/grader.py?'+string+'">'
+		print '<HR><center><a href="https://pals.agron.iastate.edu/cgi-bin/archivewx/grader.py?'+string+'">'
 		ustime = str(int(ustime)+1)
 		print "Let's see what happens at "+ustime+" PM</a>"
 	style.std_bot()

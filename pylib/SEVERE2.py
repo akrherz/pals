@@ -47,7 +47,7 @@ def printTime(thisDate = 0):
 		localStr = localDate.strftime("%d %B %Y %I:%M %p")
 
 		dir_format = nowDate.strftime("/archivewx/data/%Y_%m_%d/")
-		print '<BASE HREF="http://www.pals.iastate.edu'+dir_format+'">'
+		print '<BASE HREF="https://pals.agron.iastate.edu'+dir_format+'">'
 
 	else:
 		dateStr = " -- "
@@ -103,14 +103,14 @@ def finishPage(version = 'null', className = 'null'):
                         <font size="+1" color="white"><B>&copy; 2000 PALS</b></font>
 		</TD></TR>
 		<TR><TD align="right" NOWRAP>
-			<a href="http://www.pals.iastate.edu">PALS Home</a> &nbsp; | &nbsp; 
-			<a href="http://www.pals.iastate.edu/svr_frcst">Severe Wx Exercise</a> &nbsp; | &nbsp;"""
+			<a href="https://pals.agron.iastate.edu">PALS Home</a> &nbsp; | &nbsp; 
+			<a href="https://pals.agron.iastate.edu/svr_frcst">Severe Wx Exercise</a> &nbsp; | &nbsp;"""
 	if className == 'null' and version == 'null':
 		print ""
 	elif className == 'null':
-		print '<a href="http://www.pals.iastate.edu/cgi-bin/severe2/'+version+'/list.py">Different Case</a> &nbsp; | &nbsp;'
+		print '<a href="https://pals.agron.iastate.edu/cgi-bin/severe2/'+version+'/list.py">Different Case</a> &nbsp; | &nbsp;'
 	else:
-		print '<a href="http://www.pals.iastate.edu/cgi-bin/severe2/'+version+'/list.py?className='+className+'">Different Case</a> &nbsp; | &nbsp;'
+		print '<a href="https://pals.agron.iastate.edu/cgi-bin/severe2/'+version+'/list.py?className='+className+'">Different Case</a> &nbsp; | &nbsp;'
 	print """
 		</TD></TR>
 	</TABLE>

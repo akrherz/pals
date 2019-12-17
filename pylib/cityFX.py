@@ -23,8 +23,8 @@ def finishPage():
                         <font size="+1" color="white"><B>&copy; 2000 PALS</b></font>
                 </TD></TR>
                 <TR><TD align="right" NOWRAP>
-                        <a href="http://www.pals.iastate.edu">PALS Home</a> &nbsp; | &nbsp; 
-                        <a href="http://www.pals.iastate.edu/cityFX">City Forecasting</a> &nbsp; | &nbsp;
+                        <a href="https://pals.agron.iastate.edu">PALS Home</a> &nbsp; | &nbsp; 
+                        <a href="https://pals.agron.iastate.edu/cityFX">City Forecasting</a> &nbsp; | &nbsp;
 
 
                 </TD></TR>

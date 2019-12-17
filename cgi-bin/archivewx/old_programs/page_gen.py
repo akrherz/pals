@@ -8,7 +8,7 @@ import sys, os, posix, style
 from cgi import *
 
 case_dir = "/home/httpd/html/archivewx/cases/"
-case_ref = "http://www.pals.iastate.edu/archivewx/cases/"
+case_ref = "https://pals.agron.iastate.edu/archivewx/cases/"
 
 
 def table(title):

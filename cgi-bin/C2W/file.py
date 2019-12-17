@@ -46,7 +46,7 @@ on the link, or on some systems, you need to hold the option key down.
 
 	print "<BR><BR><B>2) You can look at / edit this file's comments:</B><BR>"
 	print "<center>You can add your comments about this file to the end of this section."
-	print '<form name="form2" method="POST" action="http://www.pals.iastate.edu/cgi-bin/C2W/file.py">'
+	print '<form name="form2" method="POST" action="https://pals.agron.iastate.edu/cgi-bin/C2W/file.py">'
 	print '<textarea name="comment" cols="40" rows="10">'+comments+'</textarea>'
 	print '<P>'
 	print '<input type="hidden" name="url" value="'+url+'">'

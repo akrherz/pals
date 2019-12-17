@@ -37,7 +37,7 @@ def Main():
 
    print '<h1>Edit entry for '+file+'</h1>'
    print 'Fill out this form to update the database <p>'
-   print '<FORM METHOD="POST" ACTION="http://www.pals.iastate.edu/cgi-bin/c2w/update.py">'
+   print '<FORM METHOD="POST" ACTION="https://pals.agron.iastate.edu/cgi-bin/c2w/update.py">'
    print 'Title:<INPUT NAME="title" VALUE="'+title+'"> <br>'
    print 'Keywords: <INPUT NAME="keywords" VALUE="'+keywords+'"> <br>'
    print 'Running Time: <INPUT size=10 NAME="runtime" VALUE="'+runtime+'">'

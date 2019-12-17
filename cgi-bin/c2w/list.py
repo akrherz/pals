@@ -48,7 +48,7 @@ def Main():
 	   print '<TD ALIGN="LEFT" VALIGN="TOP">NONE</TD>'
 	
 	print '<TD ALIGN="LEFT" VALIGN="TOP">'
-	print '<a href="http://www.pals.iastate.edu/cgi-bin/c2w/edit.py?dir='+dir+'&file='+file+'">'
+	print '<a href="https://pals.agron.iastate.edu/cgi-bin/c2w/edit.py?dir='+dir+'&file='+file+'">'
 	print 'edit</a>'
 
 	print '<tr>'

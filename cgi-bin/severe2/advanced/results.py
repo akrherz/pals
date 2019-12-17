@@ -285,7 +285,7 @@ def Main():
 
 	fileRef = "/home/www/pals/html/archivewx/cases/results/"+caseNum+".gif"
 	if os.path.isfile(fileRef):
-		print '<img src="http://www.pals.iastate.edu/archivewx/cases/results/'+caseNum+'.gif">'
+		print '<img src="https://pals.agron.iastate.edu/archivewx/cases/results/'+caseNum+'.gif">'
 	else:
 		print 'Visual image for today is not available'
 
@@ -332,7 +332,7 @@ def Main():
         print '</TD></TR></TABLE>'
 
 	print '<BR><a href="/svr_frcst/">Forecasting Exercise Homepage</a>'
-	print '<BR><a href="http://www.pals.iastate.edu">PALS Homepage</a>'
+	print '<BR><a href="https://pals.agron.iastate.edu">PALS Homepage</a>'
 	print '<BR><a href="/cgi-bin/severe2/advanced/list.py?className='+className+'">Try a different case</a><BR>'
 	print '</TD></TR>'
 

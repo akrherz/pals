@@ -229,7 +229,7 @@ fronts are all evaluated using this same criterion.
 Adiabatic processes were explored by having students forecast in a 
 mountain region (Reno, NV) to provide them with a practical application of 
 this topic in a meteorological  context.  The Java-based simulation 
-(http://www.pals.iastate.edu/simulations/Mtnsim/index.html) has been 
+(https://pals.agron.iastate.edu/simulations/Mtnsim/index.html) has been 
 designed to engage students in exploring various factors which are 
 associated with air motions on mountain slopes.
 

@@ -80,11 +80,11 @@ def enterForm():
 	print '<H3>Getting started with your account:</H3>'
 
 	print '<P>Please remember your administrative password.  It allows you to log into "ClassAdmin" and configure the exercise.'
- 	print 'The URL to log into classAdmin is <a href="http://www.pals.iastate.edu/cgi-bin/severe2/classAdmin/index.py">http://www.pals.iastate.edu/cgi-bin/severe2/classAdmin/index.py</a>'
+ 	print 'The URL to log into classAdmin is <a href="https://pals.agron.iastate.edu/cgi-bin/severe2/classAdmin/index.py">https://pals.agron.iastate.edu/cgi-bin/severe2/classAdmin/index.py</a>'
 
 	print """<P>You will want to create a link somewhere to point your students to this page.  It will allow them to
 	work through the cases that release to them."""
-	print '<a href="http://www.pals.iastate.edu/cgi-bin/severe2/advanced/list.py?className='+class_abv+'">http://www.pals.iastate.edu/cgi-bin/severe2/advanced/list.py?className='+class_abv+'</a>'
+	print '<a href="https://pals.agron.iastate.edu/cgi-bin/severe2/advanced/list.py?className='+class_abv+'">https://pals.agron.iastate.edu/cgi-bin/severe2/advanced/list.py?className='+class_abv+'</a>'
 
 
 def Main():

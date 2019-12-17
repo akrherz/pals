@@ -15,7 +15,7 @@ def Main():
 
 	style.header("ArchiveWx Search Results","white")
 	style.std_top('Results of your search for "'+mystring+'"')
-        print '<a href="http://www.pals.iastate.edu/archivewx/search.html">New Search</a>--'
+        print '<a href="https://pals.agron.iastate.edu/archivewx/search.html">New Search</a>--'
 
 	results = ""
 

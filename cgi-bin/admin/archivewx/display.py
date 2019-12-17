@@ -6,7 +6,7 @@ import os, posix, style
 from cgi import *
 
 data_src = '/home/www/pals/html/archivewx/data/'
-url_ref = 'http://www.pals.iastate.edu/archivewx/data/'
+url_ref = 'https://pals.agron.iastate.edu/archivewx/data/'
 
 def checker(passwd):
 	if passwd != 'pals1998':

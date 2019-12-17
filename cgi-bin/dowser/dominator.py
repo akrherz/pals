@@ -14,13 +14,13 @@ def html_getter(url, file):
         for i in range(len(page)): 
                 line = page[i]
 		if string.find(line, 'href="') != -1: 
-			line = regsub.gsub('href="','href="http://www.pals.iastate.edu/cgi-bin/daryl_dev/dominator.py?url='+url+'&file=',line)
+			line = regsub.gsub('href="','href="https://pals.agron.iastate.edu/cgi-bin/daryl_dev/dominator.py?url='+url+'&file=',line)
 
 		if string.find(line, 'HREF="') != -1: 
-			line = regsub.gsub('HREF="','href="http://www.pals.iastate.edu/cgi-bin/daryl_dev/dominator.py?url='+url+'&file=',line)
+			line = regsub.gsub('HREF="','href="https://pals.agron.iastate.edu/cgi-bin/daryl_dev/dominator.py?url='+url+'&file=',line)
 		
 		if string.find(line, 'ACTION="') != -1: 
-                        line = regsub.gsub('ACTION="','ACTION="http://www.pals.iastate.edu/cgi-bin/daryl_dev/dominator.py?url='+url+'&file=',line) 
+                        line = regsub.gsub('ACTION="','ACTION="https://pals.agron.iastate.edu/cgi-bin/daryl_dev/dominator.py?url='+url+'&file=',line) 
 
 		if string.find(line, 'BASE HREF') != -1: 
                         line = regsub.gsub('<BASE HREF=','<FONT=',line)

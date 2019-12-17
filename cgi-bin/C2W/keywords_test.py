@@ -55,7 +55,7 @@ def fields():
 def Main():
 	style.header("Keywords for Database","white")
 	style.std_top("COMET Keyword Searches")
-	print '<form method="post" action="http://www.pals.iastate.edu/cgi-bin/C2W/search.py">'
+	print '<form method="post" action="https://pals.agron.iastate.edu/cgi-bin/C2W/search.py">'
 	words()
 	print '<HR>'
 	dirs()

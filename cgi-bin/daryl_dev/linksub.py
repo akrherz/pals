@@ -54,8 +54,8 @@ def Main():
 	
 	style.std_top('Your link to "'+mylink+'" was saved!')
 	print '<br><P>You can now:<ul>'
-	print '<li><a href="http://www.pals.iastate.edu/cgi-bin/daryl_dev/printout.py">View all the links</a>'
-	print '<li><a href="http://www.pals.iastate.edu/index.html">Go back to PALS Homepage</a>'	
+	print '<li><a href="https://pals.agron.iastate.edu/cgi-bin/daryl_dev/printout.py">View all the links</a>'
+	print '<li><a href="https://pals.agron.iastate.edu/index.html">Go back to PALS Homepage</a>'	
 	print '<spacer type="vertical" size="300">'
 	style.std_bot()
 Main()

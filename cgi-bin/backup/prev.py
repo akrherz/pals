@@ -19,8 +19,8 @@ def SendError(str):
 def Main(): 
 	style.header("Save Location","white")
 	style.std_top("Save the file location")
-        print '<a href="http://www.pals.iastate.edu/c2w/adm/search.html">New Search</a>--'
-        print '<a href="http://www.pals.iastate.edu/c2w/adm/access.html">Enter a different username</a>'
+        print '<a href="https://pals.agron.iastate.edu/c2w/adm/search.html">New Search</a>--'
+        print '<a href="https://pals.agron.iastate.edu/c2w/adm/access.html">Enter a different username</a>'
         print '<HR>'
 
         mytime = os.popen('date', 'r').read()
@@ -29,7 +29,7 @@ def Main():
 	form = FormContent() 
         url = form["url"][0]
 
-	print '<form method=POST action="http://www.pals.iastate.edu/cgi-bin/prevsub.py">'
+	print '<form method=POST action="https://pals.agron.iastate.edu/cgi-bin/prevsub.py">'
         print '<input type="hidden" name="url" value="'+url+'">'
 	print '<table>'
 	print '<tr>'

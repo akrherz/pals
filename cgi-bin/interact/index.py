@@ -13,10 +13,10 @@ form = FormContent()
 if not form.has_key("user"): style.SendError("CGI ERROR")
 user = form["user"][0]
 
-home = "http://www.pals.iastate.edu/cgi-bin/interact/index.py?user="
+home = "https://pals.agron.iastate.edu/cgi-bin/interact/index.py?user="
 home = home + user
-base = "http://www.pals.iastate.edu/cgi-bin/interact/index.py"
-point_image = '<img src="http://www.pals.iastate.edu/images/point_02.gif">'
+base = "https://pals.agron.iastate.edu/cgi-bin/interact/index.py"
+point_image = '<img src="https://pals.agron.iastate.edu/images/point_02.gif">'
 prefix = "/home/www/pals/html/"
 
 def menuloader():

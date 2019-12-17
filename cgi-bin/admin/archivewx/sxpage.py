@@ -26,7 +26,7 @@ def Main():
         SEVERE2.printTime(myDateStr)
 
 	dir_format = myDate.strftime("/archivewx/data/%Y_%m_%d/")
-	print '<BASE HREF="http://www.pals.iastate.edu'+dir_format+'">'
+	print '<BASE HREF="https://pals.agron.iastate.edu'+dir_format+'">'
 
 	if version == "basic":
 	        functs.dbComments(myDateStr, "comments", "News and Notes:", zswitch)

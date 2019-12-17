@@ -74,7 +74,7 @@ if an instructor would like their students' results emailed to
 them, he/she would need to set up a class.
 	Setting up a class is easily accomplished with the on-line class
 registration.  The URL is located at
-http://www.pals.iastate.edu/svr_frcst/advInstructor.html .  The page
+https://pals.agron.iastate.edu/svr_frcst/advInstructor.html .  The page
 contains some of the same information presented in this document.  Once
 you have reviewed the information, click on the link to create a class.  
 The subsequent page presents a simple form to fill out.  Please fill out
@@ -96,7 +96,7 @@ has created a multitude of cases for use by your class.  These cases are
 ready to be used by your class as soon as you release them.  Releasing
 cases is easily done through the classAdmin webpages on the PALS server.  
 The classAdmin pages can be found at
-http://www.pals.iastate.edu/cgi-bin/severe2/classAdmin/index.py .  Once
+https://pals.agron.iastate.edu/cgi-bin/severe2/classAdmin/index.py .  Once
 you access this page, you are prompted for a password.  Enter your class
 abreviation and password that you created in Step 2.  Once you have
 successfully logged in, you will see a listing of options that can be used
@@ -140,7 +140,7 @@ it in.
 
 	-- The instructions are too long, give me the quick ones.
 
-Go to http://www.pals.iastate.edu/svr_frcst/advInstructor.html and then
+Go to https://pals.agron.iastate.edu/svr_frcst/advInstructor.html and then
 click on the link to "Create a Class."  Fill out the form for your class
 and then write down the URLs given to you. Then log into classAdmin and
 release a case for your class to use.  Then point your students to the

@@ -12,10 +12,10 @@ mydbase = connect("c2w")
 form = FormContent() 
 user = form["user"][0]
 
-home = "http://www.pals.iastate.edu/cgi-bin/daryl_dev/my.py?user="
+home = "https://pals.agron.iastate.edu/cgi-bin/daryl_dev/my.py?user="
 home = home + user
-base = "http://www.pals.iastate.edu/cgi-bin/daryl_dev/my.py"
-point_image = '<img src="http://www.pals.iastate.edu/images/point_02.gif">'
+base = "https://pals.agron.iastate.edu/cgi-bin/daryl_dev/my.py"
+point_image = '<img src="https://pals.agron.iastate.edu/images/point_02.gif">'
 
 def menuloader():
 	print '<center>'

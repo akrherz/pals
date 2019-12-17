@@ -97,7 +97,7 @@ def Main():
 	print '<tr align="top"><td valign="top" bgcolor="#EEEEEE">'
 	letters_dir()
 	print '</td><td>'
-	print '<form method="post" action="http://www.pals.iastate.edu/cgi-bin/C2W/search.py">'
+	print '<form method="post" action="https://pals.agron.iastate.edu/cgi-bin/C2W/search.py">'
 	words_dir(letter)
 	print '</td></tr>'
 	print '<tr><td colspan="2">'

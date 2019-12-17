@@ -96,7 +96,7 @@ def std_bot():
         print '\t\t\t<TR bgcolor="white"><TD align="RIGHT" valign="BOTTOM" colspan="2">'
         print '\t\t\t<FONT SIZE="1" FACE="ARIAL,HELVETICA">'
         print '\t\t\t&#169; '+date+' PALS, all rights reserved<BR>'
-        print '\t\t\tURL: <a href="http://www.pals.iastate.edu">http://www.pals.iastate.edu</a>'
+        print '\t\t\tURL: <a href="https://pals.agron.iastate.edu">https://pals.agron.iastate.edu</a>'
         print '\t\t</TD></TR></TABLE>'
 	print '\t</TD></TR></TABLE>'
 

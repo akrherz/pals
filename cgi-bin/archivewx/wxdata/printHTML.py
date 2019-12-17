@@ -5,7 +5,7 @@ def printTop():
 	print """
 <HTML>
 	<HEAD>
-		<BASE HREF="http://www.pals.iastate.edu/archivewx/data/">
+		<BASE HREF="https://pals.agron.iastate.edu/archivewx/data/">
 		<TITLE> PALS -- Weather Data Viewer</TITLE>
 
 <SCRIPT LANGUAGE="JavaScript">

@@ -13,7 +13,7 @@ print '<body bgcolor="white">'
 print '<table width="700" border="0">'
 print '<tr>'
 print '<td colspan="2" rowspan="6"><img src="/images/pals_logo.gif" align="left"><H1>Links<BR>Submitted</H1>'
-print '<a href="http://www.pals.iastate.edu/links/linksub.html">Add link</a>'
+print '<a href="https://pals.agron.iastate.edu/links/linksub.html">Add link</a>'
 print '<td colspan="4"><b>Link Categories</b></td></tr>'
 print '<td colspan="4"><font color="red">A is the name of the collumn</td></tr>'
 print '<td><font color="red">|</td><td colspan="3"><font color="orange">B is this collumn</td></tr>'
@@ -47,7 +47,7 @@ for i in range(len(aselect)):
 	print '<tr border="1">'
         print '<td><a href="'+url+'">'+link+'</a>\n'
 	if len(description) > 0:
-		print '<td><a href="http://www.pals.iastate.edu/cgi-bin/daryl_dev/info.py?url='+url+'">info</a>\n'
+		print '<td><a href="https://pals.agron.iastate.edu/cgi-bin/daryl_dev/info.py?url='+url+'">info</a>\n'
 	else:
 		print '<td></td>'
 
@@ -87,7 +87,7 @@ for i in range(len(bselect)):
         print '<tr>'
         print '<td><a href="'+url+'">'+link+'</a>\n'
 	if len(description) > 0: 
-                print '<td><a href="http://www.pals.iastate.edu/cgi-bin/daryl_dev/info.py?url='+url+'">info</a>\n'
+                print '<td><a href="https://pals.agron.iastate.edu/cgi-bin/daryl_dev/info.py?url='+url+'">info</a>\n'
         else: 
                 print '<td></td>'
 
@@ -128,7 +128,7 @@ for i in range(len(cselect)):
         print '<tr>'
         print '<td><a href="'+url+'">'+link+'</a>\n'
 	if len(description) > 0: 
-                print '<td><a href="http://www.pals.iastate.edu/cgi-bin/daryl_dev/info.py?url='+url+'">info</a>\n'
+                print '<td><a href="https://pals.agron.iastate.edu/cgi-bin/daryl_dev/info.py?url='+url+'">info</a>\n'
         else: 
                 print '<td></td>'
 
@@ -170,7 +170,7 @@ for i in range(len(dselect)):
         print '<tr>'
         print '<td><a href="'+url+'">'+link+'</a>\n'
 	if len(description) > 0: 
-                print '<td><a href="http://www.pals.iastate.edu/cgi-bin/daryl_dev/info.py?url='+url+'">info</a>\n'
+                print '<td><a href="https://pals.agron.iastate.edu/cgi-bin/daryl_dev/info.py?url='+url+'">info</a>\n'
         else: 
                 print '<td></td>'
 

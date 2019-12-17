@@ -9,8 +9,8 @@ advdb = pg.connect('severe2_adv', 'localhost', 5432)
 
 # Base references for the program
 data_path = '/home/www/pals/html/archivewx/skew.map'
-skew_path = 'http://www.pals.iastate.edu/archivewx/data/'
-map_path = 'http://www.pals.iastate.edu/archivewx/skew.gif'
+skew_path = 'https://pals.agron.iastate.edu/archivewx/data/'
+map_path = 'https://pals.agron.iastate.edu/archivewx/skew.gif'
 
 
 def imagemap():

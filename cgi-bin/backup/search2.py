@@ -32,8 +32,8 @@ def Main():
 
 	style.header("C2W Search Results","white")
 	style.std_top('Results of your search for "'+mystring+'"')
-        print '<a href="http://www.pals.iastate.edu/c2w/adm/search.html">New Search</a>--'
-	print '<a href="http://www.pals.iastate.edu/c2w/adm/access.html">Access Saved Search</a>'
+        print '<a href="https://pals.agron.iastate.edu/c2w/adm/search.html">New Search</a>--'
+	print '<a href="https://pals.agron.iastate.edu/c2w/adm/access.html">Access Saved Search</a>'
 	
 	addstring = re.split('AND', mystring)
 	orstring = re.split('OR', mystring)
@@ -101,8 +101,8 @@ def Main():
 			print "<dt>\n"
 			print item+1
 			print ")"
-			print '<IMG SRC="http://www.pals.iastate.edu/images/point_02.gif">'
-			print '<a href="http://www.pals.iastate.edu/cgi-bin/file.py?url='+dresults[item][0]+'">'+dresults[item][0]+'</a>'
+			print '<IMG SRC="https://pals.agron.iastate.edu/images/point_02.gif">'
+			print '<a href="https://pals.agron.iastate.edu/cgi-bin/file.py?url='+dresults[item][0]+'">'+dresults[item][0]+'</a>'
 			size = int(dresults[item][4])
 			if size >= 1024000:
 				size = (size)/(1024000)
@@ -120,8 +120,8 @@ def Main():
                 	print "<dt>\n" 
                 	print item+1
                		print ")" 
-                	print '<IMG SRC="http://www.pals.iastate.edu/images/point_02.gif">'
-			print '<a href="http://www.pals.iastate.edu/cgi-bin/file.py?url='+fresults[item][0]+'">'+fresults[item][0]+'</a>'
+                	print '<IMG SRC="https://pals.agron.iastate.edu/images/point_02.gif">'
+			print '<a href="https://pals.agron.iastate.edu/cgi-bin/file.py?url='+fresults[item][0]+'">'+fresults[item][0]+'</a>'
 			size = int(fresults[item][4])
                         if size >= 1024000: 
                                 size = (size)/(1024000) 
@@ -139,8 +139,8 @@ def Main():
                 	print "<dt>\n" 
                 	print item+1
                 	print ")" 
-                	print '<IMG SRC="http://www.pals.iastate.edu/images/point_02.gif">'
-			print '<a href="http://www.pals.iastate.edu/cgi-bin/file.py?url='+bresults[item][0]+'">'+bresults[item][0]+'</a>'
+                	print '<IMG SRC="https://pals.agron.iastate.edu/images/point_02.gif">'
+			print '<a href="https://pals.agron.iastate.edu/cgi-bin/file.py?url='+bresults[item][0]+'">'+bresults[item][0]+'</a>'
                 	size = int(bresults[item][4]) 
                         if size >= 1024000: 
                                 size = (size)/(1024000) 

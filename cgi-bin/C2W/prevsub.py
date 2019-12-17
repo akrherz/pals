@@ -25,7 +25,7 @@ def Main():
 	insert = mydbase.query("INSERT INTO saved VALUES ('" + user + "', '" + url + "','" + title + "', '" + mytime + "')")
 
         style.std_top('Your title: '+title+' has been saved')
-	print '<P>\nYour title can now be accessed by going to <a href="http://www.pals.iastate.edu/cgi-bin/C2W/places.py?user='+user+'">'
+	print '<P>\nYour title can now be accessed by going to <a href="https://pals.agron.iastate.edu/cgi-bin/C2W/places.py?user='+user+'">'
 	print "Here</a>\n<BR>"
 	print '<BR>\n<BR>\n<HR>\n'
 	print 'Write down your username and title of your search for future reference.<BR>'

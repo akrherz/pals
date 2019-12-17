@@ -12,7 +12,7 @@
 import cgi, re, time, printHTML, style, math, os, sys, pals
 
 archiveDir = '/hhh/archivewx/data/'
-urlRoot = 'http://www.pals.iastate.edu/archivewx/data/'
+urlRoot = 'https://pals.agron.iastate.edu/archivewx/data/'
 
 def fetchArray(startSecs, mapType, timeSpan):
 	goodArray = []
