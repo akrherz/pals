@@ -50,7 +50,7 @@ def html_getter(url, file):
 def Main():
 	form = FormContent()
  	file = "none"
-	url = "http://pals.agron.iastate.edu/home/dominator.html"
+	url = "/home/dominator.html"
 	if form.has_key("url"): url = form["url"][0]
         if form.has_key("file"): file = form["file"][0]
 	print "Content-type: text/html\n\n"  

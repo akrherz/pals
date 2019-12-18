@@ -133,7 +133,7 @@ def html_getter(url, file):
 def Main():
 	# Set up some assignments
 	# This page gets loaded to begin with, it has the info on Dominator
-	url = "http://pals.agron.iastate.edu/home/dominator.html"
+	url = "/home/dominator.html"
 	file = "none"
 
 	# Import forms values, assigns values
