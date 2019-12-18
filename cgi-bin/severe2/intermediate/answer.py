@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # This takes questions asked and them grades them, puts them in a database and send user on their way
 # Daryl Herzmann 11-16-99
 

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # This will be the new functions file for the exercise
 # Daryl Herzmann 9 May 2000
 

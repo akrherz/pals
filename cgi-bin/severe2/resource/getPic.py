@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # This program displays the Picture File
 # Daryl Herzmann 11-16-99
 

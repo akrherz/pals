@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 # We can not use the functs file, it is too different
 import cgi, pg, time, svrFrcst, sys, style, SEVERE2

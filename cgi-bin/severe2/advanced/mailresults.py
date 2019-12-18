@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # This function will mail me the results of the excercise and then I can see what is going on
 # Daryl Herzmann 7-16-99
 

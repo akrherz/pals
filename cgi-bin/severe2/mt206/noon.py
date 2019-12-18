@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # This program does the forecast thing
 # Daryl Herzmann 5-20-1999
 # UPDATED 7-12-99: Changed to the new format

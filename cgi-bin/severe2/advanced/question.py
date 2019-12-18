@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # This program with make the neccessary questions
 # Daryl Herzmann 7-28-99
 

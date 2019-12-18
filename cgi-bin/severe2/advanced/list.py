@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # This program will generate a ClassNet like output...
 # Daryl Herzmann 12-7-99
 

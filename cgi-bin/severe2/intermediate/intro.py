@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # This is the introduction into the case
 # 12 May 2000  Daryl Herzmann
 

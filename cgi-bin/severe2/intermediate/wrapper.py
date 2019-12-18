@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # Ok, this will enter the database materials and then start the afternoon journey
 # Daryl Herzmann 7-16-99
 

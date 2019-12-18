@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # Generates HTML file's for todayand times for skewT maps
 # Daryl Herzmann 7/22/98 
 

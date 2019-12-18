@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # This will be my grader, like it or not,,,
 
 import cgi, pg, style, string, time

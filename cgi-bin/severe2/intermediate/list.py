@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # This program will generate a ClassNet like output...
 # Daryl Herzmann 12-7-99
 

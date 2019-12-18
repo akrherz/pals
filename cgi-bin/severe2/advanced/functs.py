@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # Functions file for Severe Weather Forecasting Excercise
 # Daryl Herzmann
 

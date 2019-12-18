@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # This program generates loops for the data information as presented 
 # Daryl Herzmann 26 June 2000
 

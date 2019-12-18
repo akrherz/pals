@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # Ahh, this is the first program that will do all the general cases, winter and none...
 # Daryl Herzmann 9-13-99
 

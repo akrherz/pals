@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # This is the first program for the 417 exercise, prompts user for info..
 # Daryl Herzmann 11-14-99
 

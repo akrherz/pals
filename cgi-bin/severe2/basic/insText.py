@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # This is file with all the var text
 # Daryl Herzmann 1 May 2000
 

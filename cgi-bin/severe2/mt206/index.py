@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # This is the index file for the exercise. Gives the user an introduction to what will happen
 # Daryl Herzmann 
 

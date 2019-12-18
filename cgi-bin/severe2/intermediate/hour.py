@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # This is the script that controls the morning hourly features
 # Daryl Herzmann 9 May 2000
 

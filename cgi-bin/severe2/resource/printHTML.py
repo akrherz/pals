@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # This is a stupid printer that prints the top and bottom of the HTML page...
 
 def printTop():

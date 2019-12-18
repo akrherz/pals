@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # Intermediate Exercise, checks out the db for generic question and then prompts for answer
 # Daryl Herzmann -- 4 June 2000
 

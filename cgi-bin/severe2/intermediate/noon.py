@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # This program does the forecast thing
 # Daryl Herzmann 4 June 2000
 

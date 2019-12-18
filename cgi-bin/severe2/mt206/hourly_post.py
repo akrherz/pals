@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # This will be the generic hourly generator
 # Daryl Herzmann 9-13-99
 
